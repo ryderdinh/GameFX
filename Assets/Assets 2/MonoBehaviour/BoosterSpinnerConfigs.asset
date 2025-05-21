@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd22c29b54ff9147717312c08a274ce3, type: 3}
+  m_Name: BoosterSpinnerConfigs
+  m_EditorClassIdentifier:
+  Padding: 14
+  SpinSpeed: 15
+  SpinAccelerationTime: 1
+  AutoStopTime: 0.75
+  IsEnableFirstDefaultImage: 1
+  FirstDefaultImage: {fileID: 21300000, guid: 775769612eae72a4393c53434032177d, type: 2}
+  FirstDefaultImageBg:
+  - {fileID: 21300000, guid: cd2c54938ee358646aa7ac6dfba74e42, type: 2}
+  - {fileID: 21300000, guid: db7cd75dd20551649a19f1cc9db3ca55, type: 2}
+  - {fileID: 21300000, guid: 88c32a43c87208747a27005929851a04, type: 2}
+  BoosterProbabilityLevelsConfigs: {fileID: 11400000, guid: 53c8cc5045cfa7d42a8e8e22df243aac, type: 2}
+  RespinsLimit: 2
+  SkipRespinCount: 2
+  IgnoreBoosterRepeatCount: 1
+  IconPositionOnBaseView: {x: 0, y: -1155, z: 0}
+  HandTutorialLimit: 5
+  HandTutorialDelayAfterCount: 3
+  HandTutorialDelay: 3
+  CardUIAdjustmentData:
+    SpinnerSize:
+    - {x: 470, y: 420}
+    - {x: 400, y: 345}
+    - {x: 300, y: 260}
+    SpinnerDescriptionSize:
+    - {x: 470, y: 420}
+    - {x: 400, y: 345}
+    - {x: 330, y: 260}
+    SpinnerPositionData:
+    - SpinnersPosition:
+      - {x: 9, y: 0}
+    - SpinnersPosition:
+      - {x: -250, y: 0}
+      - {x: 250, y: 0}
+    - SpinnersPosition:
+      - {x: -343, y: 0}
+      - {x: 9, y: 0}
+      - {x: 350, y: 0}
+    SpinnerScaleOnSelection:
+    - 0.95
+    - 1.16
+    - 1.55
+    SpinnerDescriptionsFontSize:
+    - 52
+    - 46
+    - 36
+    BoosterImageSize:
+    - {x: 512, y: 512}
+    - {x: 417, y: 417}
+    - {x: 322, y: 322}
+    AnimatedCardScaleFactor:
+    - 1.6
+    - 1.3
+    - 1

@@ -1,0 +1,465 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdaeeb61ef6b1ac2e241ebf5177ddf38, type: 3}
+  m_Name: WorldLevelDataConfigs7
+  m_EditorClassIdentifier:
+  LevelsData:
+  - LevelNo: 1
+    RequiredScore: 1400
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 1
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 1
+    PrePopulationPresetId: -1
+  - LevelNo: 2
+    RequiredScore: 1600
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 1
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 3
+    RequiredScore: 1700
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 1
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 4
+    RequiredScore: 1900
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 1
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 5
+    RequiredScore: 2000
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 1
+    ButterflySpawnCount: 1
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 1
+    PrePopulationPresetId: -1
+  - LevelNo: 6
+    RequiredScore: 2300
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 1
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 7
+    RequiredScore: 2500
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 1
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 8
+    RequiredScore: 2600
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 2
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 9
+    RequiredScore: 2800
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 2
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 10
+    RequiredScore: 2900
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 1
+    ButterflySpawnCount: 2
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 1
+    PrePopulationPresetId: -1
+  - LevelNo: 11
+    RequiredScore: 3200
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 2
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 12
+    RequiredScore: 3400
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 2
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 13
+    RequiredScore: 3600
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 2
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 14
+    RequiredScore: 3700
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 2
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 15
+    RequiredScore: 3900
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 1
+    ButterflySpawnCount: 2
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 1
+    PrePopulationPresetId: -1
+  - LevelNo: 16
+    RequiredScore: 4300
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 2
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 17
+    RequiredScore: 4500
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 2
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 18
+    RequiredScore: 4600
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 2
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 19
+    RequiredScore: 4800
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 2
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 20
+    RequiredScore: 5000
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 1
+    ButterflySpawnCount: 2
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 1
+    PrePopulationPresetId: -1
+  - LevelNo: 21
+    RequiredScore: 5500
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 2
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 22
+    RequiredScore: 5600
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 2
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 23
+    RequiredScore: 5800
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 2
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 24
+    RequiredScore: 6000
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 25
+    RequiredScore: 6200
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 1
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 1
+    PrePopulationPresetId: -1
+  - LevelNo: 26
+    RequiredScore: 6800
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 27
+    RequiredScore: 7000
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 28
+    RequiredScore: 7200
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 29
+    RequiredScore: 7400
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 30
+    RequiredScore: 7600
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 1
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 1
+    PrePopulationPresetId: -1
+  - LevelNo: 31
+    RequiredScore: 8200
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 32
+    RequiredScore: 8400
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 33
+    RequiredScore: 8700
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 34
+    RequiredScore: 8900
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 35
+    RequiredScore: 9100
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 1
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 1
+    PrePopulationPresetId: -1
+  - LevelNo: 36
+    RequiredScore: 9800
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 37
+    RequiredScore: 10000
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 38
+    RequiredScore: 10200
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 39
+    RequiredScore: 10500
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 40
+    RequiredScore: 10700
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 1
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 1
+    PrePopulationPresetId: -1
+  - LevelNo: 41
+    RequiredScore: 11500
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 42
+    RequiredScore: 11700
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 43
+    RequiredScore: 12000
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 44
+    RequiredScore: 12200
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 45
+    RequiredScore: 12400
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 1
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 1
+    PrePopulationPresetId: -1
+  - LevelNo: 46
+    RequiredScore: 13400
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 47
+    RequiredScore: 13700
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 48
+    RequiredScore: 13900
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 49
+    RequiredScore: 14200
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 0
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 0
+    PrePopulationPresetId: -1
+  - LevelNo: 50
+    RequiredScore: 14400
+    AmyRewardCount: 3
+    MetaUpgradeStars: 0
+    IsCheckPoint: 1
+    ButterflySpawnCount: 3
+    ButterflyRewardCount: 2
+    PrePopulateBoard: 1
+    PrePopulationPresetId: -1

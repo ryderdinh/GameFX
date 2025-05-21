@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b282cbdd95dd31bfb3cafc97a8ec7c36, type: 3}
+  m_Name: VerticalRocketViewConfigs
+  m_EditorClassIdentifier:
+  BoosterProductionObj:
+    fileName: VerticalShear
+    fileGuid: e40e4a746bb9c42859fe475fe92ae4f7
+    resourceFilePath: VerticalShear
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/VerticalRocket/Resources/VerticalShear.prefab
+  ScaleUpDuration: 0.25
+  StartPoint: -100
+  MoveUnits: 180
+  ShearMoveDuration: 3.5
+  ShearAnimationStartDelay: 0.71
+  ShearAnimationStopDelay: 1.85

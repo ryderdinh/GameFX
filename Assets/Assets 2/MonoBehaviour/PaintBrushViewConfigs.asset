@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d602c7328ab3f1a5b9b4aa3b54447af7, type: 3}
+  m_Name: PaintBrushViewConfigs
+  m_EditorClassIdentifier:
+  BoosterProductionObj:
+    fileName: PaintBrush
+    fileGuid: c70ccd9a2c5ec4a6aa19e3f1ff5bfd96
+    resourceFilePath: PaintBrush
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/PaintBrush/Resources/PaintBrush.prefab
+  TargetXOffset: 2
+  TargetYOffset: 30
+  TargetZOffset: -11
+  InitialPosition: {x: 125, y: 30, z: 30}
+  InitialRotation: {x: 45, y: 135, z: 0}
+  InitialScale: {x: 15, y: 15, z: 15}
+  TargetScale: {x: 37, y: 37, z: 37}
+  AnimationSpeed: 3.25
+  CakeColor: {r: 1, g: 0.4, b: 0.41960785, a: 1}
+  StartPointHandle: {x: 50, y: 0, z: -50}
+  TargetPointHandle: {x: 0, y: 0, z: 50}
+  MoveInDuration: 0.75
+  ScaleInDuration: 0.75
+  RotationInDuration: 0.75
+  PaintBrushOutDelay: 0.25
+  MoveOutDuration: 1
+  ParticalStopDuration: 0.5
+  RotationOutDuration: 0.5

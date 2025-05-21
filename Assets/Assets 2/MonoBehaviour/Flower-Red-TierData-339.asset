@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50f8b944300b2dd7a42b607a97a7f1df, type: 3}
+  m_Name: Flower-Red-TierData-339
+  m_EditorClassIdentifier:
+  Object: {fileID: 114518652859339511, guid: ff25d92c8fa469547997cdd21a6473d5, type: 2}
+  CakeUIObject: {fileID: 114371150768937421, guid: 080d2c7cffca9d74697e4c364a548bff, type: 2}
+  TierScore: 193
+  MidMesh:
+    fileName: Mid-01
+    fileGuid: d38eec98ec5ea427695ffc106f604152
+    resourceFilePath: Buds/Mid-01
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Flower/Art/3D/_Flowers/_Common/Resources/Buds/Mid-01.fbx
+  FlowerTexture:
+    fileName: Flower-Shape-07-Style_05
+    fileGuid: 885dcb42f050f4588b2ea2ef67e01ead
+    resourceFilePath: Textures/Flower-Shape-07-Style_05
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Flower/Art/3D/_Flowers/_Common/Resources/Textures/Flower-Shape-07-Style_05.png
+  FlowerName: Cherry Glow
+  Cost: 2900
+  CardsRequiredToUnlock: 1100

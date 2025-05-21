@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02127f07828748d1d6aeb8815d7240ff, type: 3}
+  m_Name: WindBlowerColumnViewConfigs
+  m_EditorClassIdentifier:
+  BoosterProductionObj:
+    fileName: WindBlower-Column
+    fileGuid: 6bea17dee48cc4f27a2d49867c87b8ac
+    resourceFilePath: WindBlower-Column
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/ColumnSort/Resources/WindBlower-Column.prefab
+  InitialXPosition: 30
+  InitialYPosition: 50
+  InitialZPosition: 200
+  InitialRotation: {x: 180, y: 90, z: 0}
+  InitialScale: {x: 1, y: 1, z: 1}
+  TargetZPosition: 120
+  TargetRotation: {x: 225, y: 90, z: 0}

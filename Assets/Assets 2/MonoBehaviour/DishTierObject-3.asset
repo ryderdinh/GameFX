@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 899c6b16d7204ba44ff73ade6a3689f1, type: 3}
+  m_Name: DishTierObject-3
+  m_EditorClassIdentifier:
+  DishMesh: {fileID: 4300000, guid: 8d53bd806e1147647909a51e1a1199f1, type: 2}
+  DoubleMesh: {fileID: 4300000, guid: 01f3b390bdf51d243bc34140d7518427, type: 2}
+  DishScore: 4
+  Icon: {fileID: 21300000, guid: 41773d4beb40480428901de7df5bba2b, type: 2}
+  Name: Petal Palace

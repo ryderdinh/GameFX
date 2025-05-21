@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05841f01f851f357583e0e6425deef37, type: 3}
+  m_Name: BombViewConfig
+  m_EditorClassIdentifier:
+  BoosterProductionObj:
+    fileName: Bomb
+    fileGuid: d06a492a4c2714f7daaf79cd0bac0926
+    resourceFilePath: Bomb
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/Bomb/Resources/Bomb.prefab
+  InitialPosition: {x: 100, y: 0, z: 50}
+  InitialRotation: {x: 45, y: 0, z: 0}
+  BrushMoveInDuration: 0.5
+  RotateInDuration: 0.25
+  BrushMovementDurationMultiplier: 0.25
+  BrushMovementDurationAdd: 0.25
+  IntervalDuration: 0.25
+  TargetScale: 35
+  TargetXOffset: 0
+  TargetYOffset: 15
+  TargetZOffset: -10
+  StartPointHandle: {x: -10, y: 20, z: 50}
+  TargetPointHandle: {x: -10, y: 20, z: 50}
+  AnimationSpeed: 3
+  BombScale: 50
+  BrushMoveOutDuration: 1

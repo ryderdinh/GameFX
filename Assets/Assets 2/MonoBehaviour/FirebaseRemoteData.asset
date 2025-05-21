@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39670b5487dbe2d692f86faf2c68e62f, type: 3}
+  m_Name: FirebaseRemoteData
+  m_EditorClassIdentifier:
+  StringValues:
+  - Key: InGameInterstitialAdsDelay
+    DefaultValue: 120
+    Value: 120
+  - Key: InGameInterstitialAdsPotsToPlace
+    DefaultValue: 0
+    Value: 0
+  - Key: BucketName
+    DefaultValue: Default_Bucket_Name
+    Value: 0
+  - Key: ExperimentName
+    DefaultValue: Default_Experiment_Name
+    Value: 0
+  IntValues:
+  - Key: MinScoreToShowInterstitial
+    DefaultValue: 0
+    Value: 0
+  - Key: InterstitialAdDelay
+    DefaultValue: 60
+    Value: 60
+  - Key: MinScoreToShowInGameInterstitialAds
+    DefaultValue: 0
+    Value: 0
+  - Key: MinScoreToShowBanner
+    DefaultValue: 0
+    Value: 0
+  - Key: InterstitialUnlockScore
+    DefaultValue: 850
+    Value: 850
+  - Key: BannerUnlockScore
+    DefaultValue: 850
+    Value: 850
+  - Key: InGameInterstitialUnlockScore
+    DefaultValue: 850
+    Value: 850
+  - Key: MaxRevivesThroughAdOnFail
+    DefaultValue: 1
+    Value: 1
+  - Key: IAPOfferCooldownTime
+    DefaultValue: 0
+    Value: 0
+  - Key: MinBuildVersionAndroid
+    DefaultValue: 41
+    Value: 38
+  - Key: MinBuildVersionIOS
+    DefaultValue: 41
+    Value: 38
+  BoolValues:
+  - Key: CanShowInterstitialAds
+    DefaultValue: 1
+    Value: 1
+  - Key: CanShowInterstitialOnHomeButton
+    DefaultValue: 1
+    Value: 1
+  - Key: CanShowInterstitialOnPlayButton
+    DefaultValue: 1
+    Value: 1
+  - Key: CanShowInterstitialOnLevelComplete
+    DefaultValue: 0
+    Value: 0
+  - Key: CanShowBannerAd
+    DefaultValue: 1
+    Value: 1
+  - Key: CanShowInGameInterstitialAds
+    DefaultValue: 1
+    Value: 1
+  - Key: CanShowInterstitialOnLevelFail
+    DefaultValue: 1
+    Value: 1
+  - Key: CanPrePopulateBoard
+    DefaultValue: 1
+    Value: 1
+  - Key: SkipAndroidIAPVerification
+    DefaultValue: 0
+    Value: 0
+  - Key: SkipIOSIAPVerification
+    DefaultValue: 0
+    Value: 0
+  - Key: CanActivateCooldownForOffers
+    DefaultValue: 0
+    Value: 0
+  - Key: CanShowNewButterflyFlow
+    DefaultValue: 0
+    Value: 0
+  CacheExpirationSecond: 300

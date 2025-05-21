@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66ef297fd0804f1cd17c1d05acd98622, type: 3}
+  m_Name: VerticalRocket
+  m_EditorClassIdentifier:
+  Type: 5
+  MissionType: 12
+  Name: Shear Column
+  Description: Clear Column
+  DetailedDescription: Tap flower to clear entire column
+  Affect: 1
+  Category: 0
+  BoosterLevel: 2
+  PassiveBoosterCategory: 0
+  PassiveBoosterType: 0
+  IconType: 0
+  Sprite: {fileID: 21300000, guid: a4e94f9a5afe9b941834a5929a2321ef, type: 2}
+  IconPrefab: {fileID: 0}
+  BgSprite: {fileID: 21300000, guid: cd2c54938ee358646aa7ac6dfba74e42, type: 2}
+  SmallIconType: 0
+  PredefinedSmallIcon: {fileID: 0}
+  BoosterDropObject:
+    fileName: VerticalShear-DropObject Variant
+    fileGuid: 845675f6230374cde93287674e519c83
+    resourceFilePath: VerticalShear-DropObject Variant
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/VerticalRocket/Resources/VerticalShear-DropObject Variant.prefab
+  SmallIconPrefab: {fileID: 0}
+  UnlockingScore: 0
+  _addScore: 0
+  _scoreToAdd: 1
+  _scorePercentage: 0.5
+  _addCoins: 0
+  _coinsToAdd: 1
+  _rewardValueRange:
+    MinValue: 0
+    MaxValue: 0
+  _passiveBoostertimeDuration: 0
+  BoosterExecutionDelay: 0
+  _iconPositionDelta: {x: 0, y: 0, z: 0}
+  _descriptionPositionDelta: {x: 0, y: -12}
+  _descriptionRectSizeDelta: {x: 0, y: 0}
+  _namePositionDelta: {x: 0, y: 6}
+  _iconScaleFactor: 1
+  _nameIconScaleFactor: 1.25
+  _iconRotationOnView: {x: 0, y: 0, z: 0}
+  _boosterNameSprite:
+    fileName: Scissors-text
+    fileGuid: 6ba32c474325c41dc8cf77cc4453c5c3
+    resourceFilePath: Scissors-text
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/Art/Resources/Scissors-text.png
+  _iconHoverPosition: {x: 0, y: 10}
+  _configs: {fileID: 11400000, guid: baf329a531d725e4a83be274b4bd66bb, type: 2}

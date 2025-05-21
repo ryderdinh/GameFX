@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0cdf86b21c8f32f62d43192a499d004, type: 3}
+  m_Name: CameraConfigs
+  m_EditorClassIdentifier:
+  StartPosition: {x: 30, y: 820, z: -253.5}
+  TargetPosition: {x: 30, y: 728, z: -220}
+  LevelFailMoveOutTargetPosition: {x: 30, y: 752.3, z: -228.9}
+  LevelFailMoveOutPositionTransitionDuration: 0.6
+  PositionTransitionDuration: 1
+  StartRotation: {x: 70, y: 0, z: 0}
+  TargetRotation: {x: 70, y: 0, z: 0}
+  LevelFailMoveOutRotation: {x: 70, y: 0, z: 0}
+  LevelFailMoveOutRotationTransitionDuration: 0.6
+  RotationTransitionDuration: 1
+  GridBoosterViewCameraPosition: {x: 30, y: 750, z: -15}
+  GridBoosterViewCameraRotation: {x: 85, y: 0, z: 0}
+  GridBoosterViewCameraPositionTransitionDuration: 1
+  TrayBoosterViewCameraPosition: {x: 30, y: 730, z: -40}
+  TrayBoosterViewCameraRotation: {x: 85, y: 0, z: 0}
+  TrayBoosterViewCameraPositionTransitionDuration: 1

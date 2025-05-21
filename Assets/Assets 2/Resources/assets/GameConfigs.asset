@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a4d8cc38c44b4a9c9837639df39639a, type: 3}
+  m_Name: GameConfigs
+  m_EditorClassIdentifier:
+  CameraSmoothDamp: 0.0001
+  InitialCash: 0
+  BoardEmptyFloaterText: Oops! Board is Empty.
+  MarketItemsData:
+  - {fileID: 11400000, guid: 6c992d87080491145a3be8ef3134b449, type: 2}
+  - {fileID: 11400000, guid: 31f143e340320c644b6789493be73dbe, type: 2}
+  - {fileID: 11400000, guid: 0ce46007ce6b4b746af035a8c82dc873, type: 2}
+  - {fileID: 11400000, guid: ba4b6967b0ce81e4fbdef91de158f1ab, type: 2}
+  - {fileID: 11400000, guid: 55d811c7bedd5274b83c203e9637cf89, type: 2}
+  - {fileID: 11400000, guid: 815dcd7d8dfc08248bef286329f26699, type: 2}
+  - {fileID: 11400000, guid: b46843040d9332d4dabc6caeeb2b2322, type: 2}
+  - {fileID: 11400000, guid: ad59e4516395a164cbced4d2ffb5da4d, type: 2}
+  - {fileID: 11400000, guid: 9f608d5acdeb17a41a84861c4d60fa11, type: 2}
+  - {fileID: 11400000, guid: 167348dc451169c4bbed5c51328d2752, type: 2}
+  - {fileID: 11400000, guid: eb1c829cffe5c5b4d806a2dc6b6cda28, type: 2}
+  - {fileID: 11400000, guid: d88d574b3a8b14142afa68d5ec433688, type: 2}
+  - {fileID: 11400000, guid: a1707c643d7305346a7dd1ece613ea5e, type: 2}
+  - {fileID: 11400000, guid: 5eac218424f8c874d89681738c8a7e1a, type: 2}
+  - {fileID: 11400000, guid: f02a58eda5ac7644b9dee540af7ee996, type: 2}
+  _dBIsButterflyNewFlow: {fileID: 11400000, guid: 5480b7551f921b642a9feef98d58d635, type: 2}
+  boostersTutorialController: {fileID: 11400000, guid: 249629beceec5ab4a93889c9140ad953, type: 2}
+  CardsChestSystem: {fileID: 11400000, guid: e46c5d25383940c4997874ae760916ec, type: 2}
+  DailyLoginController: {fileID: 11400000, guid: 3415acb47090b254d91d85c64b8ec322, type: 2}
+  ItemUpgradeSystem: {fileID: 11400000, guid: 172b06316c25e1141905fda2edebf6ea, type: 2}
+  LiveOpsSystem: {fileID: 11400000, guid: 76d2ace3b93124847ba35ce09c0c9ca2, type: 2}
+  MarketFreeCoinsToAdd: 10
+  MarketFreeCoinsRewardTime: 10
+  CoinsOfferItemData:
+  - {fileID: 11400000, guid: c4b38d60e9b34d84fab64d89f3ac7d39, type: 2}
+  - {fileID: 11400000, guid: 968637989c7671f429d6caf455f85413, type: 2}
+  - {fileID: 11400000, guid: 90e2de33dabc3c44681dbf99526447d4, type: 2}
+  - {fileID: 11400000, guid: 42ad99373a4160e43bc624ca0f53b569, type: 2}
+  - {fileID: 11400000, guid: 4ecf1ca203f30de44b21d1a61dbd378b, type: 2}
+  - {fileID: 11400000, guid: 8e5d9daec7af0174bb0db9992a3bc923, type: 2}
+  MinTimeToShowSpecialOfferOnLaunch: 14400
+  MinTimeToShowSpecialOfferOnResume: 7200
+  MinCountGamePausedBeforeShowingOffer: 1
+  MinLevelToShowOfferButtonOnMain: 3
+  DBGamePauseCountToShowSpecialOfferOnResume: {fileID: 11400000, guid: f37a50d56ae49ea44a8bb020be9555c4, type: 2}
+  StarterPackItemData: {fileID: 11400000, guid: 09ac10dfa4ef85c4a8f64830e31764de, type: 2}
+  CardsOffersItemData:
+  - {fileID: 11400000, guid: 53e44f4772052a6498d4f4ce96173d84, type: 2}
+  - {fileID: 11400000, guid: fac290dbca59e9d46960c02e0fa0252e, type: 2}
+  - {fileID: 11400000, guid: 3d578b0a8e67c7544a26da3796957498, type: 2}
+  - {fileID: 11400000, guid: e94825434724e4a4bbc201bf30d16a47, type: 2}
+  - {fileID: 11400000, guid: befcccb1d77846c4d84e3233267169ef, type: 2}
+  - {fileID: 11400000, guid: e278910ff2044d948ab92a952cb9d30c, type: 2}
+  SkipAdsOffersItemData:
+  - {fileID: 11400000, guid: b7b37eaccf469804a8554143dce71b3d, type: 2}
+  - {fileID: 11400000, guid: c45cc2b7d2a38e447b8f29e612a46e92, type: 2}
+  - {fileID: 11400000, guid: ba86f3149afaf7341b1e0238756ee6b0, type: 2}
+  - {fileID: 11400000, guid: 74bd3415133aa904fbeba45b2f7681b8, type: 2}
+  - {fileID: 11400000, guid: 6ab914f6ec6db9043ac37cf52280beac, type: 2}
+  - {fileID: 11400000, guid: 55b66e4a5493bc1478171d026116cbda, type: 2}
+  LiveOpsOffersItemData:
+  - {fileID: 11400000, guid: be8d1b1fa4da7244086c77cb40ea4e0c, type: 2}
+  - {fileID: 11400000, guid: 528a22d91ba922744af2177444265da5, type: 2}
+  - {fileID: 11400000, guid: 8e81229f606d15a4bacfa933671b426d, type: 2}
+  MetaWorldIndex: {fileID: 11400000, guid: 1f4ebb86f2350c245834b156cdc4efca, type: 2}
+  PassiveBoostersController: {fileID: 11400000, guid: dfb889d6b8607164aa89b23c06c54bde, type: 2}
+  DishUpgradableObject: {fileID: 11400000, guid: a9e2145921434aa48b434f52c5410e95, type: 2}
+  PowerUpsSystem: {fileID: 11400000, guid: f8703951126f5994cbd1753ea32b5c57, type: 2}
+  ProgressionSystem: {fileID: 11400000, guid: 0db25b327e143064ebab374b1825611b, type: 2}
+  MetaWorldConfig: {fileID: 11400000, guid: 62524b85cf3a5324e806e4a046683c03, type: 2}
+  CashObject: {fileID: 11400000, guid: 3e838399dde5aa740aa5f0afbec54c75, type: 2}
+  AllItemsObject: {fileID: 11400000, guid: 1f8735b2bde91064297562f2d387a094, type: 2}
+  RefreshTraysCost: 64000000fa000000f4010000
+  SkipAdsObject: {fileID: 11400000, guid: 087eac13e1a6b2749becd212e76d3e63, type: 2}
+  IsStarterPackPurchasedDB: {fileID: 11400000, guid: 2557d26e5983bc5469206dabb3fab4d9, type: 2}
+  IsStarterPackAvailableDB: {fileID: 11400000, guid: b6445742f80881b469a43b000653dfc9, type: 2}
+  StreakSystem: {fileID: 11400000, guid: 38053cbb2e23e6e4b8b2473536a28fd5, type: 2}
+  TrayMovementSpeed: 35
+  TrayLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  InitialTrayPosition: {x: 8, y: -7.15, z: -27}
+  TraysPositionRangeInX:
+    MinValue: 8
+    MaxValue: 52
+  TraySpawnerObject: {fileID: 11400000, guid: e604ebee84788d544a40422f4d74a711, type: 2}
+  DishSpawnerObject: {fileID: 11400000, guid: 4b7c0ff8e3eeae842a4b4efd0294dbf6, type: 2}
+  TrayPositionInBoosterState: 30
+  TrayPositionInGridBoosterState: -6
+  TrayColliderSize: {x: 20, y: 24, z: 20}
+  TrayColliderHorizontalDelta: 4
+  TrayColliderVerticalDelta: 2
+  TrayInitialScaleMultiplier: 1
+  TrayMovingScaleMultiplier: 1
+  TurboMode: {fileID: 11400000, guid: 3ba8796af0fcdf3418f276fe37c253cc, type: 2}

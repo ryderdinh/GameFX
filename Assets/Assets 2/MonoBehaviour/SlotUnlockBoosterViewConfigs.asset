@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2fe67693e7d1ec11f2f3ba7a95cd3ec, type: 3}
+  m_Name: SlotUnlockBoosterViewConfigs
+  m_EditorClassIdentifier:
+  BoosterProductionObj:
+    fileName: SlotUnlockProductionObject
+    fileGuid: 3d7a6f9b69b624d049ec082b277193c7
+    resourceFilePath: SlotUnlockProductionObject
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/SlotUnlock/Resources/SlotUnlockProductionObject.prefab
+  InitialPosition: {x: 125, y: 30, z: 30}
+  InitialScale: {x: 1.5, y: 1.5, z: 1.5}
+  StartPointHandle: {x: 50, y: 0, z: -50}
+  TargetPointHandle: {x: 0, y: 0, z: 50}
+  MovementTime: 0.75
+  StayTime: 0.5
+  TargetOffset: {x: 4, y: 15, z: -9}

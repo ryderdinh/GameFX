@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 241b0c69c9031edc7083e1b51835cb19, type: 3}
+  m_Name: Cards Super Offer
+  m_EditorClassIdentifier:
+  Product: {fileID: 11400000, guid: 20f92b699ed639f4d95fcb34e38014f0, type: 2}
+  Price: 29.99
+  IsStarterPack: 0
+  Coins: 5000
+  RemoveAds: 0
+  SkipAds: 0
+  CardsItemData: {fileID: 11400000, guid: 7eabfbb75c79a5e419df7f821630d0ee, type: 2}
+  BrushCutter: 6
+  Sprayer: 6
+  WheelsBarrow: 6
+  LiveOpsOfferItemData:
+    WorthCoins: 0
+    WorthSkipAds: 0
+    OfferWorthBGSprite:
+      fileName:
+      fileGuid:
+      resourceFilePath:
+      filePath:
+    OfferFreeBGSprite:
+      fileName:
+      fileGuid:
+      resourceFilePath:
+      filePath:
+    OfferBGColor: {r: 0, g: 0, b: 0, a: 0}
+    OfferID:
+  Time: 86400
+  SpecialOfferType: 2
+  OfferType: 2
+  OfferHeader: Super Offer
+  OfferAnimatedIcon:
+    fileName: CardPack - Super
+    fileGuid: 2227eeeaa4dd64d45baa1378a500ec8c
+    resourceFilePath: AnimatedIcons/Cards/CardPack - Super
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/_SpecialOffer/Art/2D/Sprites/Resources/AnimatedIcons/Cards/CardPack - Super.prefab
+  OfferCardBG:
+    fileName: offer-bg_0
+    fileGuid: 84506ddd079634c6287bbacc7b3ab46a
+    resourceFilePath: CardBG/super
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/Art/Sprites/Pack/Resources/CardBG/super.png
+  OfferCardTimerNotch:
+    fileName: super-notch_0
+    fileGuid: 29326752befe34ec5bbd916ba64ef59b
+    resourceFilePath: CardTimerBG/super-notch
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/Art/Sprites/Pack/Resources/CardTimerBG/super-notch.png
+  OfferHeaderTextMaterial:
+    fileName: Barlow-Black outlineDarkRed
+    fileGuid: 4a0ca3160cb1a48deb34aee420eb718b
+    resourceFilePath: Barlow-Black outlineDarkRed
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Text/Font/Resources/Barlow-Black outlineDarkRed.mat
+  OfferHeaderSubTitleColor: {r: 0, g: 0, b: 0, a: 0.5019608}
+  OfferHeaderTitle:
+    fileName: super
+    fileGuid: 0769cb4bea9f145a280f25c13e5295ab
+    resourceFilePath: super
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/_SpecialOffer/Art/2D/Sprites/Resources/super.png
+  OfferViewBGColor: {r: 0.8392157, g: 0.4627451, b: 0.31764707, a: 1}
+  OfferSeparationLineColor: {r: 0.83, g: 0.4546231, b: 0.3128141, a: 1}
+  OfferHeaderTitleBGColor: {r: 0.58431375, g: 0.24313726, b: 0.1254902, a: 1}

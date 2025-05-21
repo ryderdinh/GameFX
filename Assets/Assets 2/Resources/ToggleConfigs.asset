@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90379443509230dee75cc8d46fed8216, type: 3}
+  m_Name: ToggleConfigs
+  m_EditorClassIdentifier:
+  HandleChangeInPosition: 330
+  HandleAnchorDuration: 0.4
+  PunchScaleFactor: 0.15
+  HandlePunchScaleDuration: 0.2
+  HandlePunchScaleDelay: 0.25
+  BgColorDuration: 0.6
+  TextFadeDuration: 0.25
+  ToggleOnHandleSprite:
+    fileName: Toggle-Green_0
+    fileGuid: 41905e5a5bd014daca32cd245956788d
+    resourceFilePath: Toggle-Green
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Toggle/Resources/Toggle-Green.png
+  ToggleOffHandleSprite:
+    fileName: Toggle-Red 1_0
+    fileGuid: 7f99e1594ebf047d4853033623e6c63b
+    resourceFilePath: Toggle-Red 1
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Toggle/Resources/Toggle-Red 1.png
+  TextScaleDuration: 0.35
+  ToggleOnColor: {r: 0.4509804, g: 0.9254902, b: 0.67058825, a: 1}
+  ToggleOffColor: {r: 0.9764706, g: 0.57254905, b: 0.6862745, a: 1}

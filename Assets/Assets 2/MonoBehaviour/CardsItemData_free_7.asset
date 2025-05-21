@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c55b6a90f14484e7d132f243faa3a19e, type: 3}
+  m_Name: CardsItemData_free_7
+  m_EditorClassIdentifier:
+  CardPackTexture:
+    fileName:
+    fileGuid:
+    resourceFilePath:
+    filePath:
+  CardsToAddLimit: 30
+  Cards:
+  - FlowerType: 0
+    MinCards: 1
+    MaxCards: 20
+    Probability: 0.2
+  - FlowerType: 1
+    MinCards: 1
+    MaxCards: 20
+    Probability: 0.4
+  - FlowerType: 2
+    MinCards: 1
+    MaxCards: 20
+    Probability: 0.6
+  - FlowerType: 3
+    MinCards: 1
+    MaxCards: 20
+    Probability: 0.75
+  - FlowerType: 4
+    MinCards: 1
+    MaxCards: 20
+    Probability: 0.9
+  - FlowerType: 5
+    MinCards: 1
+    MaxCards: 20
+    Probability: 1

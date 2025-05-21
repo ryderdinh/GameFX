@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1d8e2cb3f92790d401298e49079271, type: 3}
+  m_Name: BoosterCoinsProbabilityConfigs
+  m_EditorClassIdentifier:
+  CoinProbabilitiesData:
+  - Id: 0
+    CoinsCount: 150
+    Probability: 55
+  - Id: 1
+    CoinsCount: 200
+    Probability: 35
+  - Id: 2
+    CoinsCount: 250
+    Probability: 10

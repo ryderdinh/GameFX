@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a2951f278e3966220e237a11749712b, type: 3}
+  m_Name: ButterflyTypeData
+  m_EditorClassIdentifier:
+  _singleMissionType: 6
+  _probability: 35
+  _singleMissionObject:
+  - {fileID: 11400000, guid: dbfe8aed34759604dba9d037069efe4f, type: 2}
+  - {fileID: 11400000, guid: 785944cebbe8f7247b232efec2cf210f, type: 2}

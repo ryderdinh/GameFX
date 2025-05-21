@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b468229d96bf8b80afc9e29eaf847a70, type: 3}
+  m_Name: MatchesSystem
+  m_EditorClassIdentifier:
+  _dbMatchesCount: {fileID: 11400000, guid: 2e15d637aea501541b94db927dc61786, type: 2}
+  _dbLifeTimeMatchesCount: {fileID: 11400000, guid: 0dc357a7aeec85544816c901433e998a, type: 2}
+  _dbMatchesCountForCardChest: {fileID: 11400000, guid: bcdbfb1ffa5d6764fbd63ba80c6a18c9, type: 2}

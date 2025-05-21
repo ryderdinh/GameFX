@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9225b062791f83d69a953f2a11ffd62, type: 3}
+  m_Name: Coins
+  m_EditorClassIdentifier:
+  Type: 27
+  MissionType: 0
+  Name: Coins
+  Description: Get {0} coins
+  DetailedDescription:
+  Affect: 1
+  Category: 0
+  BoosterLevel: 4
+  PassiveBoosterCategory: 0
+  PassiveBoosterType: 0
+  IconType: 0
+  Sprite: {fileID: 21300000, guid: ad8129a5b140d5f42a3d8099bad25f8c, type: 2}
+  IconPrefab: {fileID: 0}
+  BgSprite: {fileID: 21300000, guid: db7cd75dd20551649a19f1cc9db3ca55, type: 2}
+  SmallIconType: 0
+  PredefinedSmallIcon: {fileID: 0}
+  BoosterDropObject:
+    fileName: Coins - DropObject Variant
+    fileGuid: 398aa2a81df48458f8c2acad68a7dc45
+    resourceFilePath: Coins - DropObject Variant
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/Coins/Resources/Coins - DropObject Variant.prefab
+  SmallIconPrefab: {fileID: 0}
+  UnlockingScore: 0
+  _addScore: 0
+  _scoreToAdd: 0
+  _scorePercentage: 0
+  _addCoins: 0
+  _coinsToAdd: 0
+  _rewardValueRange:
+    MinValue: 10
+    MaxValue: 25
+  _passiveBoostertimeDuration: 0
+  BoosterExecutionDelay: 0
+  _iconPositionDelta: {x: 0, y: 0, z: 0}
+  _descriptionPositionDelta: {x: 0, y: 0}
+  _descriptionRectSizeDelta: {x: 0, y: 0}
+  _namePositionDelta: {x: 0, y: 0}
+  _iconScaleFactor: 0
+  _nameIconScaleFactor: 0
+  _iconRotationOnView: {x: 0, y: 0, z: 0}
+  _boosterNameSprite:
+    fileName:
+    fileGuid:
+    resourceFilePath:
+    filePath:
+  _iconHoverPosition: {x: 0, y: 0}
+  _startPosition: {x: 30, y: 0, z: 50}
+  _cashObject: {fileID: 11400000, guid: 3e838399dde5aa740aa5f0afbec54c75, type: 2}
+  _sprites:
+  - {fileID: 21300000, guid: 8a77a77cf6a2b694ebed8a04f42612cc, type: 2}
+  - {fileID: 21300000, guid: 23b6c870df9db3f4c8a68deeb7be7a0c, type: 2}
+  - {fileID: 21300000, guid: 094ff491bf0537e48abf57d515785fe5, type: 2}

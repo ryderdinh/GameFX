@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 597ddbdd332f1c632c62674b6b474599, type: 3}
+  m_Name: DBTurnBasedJourneyData
+  m_EditorClassIdentifier:
+  Value: '{"matches_made":20,"pots_placed":42,"refresh_trays_used":0,"revives_Used":0,"revives_on_coins_used":0,"butterflies_shown":1,"butterflies_clicked":1,"butterflies_used":0,"butterflies_respin":0,"level_gifts_used":1,"level_gifts_respins":0,"rvs_watched":0,"inters_watched":0,"skip_its_used":0,"current_shop":2,"current_level":1,"highest_level":1,"powerup_watercan_used":0,"powerup_shuffle_used":0,"powerup_brushcutter_used":0,"total_turns_played":0,"high_score":2879,"ad_revenue":0.0,"iap_revenue":0.0,"is_premium_user":false,"install_date":"8/15/2024 10:22:17 AM"}'
+  DefaultValue:
+  ResetToDefaultOnPlay: 1
+  ResetOnClear: 0
+  Key: TurnBasedJourneyData

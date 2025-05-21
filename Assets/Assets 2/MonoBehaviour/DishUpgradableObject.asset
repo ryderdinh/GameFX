@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c836abd70635830025d61f6330dfbeba, type: 3}
+  m_Name: DishUpgradableObject
+  m_EditorClassIdentifier:
+  _dish: {fileID: 114364375948882226, guid: 338288d91991cd04890fcdeb000e08fa, type: 2}
+  _dishesTier:
+  - {fileID: 11400000, guid: b033c58bfa9a76c45b46b9685c128159, type: 2}
+  - {fileID: 11400000, guid: ea9fa1caf93dd5a4c9bcd3b2348491c1, type: 2}
+  - {fileID: 11400000, guid: 30089073a14fc1e4b9184b5beeaf555b, type: 2}
+  _dbDishTierID: {fileID: 11400000, guid: 782efae7c7af7ec4c9369251d89c5018, type: 2}

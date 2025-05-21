@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c55b6a90f14484e7d132f243faa3a19e, type: 3}
+  m_Name: CardsItemData_2500
+  m_EditorClassIdentifier:
+  CardPackTexture:
+    fileName: CandyWrap-MegaOffer
+    fileGuid: 67859a9aa8b6648df92aacd275e0511d
+    resourceFilePath: Textures/CandyWrap-MegaOffer
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/_SpecialOffer/Resources/Textures/CandyWrap-MegaOffer.png
+  CardsToAddLimit: 2500
+  Cards:
+  - FlowerType: 0
+    MinCards: 1
+    MaxCards: 20
+    Probability: 0.25
+  - FlowerType: 1
+    MinCards: 1
+    MaxCards: 20
+    Probability: 0.5
+  - FlowerType: 2
+    MinCards: 1
+    MaxCards: 20
+    Probability: 0.7
+  - FlowerType: 3
+    MinCards: 1
+    MaxCards: 20
+    Probability: 0.85
+  - FlowerType: 4
+    MinCards: 1
+    MaxCards: 20
+    Probability: 0.95
+  - FlowerType: 5
+    MinCards: 1
+    MaxCards: 20
+    Probability: 1

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a2951f278e3966220e237a11749712b, type: 3}
+  m_Name: CollectCardsTypeData
+  m_EditorClassIdentifier:
+  _singleMissionType: 10
+  _probability: 15
+  _singleMissionObject:
+  - {fileID: 11400000, guid: 9655dbc17dfe2d84795fc023254f46c2, type: 2}
+  - {fileID: 11400000, guid: 93cc84d6b517da947b535228deef8e06, type: 2}
+  - {fileID: 11400000, guid: 35216b909afa2d948a55adc401daf261, type: 2}
+  - {fileID: 11400000, guid: 3e42897b19609df4a83d418b54e2ee39, type: 2}
+  - {fileID: 11400000, guid: 08d5d6e75468d4649bbbb1f1166db34b, type: 2}
+  - {fileID: 11400000, guid: 21d2ed8680512274f8836386d0082a8d, type: 2}
+  - {fileID: 11400000, guid: c63bf46182fb34b488dfc8867b9bcf26, type: 2}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 899c6b16d7204ba44ff73ade6a3689f1, type: 3}
+  m_Name: DishTierObject-2
+  m_EditorClassIdentifier:
+  DishMesh: {fileID: 4300000, guid: cfe25d841bbc2d44bbd9a872ad821d19, type: 2}
+  DoubleMesh: {fileID: 4300000, guid: 30c6f8a2f9e7ec34eb764420dcc3fe43, type: 2}
+  DishScore: 2
+  Icon: {fileID: 21300000, guid: 7e95675f1cdfcd54fa2a1ca3f792d6e1, type: 2}
+  Name: Blossom Buddy

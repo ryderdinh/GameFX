@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6d0eca9cd8b1e703d552958f33f28e, type: 3}
+  m_Name: UserJourneySystem
+  m_EditorClassIdentifier:
+  _turnBasedUserJourney: {fileID: 11400000, guid: ba6dae9030ad7454596a8f60895925aa, type: 2}
+  _lifeTimeUserJourney: {fileID: 11400000, guid: 619c6906d451c054db0767a5e2ec58f6, type: 2}
+  _analyticsSystem: {fileID: 11400000, guid: cb1c4086ecb5ede49a293574102dc5cc, type: 2}

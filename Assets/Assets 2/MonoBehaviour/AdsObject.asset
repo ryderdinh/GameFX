@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f207d7b1952aa247e129a3e9f10dc132, type: 3}
+  m_Name: AdsObject
+  m_EditorClassIdentifier:
+  _interstitialAdObject: {fileID: 11400000, guid: a92994598e3351e4a815d7568a363c1c, type: 2}
+  _inGameInterstitialAdObject: {fileID: 11400000, guid: 1a6f7ef3820a5fb47b19e2ec0fda9219, type: 2}
+  _bannerAdObject: {fileID: 11400000, guid: f4963f9f0c80c5e4ebb02161ec7a49c8, type: 2}
+  _rewardedAdObject: {fileID: 11400000, guid: abc8e426c71750948ab9ccbc8fa81fc7, type: 2}
+  _removeAdsController: {fileID: 11400000, guid: 9dfce24f633eb92439d7c4a2875ca9e7, type: 2}
+  _bloomPassNoAdsPerk: {fileID: 11400000, guid: 7054c2d79df588f4f8cd8027ee0a5a51, type: 2}

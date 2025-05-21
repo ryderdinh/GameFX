@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71a84a84067363db6dfbe5e248e65a61, type: 3}
+  m_Name: AnalyticsSystem
+  m_EditorClassIdentifier:
+  _tracker: {fileID: 11400000, guid: c51a7ec9c2004e94c895f0112dc92eb0, type: 2}
+  _laLogger: {fileID: 11400000, guid: e080356c81d462543a98469e0739aa15, type: 2}
+  _gaLogger: {fileID: 11400000, guid: c06aa88863a79e748b9b2271436c700e, type: 2}
+  _adjustLogger: {fileID: 11400000, guid: ee1da0056c59ea344a8531aa5b043a76, type: 2}
+  _firebaseLogger: {fileID: 11400000, guid: 7c3a672f5cf1e834eb6095a9e60ddb97, type: 2}
+  _isFirstAppOpen: {fileID: 11400000, guid: 857199287a6d1174a8bd18008dae8fd6, type: 2}
+  _lastLevelLogged: {fileID: 11400000, guid: 609f9f740924eae4db609c3a135e484e, type: 2}

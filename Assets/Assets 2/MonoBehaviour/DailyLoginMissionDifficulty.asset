@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d4dfc3111f57aaa3843be5caf4eea3, type: 3}
+  m_Name: DailyLoginMissionDifficulty
+  m_EditorClassIdentifier:
+  _missionDifficulty: 6
+  _rewardObjects:
+  - RewardType: 0
+    RewardSubIndex: 0
+    Amount: 50
+    RewardIcon: {fileID: 21300000, guid: c4e1624144f0c744787b8581bfcd3938, type: 2}

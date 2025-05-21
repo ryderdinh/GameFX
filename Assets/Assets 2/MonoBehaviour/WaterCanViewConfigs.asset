@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9f5a9a7450cb861f11a14a04db30811, type: 3}
+  m_Name: WaterCanViewConfigs
+  m_EditorClassIdentifier:
+  BoosterProductionObj:
+    fileName: SprayBottle
+    fileGuid: e30eb503dee864450a2ecb15ab4b2fc9
+    resourceFilePath: SprayBottle
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/WaterCan/Resources/SprayBottle.prefab
+  InitialScale: {x: 0.5, y: 0.5, z: 0.5}
+  TargetScale: {x: 2, y: 2, z: 2}
+  TargetOffsetLeft: {x: -35, y: 30, z: 5}
+  InitialPositionLeft: {x: -125, y: 30, z: 30}
+  InitialRotationLeft: {x: -90, y: 0, z: 0}
+  TargetRotationLeft: {x: -40, y: 55, z: -42}
+  TargetOffsetRight: {x: 35, y: 30, z: -5}
+  InitialPosition: {x: 125, y: 30, z: 30}
+  InitialRotation: {x: -130, y: 180, z: 0}
+  TargetRotation: {x: -40, y: -45, z: -135}
+  StartPointHandle: {x: 50, y: 0, z: -50}
+  TargetPointHandle: {x: 0, y: 0, z: 50}
+  TargetPointHandleLeft: {x: 0, y: 0, z: 0}
+  MoveInDuration: 0.75
+  ScaleInDuration: 0.75
+  RotationInDuration: 0.5
+  WaterCanOutDelay: 1.25
+  MoveOutDuration: 1
+  ScaleOutDuration: 1
+  RotationOutDuration: 0.5

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d73c59784031af93a84103eaaf885e3e, type: 3}
+  m_Name: MetaSystem
+  m_EditorClassIdentifier:
+  WorldConfigs: {fileID: 11400000, guid: 62524b85cf3a5324e806e4a046683c03, type: 2}
+  Shops:
+  - fileName: World 1
+    fileGuid: 6e97288c18e1c44e89300b519df2b909
+    resourceFilePath: _worlds/World 1
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Meta/Resources/_worlds/World 1.prefab
+  - fileName: World 2
+    fileGuid: e6702aa6d4f2c4defb63233d883363cb
+    resourceFilePath: _worlds/World 2
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Meta/Resources/_worlds/World 2.prefab
+  - fileName: World 3
+    fileGuid: 4fd8a191cb6ae43aca4ea0593514f6a9
+    resourceFilePath: _worlds/World 3
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Meta/Resources/_worlds/World 3.prefab
+  - fileName: World 4
+    fileGuid: ba5dce2dd7bd640719bc9eed19656ec0
+    resourceFilePath: _worlds/World 4
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Meta/Resources/_worlds/World 4.prefab
+  - fileName: World 5
+    fileGuid: fd00ea3e8d20e42669a9a537e04bca0f
+    resourceFilePath: _worlds/World 5
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Meta/Resources/_worlds/World 5.prefab
+  - fileName: World 6
+    fileGuid: 0e156df552b464cd3975c0eb598484dc
+    resourceFilePath: _worlds/World 6
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Meta/Resources/_worlds/World 6.prefab
+  - fileName: World 7
+    fileGuid: e970547a03dbb1743951a954dd89c713
+    resourceFilePath: _worlds/World 7
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Meta/Resources/_worlds/World 7.prefab
+  - fileName: World 8
+    fileGuid: 2090aa3232a1151479e1ce40922845f2
+    resourceFilePath: _worlds/World 8
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Meta/Resources/_worlds/World 8.prefab
+  ConstructionSites:
+  - fileName: ConstructionSite 1
+    fileGuid: e2dc74027b4f54fc781f7eb09757248a
+    resourceFilePath: _constructionSites/ConstructionSite 1
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Meta/Resources/_constructionSites/ConstructionSite 1.prefab
+  - fileName: ConstructionSite 2
+    fileGuid: 08d4cf8d95c204cdda25087b8ad0ad41
+    resourceFilePath: _constructionSites/ConstructionSite 2
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Meta/Resources/_constructionSites/ConstructionSite 2.prefab
+  - fileName: ConstructionSite 3
+    fileGuid: 37f093a8ae8234707b336fec23f5461d
+    resourceFilePath: _constructionSites/ConstructionSite 3
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Meta/Resources/_constructionSites/ConstructionSite 3.prefab
+  - fileName: ConstructionSite 4
+    fileGuid: 0fa7f03d3e64d416cb0f991c4d8465e0
+    resourceFilePath: _constructionSites/ConstructionSite 4
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Meta/Resources/_constructionSites/ConstructionSite 4.prefab
+  - fileName: ConstructionSite 5
+    fileGuid: eb37b57c902eb4ec2ac9b35aa006dcc8
+    resourceFilePath: _constructionSites/ConstructionSite 5
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Meta/Resources/_constructionSites/ConstructionSite 5.prefab
+  - fileName: ConstructionSite 6
+    fileGuid: 92d456a8d0f06c04688af9898896041b
+    resourceFilePath: _constructionSites/ConstructionSite 6
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Meta/Resources/_constructionSites/ConstructionSite 6.prefab
+  - fileName: ConstructionSite 7
+    fileGuid: 0546a96eac11a4ca9929375f236c4816
+    resourceFilePath: _constructionSites/ConstructionSite 7
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Meta/Resources/_constructionSites/ConstructionSite 7.prefab
+  - fileName: ConstructionSite 8
+    fileGuid: 2f9a205e96bcd1c4cbd986a9d92884a9
+    resourceFilePath: _constructionSites/ConstructionSite 8
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Meta/Resources/_constructionSites/ConstructionSite 8.prefab
+  _analyticsSystem: {fileID: 11400000, guid: cb1c4086ecb5ede49a293574102dc5cc, type: 2}
+  _dbMetaInProgress: {fileID: 11400000, guid: 1f4ebb86f2350c245834b156cdc4efca, type: 2}
+  _dbCurrentWorldId: {fileID: 11400000, guid: b77319f9ce7f9fe4687f1d547f391d8e, type: 2}
+  _userState: {fileID: 11400000, guid: 7289ff96c66b3564381289dbc17e5371, type: 2}

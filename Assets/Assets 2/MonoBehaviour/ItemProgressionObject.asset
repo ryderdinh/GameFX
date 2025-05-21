@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de6ae9dda9069363ea8710cedc3a1773, type: 3}
+  m_Name: ItemProgressionObject
+  m_EditorClassIdentifier:
+  _dbUnlockedItemsCount: {fileID: 11400000, guid: 5f956c227ea9e7942a9e79e71b3509ee, type: 2}
+  _currentScore: {fileID: 11400000, guid: b7033b454a60ffc41884a89fb8de673b, type: 2}
+  _currentItemIds: {fileID: 11400000, guid: 2416821f1b5ffed49b5e65d6646632ea, type: 2}
+  _canShowProgress: {fileID: 11400000, guid: 5eb5d37bf50bb254caa07ad4a9519567, type: 2}

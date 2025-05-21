@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd77764b6fda2cbeabae2f1c6bc9edd7, type: 3}
+  m_Name: CharacterAnimationConfigs
+  m_EditorClassIdentifier:
+  Combo:
+    AnimationGroup:
+    - Animation: 4
+      Probability: 0.5
+    - Animation: 2
+      Probability: 1
+  Streak:
+    AnimationGroup:
+    - Animation: 4
+      Probability: 0.2
+    - Animation: 2
+      Probability: 0.4
+  Merge:
+    AnimationGroup:
+    - Animation: 3
+      Probability: 0.2
+  Worried:
+    AnimationGroup:
+    - Animation: 14
+      Probability: 0.25
+    - Animation: 10
+      Probability: 0.5
+    - Animation: 13
+      Probability: 0.75
+    - Animation: 5
+      Probability: 1

@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30496d6ae6d6f907456e10a94e01ec6, type: 3}
+  m_Name: Flower-Blue
+  m_EditorClassIdentifier:
+  ID: 0
+  FlowerType: 0
+  MissionType: 1
+  Objects:
+  - {fileID: 11400000, guid: 8f9d547425cd81f4cb9e3d9392dca4ba, type: 2}
+  - {fileID: 11400000, guid: 4c3cd7463d02a774a86e9b147b04acdf, type: 2}
+  - {fileID: 11400000, guid: 4435ad1227a76b847a2282e460243365, type: 2}
+  - {fileID: 11400000, guid: 8d205524de15b5d40a76d965477a77e4, type: 2}
+  - {fileID: 11400000, guid: c1590ad96b91ec447a90c6f847f2def2, type: 2}
+  - {fileID: 11400000, guid: 2562fe72dae29ae4c9589ef6b7c21105, type: 2}
+  - {fileID: 11400000, guid: 8d6af3b42af053345af4e5cbeed2765d, type: 2}
+  - {fileID: 11400000, guid: eb8c7836deb62a741acfb49e057dd16f, type: 2}
+  - {fileID: 11400000, guid: d0af80c009352704293ea9b9b8d62d4a, type: 2}
+  - {fileID: 11400000, guid: 18d2aa2751b10a64d8a509e1408e5c3b, type: 2}
+  - {fileID: 11400000, guid: 6e437152a6aaa8344a18fd528af11370, type: 2}
+  - {fileID: 11400000, guid: 3bfb66f0a69fb004fa4e53c72b388b79, type: 2}
+  - {fileID: 11400000, guid: a6c19d7077b132243be83c79824335da, type: 2}
+  - {fileID: 11400000, guid: a9f120cf1603d7043bac45882d2bdd77, type: 2}
+  - {fileID: 11400000, guid: 76afa7a383ad4274fa2eb8d1b98cfc66, type: 2}
+  - {fileID: 11400000, guid: 5a408fdb8c9bd2043b610e7779f472b4, type: 2}
+  - {fileID: 11400000, guid: 5770a79669b6d674c967755965c0a874, type: 2}
+  - {fileID: 11400000, guid: 7d9cb3bed8cb2df40ba7a27ed6ee472e, type: 2}
+  - {fileID: 11400000, guid: 082f7830a3557ec4584052d0a60210d1, type: 2}
+  - {fileID: 11400000, guid: cbef51a1f0aa0724ea4a51cdb4ba1bbe, type: 2}
+  - {fileID: 11400000, guid: 75a3f6d0d2c78324daa1fbe80a1f3f96, type: 2}
+  - {fileID: 11400000, guid: e907d7529fe2d4a4dabe0ea1977d465d, type: 2}
+  - {fileID: 11400000, guid: 377daaae9bf9dfd4b9541c56f2432c6c, type: 2}
+  - {fileID: 11400000, guid: c6230ef58eb957d42ac7e16e6d2f4cf0, type: 2}
+  - {fileID: 11400000, guid: 095aaf5df49d91644baff016c02da14a, type: 2}
+  - {fileID: 11400000, guid: bbf576719f558384faacabb4b97b2137, type: 2}
+  - {fileID: 11400000, guid: a275dbc3b2e2d2e4f9b0fab569bc19a3, type: 2}
+  - {fileID: 11400000, guid: 5af2d474d0eb3f0499f78cd7153113d1, type: 2}
+  - {fileID: 11400000, guid: 10992d2d26bf9b9498ae1e7acf7b7f69, type: 2}
+  - {fileID: 11400000, guid: aa17069aea585b941817485228abb385, type: 2}
+  - {fileID: 11400000, guid: 32bc6ebfac6c8ae4ca052ea7a9b92a0c, type: 2}
+  - {fileID: 11400000, guid: 432b2b7ad0dceb842b356c7be6e3c26d, type: 2}
+  - {fileID: 11400000, guid: 495aec3612d26654daea186a66158acc, type: 2}
+  - {fileID: 11400000, guid: 4ef0646056c5b134986315bd5c7fbb07, type: 2}
+  - {fileID: 11400000, guid: 1ee490380236ba04687f6c7b96de4d86, type: 2}
+  - {fileID: 11400000, guid: a3a295d456a25b045a1e306cf142d418, type: 2}
+  - {fileID: 11400000, guid: 446fbbcbc1ba59b42891f82b934cf050, type: 2}
+  - {fileID: 11400000, guid: 77e6dedbe3443494a8a2164372ddd076, type: 2}
+  - {fileID: 11400000, guid: b112ed145a7e7724a8392f085d7bb067, type: 2}
+  - {fileID: 11400000, guid: 72081aec888ad8c4483f5462d8ec80eb, type: 2}
+  ProbabilityToGiveCardOnMerge: 0.3
+  UnlockingScore: 0
+  FTUEUnlockingScore: 0
+  ItemState: 0
+  FlowerParticleColor: {r: 0, g: 0.45882353, b: 1, a: 1}
+  FlowerColor: {r: 0.38039216, g: 0.5803922, b: 0.8980392, a: 1}
+  FlowerTrailColor: {r: 0, g: 0.2784314, b: 1, a: 1}
+  FlowerColorName: Blue
+  FlowerColorCode: '#008aff'
+  FlowerCardIconLarge: {fileID: 21300000, guid: 615fe93e7a7612c449b14cfe658a0dc2, type: 2}
+  FlowerCardIconSmall: {fileID: 21300000, guid: fb59da678059b9c49967397ff9c2ee80, type: 2}
+  FlowerCardTexture: {fileID: 2800000, guid: ac06fb7e1ae25c74e94acc713ae9ef66, type: 3}
+  ItemUpgradeObject: {fileID: 11400000, guid: d3910c5f1786b344b872666660ca0b76, type: 2}
+  MultiplierScore: 1
+  _dbTierID: {fileID: 11400000, guid: 6aa3fc50aef2f29488ad0df12afd31fb, type: 2}
+  _itemUpgradeSystem: {fileID: 11400000, guid: 172b06316c25e1141905fda2edebf6ea, type: 2}

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d4dfc3111f57aaa3843be5caf4eea3, type: 3}
+  m_Name: SeasonsPredefinedMissionDifficulty
+  m_EditorClassIdentifier:
+  _missionDifficulty: 4
+  _rewardObjects:
+  - RewardType: 0
+    RewardSubIndex: 0
+    Amount: 500
+    RewardIcon: {fileID: 21300000, guid: 50d16bbf0a3e3c845ad056d85529575b, type: 2}
+  - RewardType: 0
+    RewardSubIndex: 0
+    Amount: 750
+    RewardIcon: {fileID: 21300000, guid: 4e8105b5c92248a47952b82e09c19781, type: 2}
+  - RewardType: 0
+    RewardSubIndex: 0
+    Amount: 1000
+    RewardIcon: {fileID: 21300000, guid: d721470ca0769bf488a8d32a301eec4d, type: 2}
+  - RewardType: 0
+    RewardSubIndex: 0
+    Amount: 5000
+    RewardIcon: {fileID: 21300000, guid: e88ee780d63fbe24caaffdacdd79576e, type: 2}
+  - RewardType: 1
+    RewardSubIndex: 0
+    Amount: 5
+    RewardIcon: {fileID: 21300000, guid: 99e2e74396fb0a846b5c83dc6c579f5c, type: 2}
+  - RewardType: 1
+    RewardSubIndex: 0
+    Amount: 3
+    RewardIcon: {fileID: 21300000, guid: 99e2e74396fb0a846b5c83dc6c579f5c, type: 2}
+  - RewardType: 4
+    RewardSubIndex: 0
+    Amount: 2
+    RewardIcon: {fileID: 21300000, guid: 293054001890671468650c15fab11ce9, type: 2}
+  - RewardType: 4
+    RewardSubIndex: 0
+    Amount: 2
+    RewardIcon: {fileID: 21300000, guid: 293054001890671468650c15fab11ce9, type: 2}
+  - RewardType: 4
+    RewardSubIndex: 0
+    Amount: 4
+    RewardIcon: {fileID: 21300000, guid: 293054001890671468650c15fab11ce9, type: 2}
+  - RewardType: 4
+    RewardSubIndex: 0
+    Amount: 5
+    RewardIcon: {fileID: 21300000, guid: 293054001890671468650c15fab11ce9, type: 2}
+  - RewardType: 2
+    RewardSubIndex: 0
+    Amount: 4
+    RewardIcon: {fileID: 21300000, guid: 1abc17d2e06f503428f87015ecef0b0f, type: 2}
+  - RewardType: 3
+    RewardSubIndex: 0
+    Amount: 5
+    RewardIcon: {fileID: 21300000, guid: 1a084ddd679bca04c8f9fd5f50d3446b, type: 2}
+  - RewardType: 6
+    RewardSubIndex: 0
+    Amount: 200
+    RewardIcon: {fileID: 21300000, guid: 7a3f3da8119b46f4a9de75732ba58afa, type: 2}
+  - RewardType: 7
+    RewardSubIndex: 0
+    Amount: 150
+    RewardIcon: {fileID: 21300000, guid: 65e6156b7bff15544bd3b6e05791b41a, type: 2}
+  - RewardType: 11
+    RewardSubIndex: 1
+    Amount: 100
+    RewardIcon: {fileID: 21300000, guid: 8b4c25ee9df5c3d45a6eb269d2a26ad4, type: 2}
+  - RewardType: 11
+    RewardSubIndex: 2
+    Amount: 250
+    RewardIcon: {fileID: 21300000, guid: 10e5c6e089f0728438a82311b6f1d336, type: 2}

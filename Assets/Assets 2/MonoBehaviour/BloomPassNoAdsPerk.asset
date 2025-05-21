@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8caf4403b9d05cc2c90c0e1530ef2988, type: 3}
+  m_Name: BloomPassNoAdsPerk
+  m_EditorClassIdentifier:
+  _canGivePerk: 1
+  _worldToActivatePerk: 10
+  _intersToActivatePerk: 100
+  _perkIndex: 1
+  _perkActivated: {fileID: 11400000, guid: 4191e4c94efe017439fd1838ce9c1518, type: 2}
+  _metaSystem: {fileID: 11400000, guid: 7fae42422b9f4544daf4e2934b9af412, type: 2}
+  _userJourneySystem: {fileID: 11400000, guid: 07ff4c15f7c4f8b4b9d9378a1452a6a1, type: 2}
+  _removeAdsObject: {fileID: 11400000, guid: 9dfce24f633eb92439d7c4a2875ca9e7, type: 2}
+  _seasonalProgressPassSystem: {fileID: 11400000, guid: 8bc5daa517929bc4cb3a2a2c360b9b19, type: 2}
+  _analyticsSystem: {fileID: 11400000, guid: cb1c4086ecb5ede49a293574102dc5cc, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590cff9c7691efbfa4f23432c48bed6e, type: 3}
+  m_Name: RedButtonData
+  m_EditorClassIdentifier:
+  ButtonColorType: 1
+  TopSprite:
+    fileName: Button-Top_0
+    fileGuid: 08094d172a1d44303be49ea5cc48afc8
+    resourceFilePath: Button-Top2
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/UI/Button/Resources/Button-Top2.png
+  DepthColor: {r: 0.84705883, g: 0.2509804, b: 0.2509804, a: 1}

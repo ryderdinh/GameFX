@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 241b0c69c9031edc7083e1b51835cb19, type: 3}
+  m_Name: LiveOpsOffer 2
+  m_EditorClassIdentifier:
+  Product: {fileID: 11400000, guid: 3eba7d446085cc44db1b473ce1714bb5, type: 2}
+  Price: 9.99
+  IsStarterPack: 0
+  Coins: 7500
+  RemoveAds: 0
+  SkipAds: 20
+  CardsItemData: {fileID: 11400000, guid: 0043668d38fe177488253ea8d73818df, type: 2}
+  BrushCutter: 4
+  Sprayer: 4
+  WheelsBarrow: 4
+  LiveOpsOfferItemData:
+    WorthCoins: 3500
+    WorthSkipAds: 8
+    OfferWorthBGSprite:
+      fileName: Bg-offer2_0
+      fileGuid: be371fe62bb754e87999a37c4d29401a
+      resourceFilePath: bg - redWorth
+      filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/_SpecialOffer/Art/2D/Sprites/LiveOpsOffer/Resources/bg - redWorth.png
+    OfferFreeBGSprite:
+      fileName: bg-offer1_0
+      fileGuid: 97d2f4a03d8a64efebb614766a71f4f8
+      resourceFilePath: bg - redFree
+      filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/_SpecialOffer/Art/2D/Sprites/LiveOpsOffer/Resources/bg - redFree.png
+    OfferBGColor: {r: 0.8666667, g: 0.32156864, b: 0.5529412, a: 1}
+    OfferID: 3/3
+  Time: 86400
+  SpecialOfferType: 18
+  OfferType: 1
+  OfferHeader: 3/3
+  OfferAnimatedIcon:
+    fileName: Cupid-Button
+    fileGuid: 1407990ded6e84b1384bcde04728ca3a
+    resourceFilePath: Cupid-Button
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/_SpecialOffer/Resources/Cupid-Button.prefab
+  OfferCardBG:
+    fileName: offer-bg_0
+    fileGuid: 35df88c48aec44b71b03899ab0823733
+    resourceFilePath: CardBG/special
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/Art/Sprites/Pack/Resources/CardBG/special.png
+  OfferCardTimerNotch:
+    fileName: super-notch_0
+    fileGuid: 362f82dfbf8784b56bd0048d40ffe1dd
+    resourceFilePath: CardTimerBG/special-notch
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/Art/Sprites/Pack/Resources/CardTimerBG/special-notch.png
+  OfferHeaderTextMaterial:
+    fileName: Barlow-Black outlineDarkPurple
+    fileGuid: 515af179cb55e431997ff7bfb0849b64
+    resourceFilePath: Barlow-Black outlineDarkPurple
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Text/Font/Resources/Barlow-Black outlineDarkPurple.mat
+  OfferHeaderSubTitleColor: {r: 0, g: 0, b: 0, a: 0.5019608}
+  OfferHeaderTitle:
+    fileName: special
+    fileGuid: 859660f7a70c64f3d96f416db5188822
+    resourceFilePath: special
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/_SpecialOffer/Art/2D/Sprites/Resources/special.png
+  OfferViewBGColor: {r: 0.5686275, g: 0.30980393, b: 0.8117647, a: 1}
+  OfferSeparationLineColor: {r: 0.56078434, g: 0.28235295, b: 0.88235295, a: 1}
+  OfferHeaderTitleBGColor: {r: 0, g: 0, b: 0, a: 0}

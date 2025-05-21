@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 241b0c69c9031edc7083e1b51835cb19, type: 3}
+  m_Name: StarterPackOffer
+  m_EditorClassIdentifier:
+  Product: {fileID: 11400000, guid: a5c65c90266d2434ca4c84e7194a0b4e, type: 2}
+  Price: 7.99
+  IsStarterPack: 1
+  Coins: 5000
+  RemoveAds: 1
+  SkipAds: 10
+  CardsItemData: {fileID: 11400000, guid: 0043668d38fe177488253ea8d73818df, type: 2}
+  BrushCutter: 2
+  Sprayer: 2
+  WheelsBarrow: 2
+  LiveOpsOfferItemData:
+    WorthCoins: 0
+    WorthSkipAds: 0
+    OfferWorthBGSprite:
+      fileName:
+      fileGuid:
+      resourceFilePath:
+      filePath:
+    OfferFreeBGSprite:
+      fileName:
+      fileGuid:
+      resourceFilePath:
+      filePath:
+    OfferBGColor: {r: 0, g: 0, b: 0, a: 0}
+    OfferID:
+  Time: 86400
+  SpecialOfferType: 0
+  OfferType: 0
+  OfferHeader: Starter Pack
+  OfferAnimatedIcon:
+    fileName: Animated-StarterPack
+    fileGuid: 2990a75f6fd7b4d4f91eba6bed645cb4
+    resourceFilePath: Animated-StarterPack
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/_SpecialOffer/Art/2D/Sprites/Resources/Animated-StarterPack.prefab
+  OfferCardBG:
+    fileName: offer-bg-red_0
+    fileGuid: 2762d290132c14822a24586a96c72746
+    resourceFilePath: CardBG/starter-pack
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/Art/Sprites/Pack/Resources/CardBG/starter-pack.png
+  OfferCardTimerNotch:
+    fileName: top-notch-red_0
+    fileGuid: c693eabab6e584a60a1d4bc047cb4cbb
+    resourceFilePath: CardTimerBG/starterPack-notch
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/Art/Sprites/Pack/Resources/CardTimerBG/starterPack-notch.png
+  OfferHeaderTextMaterial:
+    fileName: Barlow-Black outlineDarkRed
+    fileGuid: 4a0ca3160cb1a48deb34aee420eb718b
+    resourceFilePath: Barlow-Black outlineDarkRed
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Text/Font/Resources/Barlow-Black outlineDarkRed.mat
+  OfferHeaderSubTitleColor: {r: 0, g: 0, b: 0, a: 0}
+  OfferHeaderTitle:
+    fileName:
+    fileGuid:
+    resourceFilePath:
+    filePath:
+  OfferViewBGColor: {r: 0, g: 0, b: 0, a: 0}
+  OfferSeparationLineColor: {r: 0, g: 0, b: 0, a: 0}
+  OfferHeaderTitleBGColor: {r: 0, g: 0, b: 0, a: 0}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e21e3d543cd1b21b2bff4c3248a10da, type: 3}
+  m_Name: MarketItemCardsPack_1
+  m_EditorClassIdentifier:
+  Product: {fileID: 11400000, guid: 8936b1f6ed07d2744b0dcb554deb0818, type: 2}
+  Price: 1.49
+  IsStarterPack: 0
+  Coins: 0
+  RemoveAds: 0
+  SkipAds: 0
+  CardsItemData: {fileID: 11400000, guid: 7b7dff6b599f514499f0a2e338fab82c, type: 2}

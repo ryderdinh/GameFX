@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bbb62978533b83b72a46f3fdd65424, type: 3}
+  m_Name: ItemSystem
+  m_EditorClassIdentifier:
+  _delayToShowNextUnlock: 2.5
+  _initialUnlockAbleItems: 2
+  _maxUnlockItemsCount: 6
+  _itemProgression: {fileID: 11400000, guid: cb05ba88995344348a360af8c0dbb3b9, type: 2}
+  _allItemsObject: {fileID: 11400000, guid: 1f8735b2bde91064297562f2d387a094, type: 2}
+  _itemUpgradeSystem: {fileID: 11400000, guid: 172b06316c25e1141905fda2edebf6ea, type: 2}

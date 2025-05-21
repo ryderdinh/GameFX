@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62585b74829e6387bbc8bced4ef2ac05, type: 3}
+  m_Name: SmartBoosterSelectionObject
+  m_EditorClassIdentifier:
+  _appliedBoostersData: {fileID: 11400000, guid: ead5e7c1f01832d48aaf5a4e138742d8, type: 2}
+  _totalFlowerUpgradeAppliedData: {fileID: 11400000, guid: 62ac1f5018e51c248889898f539b3c05, type: 2}
+  _totalDishUpgradeAppliedData: {fileID: 11400000, guid: 9164a992139c1a64685af5fdb535c6e4, type: 2}
+  _totalSlotUnlockAppliedData: {fileID: 11400000, guid: 643a6ed59a5bb1a4498e12294742ca17, type: 2}
+  _slotsStateObject: {fileID: 11400000, guid: 6ca9c7c2b68b83e44bfede18ee207a72, type: 2}
+  _allItemsObject: {fileID: 11400000, guid: 1f8735b2bde91064297562f2d387a094, type: 2}
+  _gridDifficultyCalculator: {fileID: 11400000, guid: ca4bc48bb10d2ed4896426f33e363559, type: 2}
+  _dishUpgradableObject: {fileID: 11400000, guid: a9e2145921434aa48b434f52c5410e95, type: 2}
+  _dishSpawnerObject: {fileID: 11400000, guid: 4b7c0ff8e3eeae842a4b4efd0294dbf6, type: 2}
+  _gridDataObject: {fileID: 11400000, guid: fde16635f0f3c5d4da9e8105257dfe55, type: 2}
+  _gridActiveBoosterScore: 70
+  _boosterSelectionCalculationObject: {fileID: 11400000, guid: d00585ead4d0c6640ac20c7d12689383, type: 2}

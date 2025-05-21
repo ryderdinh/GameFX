@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98db61bf03d70959495e2a62e7ce3d07, type: 3}
+  m_Name: RewardController
+  m_EditorClassIdentifier:
+  _missionRewardObjects:
+  - RewardType: 0
+    RewardIcons:
+    - {fileID: 21300000, guid: c4e1624144f0c744787b8581bfcd3938, type: 2}
+    - {fileID: 21300000, guid: 50d16bbf0a3e3c845ad056d85529575b, type: 2}
+    - {fileID: 21300000, guid: 4e8105b5c92248a47952b82e09c19781, type: 2}
+    - {fileID: 21300000, guid: d721470ca0769bf488a8d32a301eec4d, type: 2}
+    - {fileID: 21300000, guid: e88ee780d63fbe24caaffdacdd79576e, type: 2}
+  - RewardType: 1
+    RewardIcons:
+    - {fileID: 21300000, guid: 2ca9b9f2ce935de429ae888a0e6ad41a, type: 2}
+    - {fileID: 21300000, guid: 04d491837f0b5834e94dd38afedca12a, type: 2}
+    - {fileID: 21300000, guid: 99e2e74396fb0a846b5c83dc6c579f5c, type: 2}
+  - RewardType: 2
+    RewardIcons:
+    - {fileID: 21300000, guid: 1abc17d2e06f503428f87015ecef0b0f, type: 2}
+  - RewardType: 3
+    RewardIcons:
+    - {fileID: 21300000, guid: 1a084ddd679bca04c8f9fd5f50d3446b, type: 2}
+  - RewardType: 4
+    RewardIcons:
+    - {fileID: 21300000, guid: 293054001890671468650c15fab11ce9, type: 2}
+  - RewardType: 5
+    RewardIcons:
+    - {fileID: 21300000, guid: 59ba2f75b54254548876776039e3b19d, type: 2}
+  - RewardType: 6
+    RewardIcons:
+    - {fileID: 21300000, guid: 7a3f3da8119b46f4a9de75732ba58afa, type: 2}
+  - RewardType: 7
+    RewardIcons:
+    - {fileID: 21300000, guid: 65e6156b7bff15544bd3b6e05791b41a, type: 2}
+  - RewardType: 8
+    RewardIcons:
+    - {fileID: 21300000, guid: d54d4b2b659a9ab4883f5bf0ad59b38b, type: 2}
+  - RewardType: 9
+    RewardIcons:
+    - {fileID: 21300000, guid: dffa0ec437c1d6f459380731c40a17ec, type: 2}
+  - RewardType: 10
+    RewardIcons:
+    - {fileID: 21300000, guid: 83c79a6709661ff4a95c71a56a9b0714, type: 2}
+  - RewardType: 11
+    RewardIcons:
+    - {fileID: 21300000, guid: 9e927beee9ddef94f83f5995b2536c8e, type: 2}
+    - {fileID: 21300000, guid: 8b4c25ee9df5c3d45a6eb269d2a26ad4, type: 2}
+    - {fileID: 21300000, guid: 10e5c6e089f0728438a82311b6f1d336, type: 2}
+  _cardsItemsData:
+  - {fileID: 11400000, guid: 442765f1410845d49abee3c5d63e705d, type: 2}
+  - {fileID: 11400000, guid: 66120422b94b264479c2e898ee147ab9, type: 2}
+  - {fileID: 11400000, guid: 1a8ddbae0a5e6f44bae2c44663a71372, type: 2}
+  _flowerCardSource: 5

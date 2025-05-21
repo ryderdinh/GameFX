@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd38bf21c5da4c919b6d44716da324e9, type: 3}
+  m_Name: WheelBarrow
+  m_EditorClassIdentifier:
+  Type: 18
+  MissionType: 21
+  Name: Wheel Barrow
+  Description: Shuffle Board
+  DetailedDescription:
+  Affect: 1
+  Category: 0
+  BoosterLevel: 2
+  PassiveBoosterCategory: 0
+  PassiveBoosterType: 0
+  IconType: 0
+  Sprite: {fileID: 21300000, guid: 65e8609dfe355d842ae4afec3aaf761a, type: 2}
+  IconPrefab: {fileID: 0}
+  BgSprite: {fileID: 21300000, guid: cd2c54938ee358646aa7ac6dfba74e42, type: 2}
+  SmallIconType: 0
+  PredefinedSmallIcon: {fileID: 0}
+  BoosterDropObject:
+    fileName: WheelBarrow-DropObject Variant
+    fileGuid: b19c83a7e2cf646aca789c6f58ccb963
+    resourceFilePath: WheelBarrow-DropObject Variant
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/WheelBarrow/Resources/WheelBarrow-DropObject Variant.prefab
+  SmallIconPrefab: {fileID: 0}
+  UnlockingScore: 0
+  _addScore: 0
+  _scoreToAdd: 0
+  _scorePercentage: 0
+  _addCoins: 0
+  _coinsToAdd: 0
+  _rewardValueRange:
+    MinValue: 0
+    MaxValue: 0
+  _passiveBoostertimeDuration: 0
+  BoosterExecutionDelay: 0.75
+  _iconPositionDelta: {x: 0, y: 0, z: 0}
+  _descriptionPositionDelta: {x: 0, y: 0}
+  _descriptionRectSizeDelta: {x: 0, y: 0}
+  _namePositionDelta: {x: 0, y: 0}
+  _iconScaleFactor: 1
+  _nameIconScaleFactor: 0
+  _iconRotationOnView: {x: 0, y: 0, z: 0}
+  _boosterNameSprite:
+    fileName: WaterCan-text
+    fileGuid: 47421146b0138400695f17dbdb9e804c
+    resourceFilePath: WaterCan-text
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/Art/Resources/WaterCan-text.png
+  _iconHoverPosition: {x: 0, y: 0}
+  _configs: {fileID: 11400000, guid: c6c8a20f204cfc14b9a5ef4fd8afa2af, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 740b0f36616d00afb7637567829cb931, type: 3}
+  m_Name: _PurpleFlowerAnalytics
+  m_EditorClassIdentifier:
+  _flowerType: 5
+  _itemSystem: {fileID: 11400000, guid: 30b7eb20e09f1e64fa3ca93e3db55e34, type: 2}
+  _flowerJourneyData: {fileID: 11400000, guid: 6886e93a6a7b1794aa85f5effe58214a, type: 2}
+  _variablesToPort:
+  - PurpleFlowersMerged
+  - PurpleFlowersCollectedFromBoosters
+  - PurpleFlowersCollectedFromMarket
+  - PurpleFlowersCollectedFromProgressPack
+  - PurpleFlowersCollectedFromFlowerMerge
+  - PurpleFlowersCollectedFromSPP

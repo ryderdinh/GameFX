@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3583d74bbe5bfd7f52874284624efd33, type: 3}
+  m_Name: RespawnTraysObjectViewConfigs
+  m_EditorClassIdentifier:
+  BoosterProductionObj:
+    fileName: Rake
+    fileGuid: 0e077ce424a1e485d9f1d6b2bbd2546e
+    resourceFilePath: Rake
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/RespawnTrays/Resources/Rake.prefab
+  InitialPosition: {x: 80, y: 45, z: -29}
+  InitialRotation: {x: -60, y: 90, z: 0}
+  TargetX: -38
+  TraysPositions:
+  - {x: 0, y: -4.8, z: -9.7}
+  - {x: 0, y: 3.4, z: -9.7}
+  - {x: 0, y: 12.3, z: -9.7}
+  TraysRotation: {x: 0, y: 0, z: 0}
+  BaseMovementTime: 1

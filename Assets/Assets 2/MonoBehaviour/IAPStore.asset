@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5b868b8187fa3e3b9e8ace4efc5dceb, type: 3}
+  m_Name: IAPStore
+  m_EditorClassIdentifier:
+  FakeStoreUIMode: 2
+  IAPVerification: {fileID: 11400000, guid: 01e1ced502cd69146876e5b87985b929, type: 2}
+  IAPItems:
+  - {fileID: 11400000, guid: befcccb1d77846c4d84e3233267169ef, type: 2}
+  - {fileID: 11400000, guid: e278910ff2044d948ab92a952cb9d30c, type: 2}
+  - {fileID: 11400000, guid: fac290dbca59e9d46960c02e0fa0252e, type: 2}
+  - {fileID: 11400000, guid: e94825434724e4a4bbc201bf30d16a47, type: 2}
+  - {fileID: 11400000, guid: 53e44f4772052a6498d4f4ce96173d84, type: 2}
+  - {fileID: 11400000, guid: 3d578b0a8e67c7544a26da3796957498, type: 2}
+  - {fileID: 11400000, guid: 4ecf1ca203f30de44b21d1a61dbd378b, type: 2}
+  - {fileID: 11400000, guid: 8e5d9daec7af0174bb0db9992a3bc923, type: 2}
+  - {fileID: 11400000, guid: 968637989c7671f429d6caf455f85413, type: 2}
+  - {fileID: 11400000, guid: 42ad99373a4160e43bc624ca0f53b569, type: 2}
+  - {fileID: 11400000, guid: c4b38d60e9b34d84fab64d89f3ac7d39, type: 2}
+  - {fileID: 11400000, guid: 90e2de33dabc3c44681dbf99526447d4, type: 2}
+  - {fileID: 11400000, guid: 6ab914f6ec6db9043ac37cf52280beac, type: 2}
+  - {fileID: 11400000, guid: 55b66e4a5493bc1478171d026116cbda, type: 2}
+  - {fileID: 11400000, guid: c45cc2b7d2a38e447b8f29e612a46e92, type: 2}
+  - {fileID: 11400000, guid: 74bd3415133aa904fbeba45b2f7681b8, type: 2}
+  - {fileID: 11400000, guid: b7b37eaccf469804a8554143dce71b3d, type: 2}
+  - {fileID: 11400000, guid: ba86f3149afaf7341b1e0238756ee6b0, type: 2}
+  - {fileID: 11400000, guid: 09ac10dfa4ef85c4a8f64830e31764de, type: 2}
+  - {fileID: 11400000, guid: 9f608d5acdeb17a41a84861c4d60fa11, type: 2}
+  - {fileID: 11400000, guid: 167348dc451169c4bbed5c51328d2752, type: 2}
+  - {fileID: 11400000, guid: eb1c829cffe5c5b4d806a2dc6b6cda28, type: 2}
+  - {fileID: 11400000, guid: 6c992d87080491145a3be8ef3134b449, type: 2}
+  - {fileID: 11400000, guid: 31f143e340320c644b6789493be73dbe, type: 2}
+  - {fileID: 11400000, guid: 0ce46007ce6b4b746af035a8c82dc873, type: 2}
+  - {fileID: 11400000, guid: ba4b6967b0ce81e4fbdef91de158f1ab, type: 2}
+  - {fileID: 11400000, guid: d88d574b3a8b14142afa68d5ec433688, type: 2}
+  - {fileID: 11400000, guid: 55d811c7bedd5274b83c203e9637cf89, type: 2}
+  - {fileID: 11400000, guid: 815dcd7d8dfc08248bef286329f26699, type: 2}
+  - {fileID: 11400000, guid: b46843040d9332d4dabc6caeeb2b2322, type: 2}
+  - {fileID: 11400000, guid: ad59e4516395a164cbced4d2ffb5da4d, type: 2}
+  - {fileID: 11400000, guid: a1707c643d7305346a7dd1ece613ea5e, type: 2}
+  - {fileID: 11400000, guid: 5eac218424f8c874d89681738c8a7e1a, type: 2}
+  - {fileID: 11400000, guid: f02a58eda5ac7644b9dee540af7ee996, type: 2}
+  - {fileID: 11400000, guid: be8d1b1fa4da7244086c77cb40ea4e0c, type: 2}
+  - {fileID: 11400000, guid: 528a22d91ba922744af2177444265da5, type: 2}
+  - {fileID: 11400000, guid: 8e81229f606d15a4bacfa933671b426d, type: 2}
+  _inAppsToRestore:
+  - {fileID: 11400000, guid: 55d811c7bedd5274b83c203e9637cf89, type: 2}
+  - {fileID: 11400000, guid: 09ac10dfa4ef85c4a8f64830e31764de, type: 2}
+  - {fileID: 11400000, guid: 5eac218424f8c874d89681738c8a7e1a, type: 2}
+  - {fileID: 11400000, guid: f02a58eda5ac7644b9dee540af7ee996, type: 2}
+  IAPRecordBook: {fileID: 11400000, guid: b95b995de79c8c5478f77a808faf8739, type: 2}
+  _userStateBackup: {fileID: 11400000, guid: 7289ff96c66b3564381289dbc17e5371, type: 2}
+  PremiumUser: {fileID: 11400000, guid: 2daa84f4dfc940949a4e1426cf806a90, type: 2}

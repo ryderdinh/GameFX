@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d89d7545e1a14994f9316bed2bec0efe, type: 3}
+  m_Name: HorizontalVerticalRocket
+  m_EditorClassIdentifier:
+  Type: 6
+  MissionType: 0
+  Name: Remove all pots in a column
+  Description: Remove all pots in a column
+  DetailedDescription:
+  Affect: 1
+  Category: 0
+  BoosterLevel: 0
+  PassiveBoosterCategory: 0
+  PassiveBoosterType: 0
+  IconType: 0
+  Sprite: {fileID: 21300000, guid: a4e94f9a5afe9b941834a5929a2321ef, type: 2}
+  IconPrefab: {fileID: 0}
+  BgSprite: {fileID: 21300000, guid: db7cd75dd20551649a19f1cc9db3ca55, type: 2}
+  SmallIconType: 0
+  PredefinedSmallIcon: {fileID: 0}
+  BoosterDropObject:
+    fileName:
+    fileGuid:
+    resourceFilePath:
+    filePath:
+  SmallIconPrefab: {fileID: 0}
+  UnlockingScore: 0
+  _addScore: 0
+  _scoreToAdd: 0
+  _scorePercentage: 0.5
+  _addCoins: 0
+  _coinsToAdd: 1
+  _rewardValueRange:
+    MinValue: 0
+    MaxValue: 0
+  _passiveBoostertimeDuration: 0
+  BoosterExecutionDelay: 0
+  _iconPositionDelta: {x: 0, y: 0, z: 0}
+  _descriptionPositionDelta: {x: 0, y: 0}
+  _descriptionRectSizeDelta: {x: 0, y: 0}
+  _namePositionDelta: {x: 0, y: 0}
+  _iconScaleFactor: 1
+  _nameIconScaleFactor: 0
+  _iconRotationOnView: {x: 0, y: 0, z: 0}
+  _boosterNameSprite:
+    fileName: Scissors-text
+    fileGuid: 6ba32c474325c41dc8cf77cc4453c5c3
+    resourceFilePath: Scissors-text
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/Art/Resources/Scissors-text.png
+  _iconHoverPosition: {x: 0, y: 0}

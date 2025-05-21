@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50f8b944300b2dd7a42b607a97a7f1df, type: 3}
+  m_Name: Flower-Green-TierData-435
+  m_EditorClassIdentifier:
+  Object: {fileID: 114209287913301746, guid: bd88980c7d0024f4cbe22414122f79e5, type: 2}
+  CakeUIObject: {fileID: 114551242885459156, guid: 92997de321ff6e547aa8f8382e16d596, type: 2}
+  TierScore: 171
+  MidMesh:
+    fileName: Mid-17
+    fileGuid: 1d83add1e569cd641957ee7f18cf9cb8
+    resourceFilePath: Buds/Mid-17
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Flower/Art/3D/_Flowers/_Common/Resources/Buds/Mid-17.fbx
+  FlowerTexture:
+    fileName: Flower-Shape-03-Style-05
+    fileGuid: e417337a7e55a41a6a166958109a2a95
+    resourceFilePath: Textures/Flower-Shape-03-Style-05
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Flower/Art/3D/_Flowers/_Common/Resources/Textures/Flower-Shape-03-Style-05.png
+  FlowerName: Minty Mist
+  Cost: 2800
+  CardsRequiredToUnlock: 900

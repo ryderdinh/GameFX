@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50f8b944300b2dd7a42b607a97a7f1df, type: 3}
+  m_Name: Flower-Yellow-TierData-205
+  m_EditorClassIdentifier:
+  Object: {fileID: 114518712141651239, guid: 1c7f70c490a5e5b46a38b272de91fcd9, type: 2}
+  CakeUIObject: {fileID: 114831331633636986, guid: 830e194bf20da764c8bb4dd2fa1bbb10, type: 2}
+  TierScore: 17
+  MidMesh:
+    fileName: Mid-13
+    fileGuid: 2ec39d00c03bf40a2ae3f9600806cca0
+    resourceFilePath: Buds/Mid-13
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Flower/Art/3D/_Flowers/_Common/Resources/Buds/Mid-13.fbx
+  FlowerTexture:
+    fileName: Flower-Shape-05-Style-01
+    fileGuid: cf4124b086df2411bb62e96052e9d17a
+    resourceFilePath: Textures/Flower-Shape-05-Style-01
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Flower/Art/3D/_Flowers/_Common/Resources/Textures/Flower-Shape-05-Style-01.png
+  FlowerName: Gold Glimmer
+  Cost: 80
+  CardsRequiredToUnlock: 20

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efc0c52d6413cb6b3ba18ec828e98752, type: 3}
+  m_Name: DishSpawnerObject-Favor
+  m_EditorClassIdentifier:
+  _isFTUESpawner: 1
+  dishes: {fileID: 11400000, guid: a9e2145921434aa48b434f52c5410e95, type: 2}
+  _turboMode: {fileID: 11400000, guid: 3ba8796af0fcdf3418f276fe37c253cc, type: 2}
+  _levelSystem: {fileID: 11400000, guid: 7295b9c5f2015ca44a59d7c4e797758f, type: 2}
+  _cakeTypesInSingleDishProb:
+  - 0.25
+  - 0.5
+  - 0.25
+  _cakeTypesInSingleDishProbInHardMode:
+  - 0.1
+  - 0.4
+  - 0.5
+  _maxSlicesToSpawn: 5
+  _maxSlicesToSpawnForDualTray: 4
+  _cakeSlicesProb:
+  - 0.05
+  - 0.2
+  - 0.25
+  - 0.3
+  - 0.2
+  _cakeSlicesProbForDualTray:
+  - 0.1
+  - 0.25
+  - 0.3
+  - 0.35
+  _scoreSystem: {fileID: 11400000, guid: e43858b361243d84d911de71f095a151, type: 2}
+  _currentItemsInProgress: {fileID: 11400000, guid: 2416821f1b5ffed49b5e65d6646632ea, type: 2}
+  _itemSystem: {fileID: 11400000, guid: 30b7eb20e09f1e64fa3ca93e3db55e34, type: 2}
+  _bestPotProbabilityNormal:
+    BaseProbabilityToSpawnBestPot: 0.15
+    BestPotProbToIncreaseDelta: 0.0125
+    MaxProbabilityToSpawnBestPot: 1
+    GridDifficultyToIncreaseBestPotProbability: 40
+  _bestPotProbabilityScoreBased:
+    BaseProbabilityToSpawnBestPot: 0.1
+    BestPotProbToIncreaseDelta: 0.0125
+    MaxProbabilityToSpawnBestPot: 0.5
+    GridDifficultyToIncreaseBestPotProbability: 40
+  _bestPotProbabilityHard:
+    BaseProbabilityToSpawnBestPot: 0.05
+    BestPotProbToIncreaseDelta: 0.01
+    MaxProbabilityToSpawnBestPot: 0.5
+    GridDifficultyToIncreaseBestPotProbability: 70
+  _gridDifficultyCalculator: {fileID: 11400000, guid: ca4bc48bb10d2ed4896426f33e363559, type: 2}
+  _gridLockedState: {fileID: 11400000, guid: 5ab0b4feac57ff242affb4fd12d6c738, type: 2}
+  _tempCakeData: {fileID: 11400000, guid: 03182854cdc6f27428858b25ad4e79cc, type: 2}
+  _gridConfigs: {fileID: 11400000, guid: ad2fe80ac69002d419735f299052bcdc, type: 2}

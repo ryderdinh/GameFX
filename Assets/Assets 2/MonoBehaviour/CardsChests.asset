@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da6544cf55bf71ee996598919108ab3, type: 3}
+  m_Name: CardsChests
+  m_EditorClassIdentifier:
+  CardsChests:
+  - MatchesRequired: 100
+    CardsToAddData: {fileID: 11400000, guid: 3e2c56178d9855547896d5a4c5de0b1c, type: 2}
+  - MatchesRequired: 100
+    CardsToAddData: {fileID: 11400000, guid: 61e674934199046449d4949a7d0d7f75, type: 2}
+  - MatchesRequired: 100
+    CardsToAddData: {fileID: 11400000, guid: c4e3af784f7cfe644b3bb91c52630387, type: 2}
+  - MatchesRequired: 100
+    CardsToAddData: {fileID: 11400000, guid: 9ea4c0e24711c0240b1144ea4bdf8cb9, type: 2}
+  - MatchesRequired: 100
+    CardsToAddData: {fileID: 11400000, guid: b28dab529d355e14cb96975d3e375817, type: 2}
+  - MatchesRequired: 100
+    CardsToAddData: {fileID: 11400000, guid: 2a3bfa4131b19d243a7cc4cdd889f12d, type: 2}
+  - MatchesRequired: 100
+    CardsToAddData: {fileID: 11400000, guid: 5076eb4f1d9b90043985679cfdf95af6, type: 2}
+  - MatchesRequired: 100
+    CardsToAddData: {fileID: 11400000, guid: be78df323b6444d40ae809ef76ca2fd7, type: 2}
+  - MatchesRequired: 100
+    CardsToAddData: {fileID: 11400000, guid: cb4814e7f4c250145924904d713c8dc4, type: 2}
+  - MatchesRequired: 100
+    CardsToAddData: {fileID: 11400000, guid: b65a025218e3f3b4792957ca7be04531, type: 2}

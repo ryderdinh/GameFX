@@ -1,0 +1,504 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32159d0ab1e7755af3c9ff9e7fc3aa85, type: 3}
+  m_Name: Sounds
+  m_EditorClassIdentifier:
+  MixerController: {fileID: 11400000, guid: 0f8c97ef505bca445afa3f9ba7be6359, type: 2}
+  SoundVolumeMultiplier: 10
+  m_BackgroundMusic:
+  - Type: 1
+    Clip:
+    - {fileID: 8300000, guid: f31093b7d6d830545a9c68f35136402a, type: 3}
+    Volume: 0.15
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - Type: 2
+    Clip:
+    - {fileID: 8300000, guid: f1b285588188aff4d8eb87d8546ac1df, type: 3}
+    Volume: 0.05
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  m_SoundEffectArray:
+  - type: 0
+    clip: {fileID: 8300000, guid: dbb97d2cc291f174faf315d468069adc, type: 3}
+    Volume: 0.075
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 1
+    clip: {fileID: 8300000, guid: b81309ee6e14eb64cb0f49ac63bfdf18, type: 3}
+    Volume: 0.2
+    Pitch:
+      MinValue: 0.9
+      MaxValue: 1.1
+  - type: 2
+    clip: {fileID: 8300000, guid: 9fe7b2c63b15c2a47b637677d9b8f48b, type: 3}
+    Volume: 0.1
+    Pitch:
+      MinValue: 0.9
+      MaxValue: 1.1
+  - type: 9
+    clip: {fileID: 8300000, guid: 07c12c51c0595ef47ad72264103d9b6d, type: 3}
+    Volume: 0.025
+    Pitch:
+      MinValue: 0.9
+      MaxValue: 1.1
+  - type: 8
+    clip: {fileID: 8300000, guid: 13780ac0772ae494abab0c82cf2ced22, type: 3}
+    Volume: 0.075
+    Pitch:
+      MinValue: 0.9
+      MaxValue: 1.1
+  - type: 10
+    clip: {fileID: 8300000, guid: a56bbac9a605f334d8cc80aa8d3b882e, type: 3}
+    Volume: 0.025
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 11
+    clip: {fileID: 8300000, guid: 591c9cbe008c1764588000b8cd928acb, type: 3}
+    Volume: 0.2
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 12
+    clip: {fileID: 8300000, guid: 1bf0b01ab64972f4bb471492af5b561c, type: 3}
+    Volume: 0.2
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 13
+    clip: {fileID: 8300000, guid: a3b45242763905c42b7ad51f21842f12, type: 3}
+    Volume: 0.2
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 14
+    clip: {fileID: 8300000, guid: bc23b61b4ee617a4e954e28fa38f376c, type: 3}
+    Volume: 0.2
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 15
+    clip: {fileID: 8300000, guid: 19e8b61d84f55b84c8e4b7a6c19746a1, type: 3}
+    Volume: 0.11
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 17
+    clip: {fileID: 8300000, guid: 3da802bcb316f104eb8004e5eec18c4d, type: 3}
+    Volume: 0.2
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 16
+    clip: {fileID: 8300000, guid: a44911b8d2e60aa46ac849e7239603f9, type: 3}
+    Volume: 0.15
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 19
+    clip: {fileID: 8300000, guid: 44045109b7145b74e8ba1650f1222f92, type: 3}
+    Volume: 1
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 20
+    clip: {fileID: 8300000, guid: 2b50dcc60a0f2544984fedd8b80810b9, type: 3}
+    Volume: 0.8
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 21
+    clip: {fileID: 8300000, guid: d28ee7b1d55315740a966a1b27c823d4, type: 3}
+    Volume: 0.3
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 22
+    clip: {fileID: 8300000, guid: 120546215478b1a49a3146bf544cd0f8, type: 3}
+    Volume: 0.15
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 24
+    clip: {fileID: 8300000, guid: b2e1401adde1012438b1aa1c68d9ff2e, type: 3}
+    Volume: 0.05
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 25
+    clip: {fileID: 8300000, guid: 0ab576f102690e8468c56a4e198fe018, type: 3}
+    Volume: 0.2
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 26
+    clip: {fileID: 8300000, guid: b2e1401adde1012438b1aa1c68d9ff2e, type: 3}
+    Volume: 0.15
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 27
+    clip: {fileID: 8300000, guid: 44045109b7145b74e8ba1650f1222f92, type: 3}
+    Volume: 0.6
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 28
+    clip: {fileID: 8300000, guid: 48712cb7e676b4d48ae8b1d9f898c208, type: 3}
+    Volume: 0.04
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 29
+    clip: {fileID: 8300000, guid: b2e1401adde1012438b1aa1c68d9ff2e, type: 3}
+    Volume: 0.00625
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 30
+    clip: {fileID: 8300000, guid: 1334f050d3da9fb4c9d84e03ece30995, type: 3}
+    Volume: 0.2
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 31
+    clip: {fileID: 8300000, guid: cb11b555144cefd4993c1bb4eb730354, type: 3}
+    Volume: 0.75
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 32
+    clip: {fileID: 8300000, guid: df51f0dc92dbb514f85d28e12151b9bc, type: 3}
+    Volume: 0.1
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 33
+    clip: {fileID: 8300000, guid: 44045109b7145b74e8ba1650f1222f92, type: 3}
+    Volume: 0.4
+    Pitch:
+      MinValue: 0.9
+      MaxValue: 1.1
+  - type: 34
+    clip: {fileID: 8300000, guid: 49fc5acc8617d424e87dd01331e6614a, type: 3}
+    Volume: 0.3
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 35
+    clip: {fileID: 8300000, guid: 7aac8d485d0266f4ba1777549916e85a, type: 3}
+    Volume: 0.3
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 36
+    clip: {fileID: 8300000, guid: f884ccaccaab91b4bbe0a60c1ebeedd3, type: 3}
+    Volume: 0.3
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 37
+    clip: {fileID: 8300000, guid: b2e1401adde1012438b1aa1c68d9ff2e, type: 3}
+    Volume: 0.025
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 38
+    clip: {fileID: 8300000, guid: b2e1401adde1012438b1aa1c68d9ff2e, type: 3}
+    Volume: 0.01
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 39
+    clip: {fileID: 8300000, guid: 49fc5acc8617d424e87dd01331e6614a, type: 3}
+    Volume: 0.075
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 40
+    clip: {fileID: 8300000, guid: 297945e43dab73d44ae9dc252013693f, type: 3}
+    Volume: 0.2
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 41
+    clip: {fileID: 8300000, guid: b2e1401adde1012438b1aa1c68d9ff2e, type: 3}
+    Volume: 0.075
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 42
+    clip: {fileID: 8300000, guid: 733cfaa2bad9f2c4ea78d7d3f87cbb86, type: 3}
+    Volume: 0.3
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 43
+    clip: {fileID: 8300000, guid: 37306e33805e79f43baa725466794dab, type: 3}
+    Volume: 0.1
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 44
+    clip: {fileID: 8300000, guid: b2eb5eae8f44d9d40860b787b26bbfcb, type: 3}
+    Volume: 0.1
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 45
+    clip: {fileID: 8300000, guid: ab86734c09c53eb4e9644b17bd12a08b, type: 3}
+    Volume: 0.075
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 46
+    clip: {fileID: 8300000, guid: bcbcdbb60b3ca6e478a211e41a32fee9, type: 3}
+    Volume: 0.02
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 5
+    clip: {fileID: 8300000, guid: f88f7548b46146649b3ffdf497cdb994, type: 3}
+    Volume: 0.2
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 4
+    clip: {fileID: 8300000, guid: 8f6949d5c7b7be849833fdc1b32edbcc, type: 3}
+    Volume: 0.05
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 47
+    clip: {fileID: 8300000, guid: 482413c30f92943498a00926d24b48c2, type: 3}
+    Volume: 0.02
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 48
+    clip: {fileID: 8300000, guid: eb7c05f5ada8a174ebe72600c248a89d, type: 3}
+    Volume: 0.2
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 49
+    clip: {fileID: 8300000, guid: 9fe7b2c63b15c2a47b637677d9b8f48b, type: 3}
+    Volume: 0.2
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 50
+    clip: {fileID: 8300000, guid: 21f656a762a98084bb87f2bd6231fc65, type: 3}
+    Volume: 0.006
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 51
+    clip: {fileID: 8300000, guid: b49bed3a66919b34a9abeec88f4f4795, type: 3}
+    Volume: 0.3
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 52
+    clip: {fileID: 8300000, guid: 64e874e4b93d3c441a47fb6eae93fb1a, type: 3}
+    Volume: 0.1
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 53
+    clip: {fileID: 8300000, guid: 49fc5acc8617d424e87dd01331e6614a, type: 3}
+    Volume: 0.3
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 55
+    clip: {fileID: 8300000, guid: 1f56f12b515ee4b429428a32b74d312f, type: 3}
+    Volume: 0.3
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 54
+    clip: {fileID: 8300000, guid: b164a253de69776409c2b35f113248f1, type: 3}
+    Volume: 0.3
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 56
+    clip: {fileID: 8300000, guid: 9ed91165d853a5a4e88d09982eabab05, type: 3}
+    Volume: 0.2
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 57
+    clip: {fileID: 8300000, guid: 40364f4d7a36d0946b1a9eea8a185f53, type: 3}
+    Volume: 0.2
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 58
+    clip: {fileID: 8300000, guid: 594cd3277c91b0c469e6a6dd633084e3, type: 3}
+    Volume: 0.025
+    Pitch:
+      MinValue: 1.5
+      MaxValue: 1.5
+  - type: 59
+    clip: {fileID: 8300000, guid: 8f6949d5c7b7be849833fdc1b32edbcc, type: 3}
+    Volume: 0.025
+    Pitch:
+      MinValue: 1.5
+      MaxValue: 1.5
+  - type: 60
+    clip: {fileID: 8300000, guid: 8f6949d5c7b7be849833fdc1b32edbcc, type: 3}
+    Volume: 0.025
+    Pitch:
+      MinValue: 1.5
+      MaxValue: 1.5
+  - type: 61
+    clip: {fileID: 8300000, guid: 39a9395fdfd6f034280a149b75011a6a, type: 3}
+    Volume: 0.01
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 62
+    clip: {fileID: 8300000, guid: 13780ac0772ae494abab0c82cf2ced22, type: 3}
+    Volume: 0.02
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 63
+    clip: {fileID: 8300000, guid: a44911b8d2e60aa46ac849e7239603f9, type: 3}
+    Volume: 0.1
+    Pitch:
+      MinValue: 1.25
+      MaxValue: 1.25
+  - type: 64
+    clip: {fileID: 8300000, guid: 9ed91165d853a5a4e88d09982eabab05, type: 3}
+    Volume: 1
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 65
+    clip: {fileID: 8300000, guid: 577aa029d80a302468584ff0833f4e46, type: 3}
+    Volume: 0.02
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 66
+    clip: {fileID: 8300000, guid: e3a80bda737487f4a92170c6a4e6f003, type: 3}
+    Volume: 0.1
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 67
+    clip: {fileID: 8300000, guid: dbb97d2cc291f174faf315d468069adc, type: 3}
+    Volume: 0.02
+    Pitch:
+      MinValue: 0.9
+      MaxValue: 1.1
+  - type: 68
+    clip: {fileID: 8300000, guid: e4440379e9767264f96478d11e44fd4a, type: 3}
+    Volume: 0.001
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 69
+    clip: {fileID: 8300000, guid: 85f850568ce032643a6d11fb64dd8c4c, type: 3}
+    Volume: 0.025
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 70
+    clip: {fileID: 8300000, guid: e786f95eeae628042a67a0ca9e6d2cd7, type: 3}
+    Volume: 0.025
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 71
+    clip: {fileID: 8300000, guid: 72061907167322d4690fcaa424613e93, type: 3}
+    Volume: 0.05
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 74
+    clip: {fileID: 8300000, guid: 0d5880aa0da2be64e901918a0728c63f, type: 3}
+    Volume: 0.1
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  m_MultiSoundEffectArray:
+  - type: 8
+    clip:
+    - {fileID: 8300000, guid: 52d75f0df0771e940873327a30768119, type: 3}
+    - {fileID: 8300000, guid: 53d41245a8c1ae84f88688446db03375, type: 3}
+    - {fileID: 8300000, guid: 2d7b80d0a638e28448f61857aa486f12, type: 3}
+    - {fileID: 8300000, guid: aafd4dde8bb8cc540b96508b6b1dbb39, type: 3}
+    - {fileID: 8300000, guid: 29ac67ba010849544a960cde072db956, type: 3}
+    - {fileID: 8300000, guid: 42826838b2495f043aa45aad9e653c52, type: 3}
+    Volume: 0.15
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 18
+    clip:
+    - {fileID: 8300000, guid: 8d47c5f139bdbfc47afbd553a54d4bd2, type: 3}
+    - {fileID: 8300000, guid: 1ed4a82050cd6f94dae0f08fd5d85ff2, type: 3}
+    - {fileID: 8300000, guid: 343c2b63c988a9b44b3795ddc56ce686, type: 3}
+    - {fileID: 8300000, guid: 3640e95adea6e9b4ea5cf8769e1c94af, type: 3}
+    - {fileID: 8300000, guid: 8f22e7b5bec081748a962261165e3053, type: 3}
+    - {fileID: 8300000, guid: eb92feed0520a1f4099b2ef5dda0f21f, type: 3}
+    - {fileID: 8300000, guid: 03ced81d3c625104dbb6ac07420eedab, type: 3}
+    - {fileID: 8300000, guid: f4d765053a6742244aef3ba2da8b5215, type: 3}
+    - {fileID: 8300000, guid: 891420f6235e35749851e91a8f146d25, type: 3}
+    - {fileID: 8300000, guid: a959f2ce9e49c224faf087f91e70699a, type: 3}
+    - {fileID: 8300000, guid: c836b72099364b649968574845a770ed, type: 3}
+    - {fileID: 8300000, guid: 77934118c1af34d46a58bdfc19e78ad2, type: 3}
+    - {fileID: 8300000, guid: ccb179aac48806f4ab24440d3ee84462, type: 3}
+    - {fileID: 8300000, guid: c46df86d96b01b645b87b0dd8e390a48, type: 3}
+    - {fileID: 8300000, guid: c390aafcc1dcd8443b3f61199715f32c, type: 3}
+    - {fileID: 8300000, guid: ab86734c09c53eb4e9644b17bd12a08b, type: 3}
+    Volume: 0.1
+    Pitch:
+      MinValue: 0.9
+      MaxValue: 1.1
+  - type: 23
+    clip:
+    - {fileID: 8300000, guid: 4191385370b60a748bc3283420fce876, type: 3}
+    - {fileID: 8300000, guid: 50615785827e29e4abcc452f3a73a75d, type: 3}
+    - {fileID: 8300000, guid: 41784c8e4abf15c4d9410296a3979271, type: 3}
+    - {fileID: 8300000, guid: 489f1dba4c3027547bf329058b62522b, type: 3}
+    - {fileID: 8300000, guid: b1af65819bbaec6488c1254585c744bd, type: 3}
+    - {fileID: 8300000, guid: aef5cdb0b2336fa4391e68816f48e2af, type: 3}
+    Volume: 0.1
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 73
+    clip:
+    - {fileID: 8300000, guid: aca1440df6f1f89419808db40be489ff, type: 3}
+    - {fileID: 8300000, guid: 86fd937d741c94e45a9d4bea7a322f21, type: 3}
+    - {fileID: 8300000, guid: 4989dfb1c62c71c40a306d8518ba8def, type: 3}
+    Volume: 0.1
+    Pitch:
+      MinValue: 1
+      MaxValue: 1
+  - type: 72
+    clip:
+    - {fileID: 8300000, guid: 5674028fdc969a24e832abbed35f4bc2, type: 3}
+    - {fileID: 8300000, guid: 351af5cfdff09ab45981e6bf0fd81828, type: 3}
+    Volume: 0.1
+    Pitch:
+      MinValue: 1
+      MaxValue: 1

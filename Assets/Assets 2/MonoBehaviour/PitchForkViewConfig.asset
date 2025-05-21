@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3252207f5156b353cad599a598f83714, type: 3}
+  m_Name: PitchForkViewConfig
+  m_EditorClassIdentifier:
+  BoosterProductionObj:
+    fileName: PitchFork
+    fileGuid: c1f7fce2a11ce409e8846c85647e884c
+    resourceFilePath: PitchFork
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/PitchFork/Resources/PitchFork.prefab
+  ShearMoveDuration: 0.25
+  InitialPosition: {x: -100, y: 25, z: 35}
+  IntervalDuration: 0.25
+  TargetXOffset: 0
+  TargetYOffset: 12
+  TargetZOffset: -2
+  RotationXOffset: 120
+  RotationDuration: 0.25
+  RotationResetDuration: 0.25
+  StartPointHandle: {x: -50, y: 10, z: 0}
+  TargetPointHandle: {x: -50, y: 10, z: 0}
+  PitchForkScale: 1

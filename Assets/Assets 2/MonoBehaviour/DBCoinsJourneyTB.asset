@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 597ddbdd332f1c632c62674b6b474599, type: 3}
+  m_Name: DBCoinsJourneyTB
+  m_EditorClassIdentifier:
+  Value: '{"CurrentCoins":190,"CoinSourceData":{"CoinsEarnedFromFlowersMerge":14,"CoinsEarnedFromButterfly":5,"CoinsEarnedFromInters":0,"CoinsEarnedFromBoosters":150,"CoinsEarnedFromRV":0,"CoinsEarnedFromDailyGift":0,"CoinsPurchased":0,"CoinsEarnedFromSeasonalProgressPass":0,"CoinsEarnedFromMissionCenter":0},"CoinSinkData":{"CoinsUsedOnRefreshTrays":0,"CoinsUsedOnRevive":0,"CoinsUsedOnFlowerUpgrade":0,"CoinsUsedOnPowerUps":0}}'
+  DefaultValue:
+  ResetToDefaultOnPlay: 1
+  ResetOnClear: 0
+  Key: CoinsJourneyTB

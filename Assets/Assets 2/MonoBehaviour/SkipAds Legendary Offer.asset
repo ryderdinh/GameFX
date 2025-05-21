@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 241b0c69c9031edc7083e1b51835cb19, type: 3}
+  m_Name: SkipAds Legendary Offer
+  m_EditorClassIdentifier:
+  Product: {fileID: 11400000, guid: 90b80618ef9f35843bf6d42b3b0d609f, type: 2}
+  Price: 199.99
+  IsStarterPack: 0
+  Coins: 45000
+  RemoveAds: 0
+  SkipAds: 1250
+  CardsItemData: {fileID: 11400000, guid: 0043668d38fe177488253ea8d73818df, type: 2}
+  BrushCutter: 25
+  Sprayer: 25
+  WheelsBarrow: 25
+  LiveOpsOfferItemData:
+    WorthCoins: 0
+    WorthSkipAds: 0
+    OfferWorthBGSprite:
+      fileName:
+      fileGuid:
+      resourceFilePath:
+      filePath:
+    OfferFreeBGSprite:
+      fileName:
+      fileGuid:
+      resourceFilePath:
+      filePath:
+    OfferBGColor: {r: 0, g: 0, b: 0, a: 0}
+    OfferID:
+  Time: 86400
+  SpecialOfferType: 4
+  OfferType: 4
+  OfferHeader: Legendary Offer
+  OfferAnimatedIcon:
+    fileName: SkipAds - LegendaryOffer
+    fileGuid: 4b348b5fb6264489190198f7bbaad2c9
+    resourceFilePath: AnimatedIcons/SkipAds/SkipAds - LegendaryOffer
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/_SpecialOffer/Art/2D/Sprites/Resources/AnimatedIcons/SkipAds/SkipAds - LegendaryOffer.prefab
+  OfferCardBG:
+    fileName: offer-bg_0
+    fileGuid: 9488ce3d8c08749a4b88e01e9eb4461d
+    resourceFilePath: CardBG/legendary
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/Art/Sprites/Pack/Resources/CardBG/legendary.png
+  OfferCardTimerNotch:
+    fileName: super-notch_0
+    fileGuid: 8303b9328550a465ebf3ac54a8f4f101
+    resourceFilePath: CardTimerBG/legendary-notch
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/Art/Sprites/Pack/Resources/CardTimerBG/legendary-notch.png
+  OfferHeaderTextMaterial:
+    fileName: Barlow-Black outlineDarkRed
+    fileGuid: 4a0ca3160cb1a48deb34aee420eb718b
+    resourceFilePath: Barlow-Black outlineDarkRed
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Text/Font/Resources/Barlow-Black outlineDarkRed.mat
+  OfferHeaderSubTitleColor: {r: 0, g: 0, b: 0, a: 0.5019608}
+  OfferHeaderTitle:
+    fileName: legendary
+    fileGuid: 06edd655bc8294beca00ae4bf69c7691
+    resourceFilePath: legendary
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/_SpecialOffer/Art/2D/Sprites/Resources/legendary.png
+  OfferViewBGColor: {r: 0.7764706, g: 0.27058825, b: 0.3529412, a: 1}
+  OfferSeparationLineColor: {r: 0.78039217, g: 0.26666668, b: 0.34901962, a: 1}
+  OfferHeaderTitleBGColor: {r: 0.5647059, g: 0.14117648, b: 0.22745098, a: 1}

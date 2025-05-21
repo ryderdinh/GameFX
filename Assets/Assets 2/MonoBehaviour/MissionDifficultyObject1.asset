@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d4dfc3111f57aaa3843be5caf4eea3, type: 3}
+  m_Name: MissionDifficultyObject1
+  m_EditorClassIdentifier:
+  _missionDifficulty: 0
+  _rewardObjects:
+  - RewardType: 0
+    RewardSubIndex: 0
+    Amount: 50
+    RewardIcon: {fileID: 21300000, guid: c4e1624144f0c744787b8581bfcd3938, type: 2}
+  - RewardType: 2
+    RewardSubIndex: 0
+    Amount: 1
+    RewardIcon: {fileID: 21300000, guid: 1abc17d2e06f503428f87015ecef0b0f, type: 2}
+  - RewardType: 1
+    RewardSubIndex: 0
+    Amount: 1
+    RewardIcon: {fileID: 21300000, guid: 2ca9b9f2ce935de429ae888a0e6ad41a, type: 2}
+  - RewardType: 5
+    RewardSubIndex: 0
+    Amount: 5
+    RewardIcon: {fileID: 21300000, guid: 59ba2f75b54254548876776039e3b19d, type: 2}
+  - RewardType: 6
+    RewardSubIndex: 0
+    Amount: 5
+    RewardIcon: {fileID: 21300000, guid: 7a3f3da8119b46f4a9de75732ba58afa, type: 2}
+  - RewardType: 7
+    RewardSubIndex: 0
+    Amount: 5
+    RewardIcon: {fileID: 21300000, guid: 65e6156b7bff15544bd3b6e05791b41a, type: 2}
+  - RewardType: 8
+    RewardSubIndex: 0
+    Amount: 5
+    RewardIcon: {fileID: 21300000, guid: d54d4b2b659a9ab4883f5bf0ad59b38b, type: 2}
+  - RewardType: 9
+    RewardSubIndex: 0
+    Amount: 5
+    RewardIcon: {fileID: 21300000, guid: dffa0ec437c1d6f459380731c40a17ec, type: 2}
+  - RewardType: 10
+    RewardSubIndex: 0
+    Amount: 5
+    RewardIcon: {fileID: 21300000, guid: 83c79a6709661ff4a95c71a56a9b0714, type: 2}

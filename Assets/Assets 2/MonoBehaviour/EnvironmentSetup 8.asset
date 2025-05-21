@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb3c506bf4435d421ef18c887d82cb1d, type: 3}
+  m_Name: EnvironmentSetup 8
+  m_EditorClassIdentifier:
+  EnvironmentPropsPosition: {x: 122.9, y: -58.5, z: -186.4}
+  EnvironmentPropsRotation: {x: 0, y: 0, z: 0}
+  EnvironmentProps: {fileID: 114554002986290023, guid: 1b3624387550c7b43aca953661c61e00, type: 2}
+  TrayContainerMesh:
+    fileName: Tray
+    fileGuid: b69543c69509e5041b0866817adff40a
+    resourceFilePath: Tray-01
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Grid/Art/3D/Resources/Tray-01.fbx
+  TrayContainerMaterial:
+    fileName: GridBorder
+    fileGuid: 0c9adac401e3d9549b856d3adc97edcc
+    resourceFilePath: GridBorder
+    filePath: Assets/AD/Workshop_Env/Materials/Resources/GridBorder.mat
+  GridBgMesh:
+    fileName: Grid-BG
+    fileGuid: afe3e6c38cbee424ba8b587cd0805fb3
+    resourceFilePath: Grid-BG
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Grid/Art/3D/Resources/Grid-BG.fbx
+  GridBgMaterial:
+    fileName: GridBG
+    fileGuid: dcef301b25e9bf847907665ce424e82f
+    resourceFilePath: GridBG
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Grid/Art/3D/Materials/Resources/GridBG.mat
+  GridBorderMesh:
+    fileName: GridBorder
+    fileGuid: 56eefbfa5de3b4e9eb50ed580107c147
+    resourceFilePath: GridBorder
+    filePath: Assets/AD/Workshop_Env/Resources/GridBorder.mesh
+  GridBorderMaterial:
+    fileName: GridBorder - 7
+    fileGuid: 1b99b05d917864a4ea9ad3b962c658a6
+    resourceFilePath: GridBorder - 7
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/GameplaySetup/Materials/Resources/GridBorder - 7.mat
+  TilesMaterial:
+    fileName: UnlitGrid 1
+    fileGuid: 97573fb294822054ca6e136d8970ba1f
+    resourceFilePath: UnlitGrid 1
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Grid/Art/3D/Materials/Resources/UnlitGrid 1.mat

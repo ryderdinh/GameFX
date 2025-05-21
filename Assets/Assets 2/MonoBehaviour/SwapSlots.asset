@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1eef7304dce38c78888640d44b8702b, type: 3}
+  m_Name: SwapSlots
+  m_EditorClassIdentifier:
+  Type: 3
+  MissionType: 10
+  Name: Gardening Gloves
+  Description: Swap Pots
+  DetailedDescription: Drag to move any flower on board
+  Affect: 1
+  Category: 0
+  BoosterLevel: 1
+  PassiveBoosterCategory: 0
+  PassiveBoosterType: 0
+  IconType: 0
+  Sprite: {fileID: 21300000, guid: ad8129a5b140d5f42a3d8099bad25f8c, type: 2}
+  IconPrefab: {fileID: 0}
+  BgSprite: {fileID: 21300000, guid: 88c32a43c87208747a27005929851a04, type: 2}
+  SmallIconType: 0
+  PredefinedSmallIcon: {fileID: 0}
+  BoosterDropObject:
+    fileName: GardeningGloves-DropObject Variant
+    fileGuid: 336e1635552454e5d901629489587b09
+    resourceFilePath: GardeningGloves-DropObject Variant
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/SwapSlots/Resources/GardeningGloves-DropObject Variant.prefab
+  SmallIconPrefab: {fileID: 0}
+  UnlockingScore: 300
+  _addScore: 0
+  _scoreToAdd: 0
+  _scorePercentage: 0
+  _addCoins: 0
+  _coinsToAdd: 0
+  _rewardValueRange:
+    MinValue: 0
+    MaxValue: 0
+  _passiveBoostertimeDuration: 0
+  BoosterExecutionDelay: 0
+  _iconPositionDelta: {x: 0, y: 0, z: 0}
+  _descriptionPositionDelta: {x: 30, y: -12}
+  _descriptionRectSizeDelta: {x: 0, y: 0}
+  _namePositionDelta: {x: 30, y: 0}
+  _iconScaleFactor: 1
+  _nameIconScaleFactor: 1.25
+  _iconRotationOnView: {x: 0, y: 0, z: 0}
+  _boosterNameSprite:
+    fileName: Gloves-text
+    fileGuid: 79bf7bca8a222427486b70cb8972d23a
+    resourceFilePath: Gloves-text
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/Art/Resources/Gloves-text.png
+  _iconHoverPosition: {x: 0, y: 10}
+  _configs: {fileID: 11400000, guid: cb2e308d9b9e5f14f8f37b236c851f95, type: 2}

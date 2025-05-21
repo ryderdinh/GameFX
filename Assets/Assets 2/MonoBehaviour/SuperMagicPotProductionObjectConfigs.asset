@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cce9400ff9919166197b0a0813ebaf7, type: 3}
+  m_Name: SuperMagicPotProductionObjectConfigs
+  m_EditorClassIdentifier:
+  BoosterProductionObj:
+    fileName: SuperMagicPotBoosterProductionObject
+    fileGuid: 6aa390a42b2e14df087f5de881551939
+    resourceFilePath: SuperMagicPotBoosterProductionObject
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/Super Magic Pot/Resources/SuperMagicPotBoosterProductionObject.prefab
+  EndingPosition: {x: 30, y: 25, z: 45}
+  InitialPosition: {x: 30, y: 25, z: 45}
+  InitialRotation: {x: -90, y: 0, z: 0}

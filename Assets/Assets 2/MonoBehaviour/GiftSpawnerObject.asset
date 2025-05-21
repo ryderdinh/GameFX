@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88160a1484a62957693e5aa47cbc592d, type: 3}
+  m_Name: GiftSpawnerObject
+  m_EditorClassIdentifier:
+  _levelSystem: {fileID: 11400000, guid: 7295b9c5f2015ca44a59d7c4e797758f, type: 2}
+  _worldConfig: {fileID: 11400000, guid: 62524b85cf3a5324e806e4a046683c03, type: 2}
+  _giftSpawnFtueLevel: 6
+  _dbCurrentRewardIndex: {fileID: 11400000, guid: 352468cbbe8f59d449d1812e236a075b, type: 2}
+  _dbRewardsSpawnedCount: {fileID: 11400000, guid: 4368398668f49d642b92dd3c43b592f7, type: 2}
+  _rewardIndexChangeThreshold: 010000000000000000000000
+  _giftBoxTextures:
+  - fileName: Giftbox-Purple
+    fileGuid: 1739aa38ca9254a2c83c5fa850347717
+    resourceFilePath: Giftbox-Purple
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/GameplayHUD/Art/3d/Textures/Resources/Giftbox-Purple.png
+  - fileName: Giftbox-Blue
+    fileGuid: 53c5e183b074f4e039bdf5be1b50a2ef
+    resourceFilePath: Giftbox-Blue
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/GameplayHUD/Art/3d/Textures/Resources/Giftbox-Blue.png
+  - fileName: Giftbox-Red
+    fileGuid: 8e9a4b545a9ae4d1696c2818715dd649
+    resourceFilePath: Giftbox-Red
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/GameplayHUD/Art/3d/Textures/Resources/Giftbox-Red.png
+  _giftBoxScales:
+  - 1
+  - 1.05
+  - 1.1
+  _giftRewardCount: 010000000200000003000000

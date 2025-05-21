@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5710f27d8371acb9614511bd78c0d4, type: 3}
+  m_Name: SwapSlotsViewConfigs
+  m_EditorClassIdentifier:
+  BoosterProductionObj:
+    fileName: GardenGloves
+    fileGuid: b67b71ff9325d43229f488d7bdce7749
+    resourceFilePath: GardenGloves
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/SwapSlots/Resources/GardenGloves.prefab
+  InitialPosition: {x: 125, y: 100, z: 100}
+  MoveDuration: 1.2
+  Offset: {x: 7.5, y: 0, z: 3}

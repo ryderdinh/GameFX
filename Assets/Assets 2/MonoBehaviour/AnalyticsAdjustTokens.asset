@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 583cc290ff88a5db5578037b28dc1cf6, type: 3}
+  m_Name: AnalyticsAdjustTokens
+  m_EditorClassIdentifier:
+  _adjustAppTokenIOS: t5av7xl84d8g
+  _adjustAppTokenAndroid: 3wmp35sselts
+  _intersWatchedIosEventId:
+  - n9ne6a
+  - cnp6bv
+  - 9hswty
+  - p8ol74
+  _intersWatchedAndroidEventId:
+  - be97q7
+  - k0vzht
+  - hi7gqi
+  - 4hkn7k
+  _intersWatchedExtendedIosEventId:
+  - 7rsg4a
+  - rqbiem
+  - zgwryv
+  - ambqor
+  - r7va08
+  - prcmwt
+  - 3hk4q1
+  - uvrth6
+  _intersWatchedExtendedAndroidEventId:
+  - erkg72
+  - adz9hf
+  - n2fypk
+  - zc8858
+  - atffgv
+  - xu1rn0
+  - pkz7qw
+  - bba596
+  _rvsWatchedIosEventId:
+  - qcncud
+  - ft4je3
+  - sk22nt
+  - ttdyb4
+  _rvsWatchedAndroidEventId:
+  - mcc4sv
+  - mg5e0z
+  - xexfd4
+  - 68iwx9
+  _rvsWatchedExtendedIosEventId:
+  - zhntaa
+  - 2z3bfy
+  - 7waxb8
+  - h5enjx
+  _rvsWatchedExtendedAndroidEventId:
+  - 2szwoy
+  - p849nm
+  - piv9jr
+  - 3kmnll
+  _rvsWatchedDoubleExtendedIosEventId:
+  - r10zkf
+  - kyv6q1
+  - yspjz1
+  - hqddws
+  - yiwuk6
+  - fmg0x3
+  - ih5fyi
+  - lt1vse
+  _rvsWatchedDoubleExtendedAndroidEventId:
+  - rnq5kj
+  - y38m4w
+  - 7fcixf
+  - izfgeq
+  - 19wus1
+  - 34xq4a
+  - mz9pt3
+  - 21nr30
+  _levelCompleteIosEventId:
+  - q5653p
+  - cgfqyt
+  - 9xa8v8
+  - 5u4wnw
+  _levelCompleteAndroidEventId:
+  - xepyjz
+  - 5xgfdf
+  - twwnr8
+  - jlnb8s
+  _levelCompleteExtendedIosEventId:
+  - w40y03
+  - crdzmm
+  - hv5oiq
+  - 4i7ndh
+  - tnaxr9
+  - jew9px
+  _levelCompleteExtendedAndroidEventId:
+  - c34nec
+  - n1mvx3
+  - 771x8z
+  - nlhf72
+  - x5vy91
+  - zffbwx
+  _levelCompleteDoubleExtendedIosEventId:
+  - p3k396
+  - g2gcrv
+  _levelCompleteDoubleExtendedAndroidEventId:
+  - vfhwuj
+  - sm6jlo
+  _levelCompleteTripleExtendedIosEventId:
+  - gwf1kd
+  - zh2yu7
+  - odhgor
+  - kz51jd
+  _levelCompleteTripleExtendedAndroidEventId:
+  - pbiyrw
+  - b2z4cz
+  - ll5fma
+  - y7u2g4
+  _iapAllSkusIosEventId: d9gmym
+  _iapAllSkusAndroidEventId: 4ws2wr
+  _iapPurchaseIOSEventId: b2ref7
+  _iapPurchaseAndroidEventId: 79sjgf
+  _iapPurchaseFailedIOSEventId: vgz8sd
+  _iapPurchaseFailedAndroidEventId: 47qab0
+  _iapPurchaseInvalidIOSEventId: jz9jj8
+  _iapPurchaseInvalidAndroidEventId: shrky6
+  _iapPurchaseUnknownIOSEventId: k80zqj
+  _iapPurchaseUnknownAndroidEventId: 319qdc
+  _iapPurchaseValidIOSEventId: cbbdma
+  _iapPurchaseValidAndroidEventId: h75tkj
+  _iapCoins1000IosEventId: bcxcrs
+  _iapCoins1000AndroidEventId: 93ixyj
+  _iapCoins5000IosEventId: 3c443y
+  _iapCoins5000AndroidEventId: 19yemx
+  _iapCoins10000IosEventId: naq45k
+  _iapCoins10000AndroidEventId: wfondi
+  _iapCoins25000IosEventId: 3a86sy
+  _iapCoins25000AndroidEventId: 6z75xf
+  _iapCoins50000IosEventId: 4sbus9
+  _iapCoins50000AndroidEventId: kh5p69
+  _iapCoins100000IosEventId: hb9iic
+  _iapCoins100000AndroidEventId: j2w6dp
+  _iapSkipAds10IosEventId: erei8d
+  _iapSkipAds10AndroidEventId: hwhsbk
+  _iapSkipAds30IosEventId: vs4ypm
+  _iapSkipAds30AndroidEventId: ymw89n
+  _iapSkipAds100IosEventId: nlhour
+  _iapSkipAds100AndroidEventId: zbvkmo
+  _iapCardsPack60IosEventId: 38bf7w
+  _iapCardsPack60AndroidEventId: 26wdml
+  _iapCardsPack300IosEventId: 93vj1f
+  _iapCardsPack300AndroidEventId: ykjxkd
+  _iapCardsPack1000IosEventId: dmv13g
+  _iapCardsPack1000AndroidEventId: najwsl
+  _iapStarterPackIosEventId: s0h1i0
+  _iapStarterPackAndroidEventId: wkgmek
+  _iapSpecialOfferIosEventId: 9ac00o
+  _iapSpecialOfferAndroidEventId: odxgwb
+  _iapMasterOfferIosEventId: 72ncnt
+  _iapMasterOfferAndroidEventId: jctw8m
+  _iapSuperOfferIosEventId: r6aq0j
+  _iapSuperOfferAndroidEventId: 19jfrc
+  _iapMegaOfferIosEventId: t7uz6l
+  _iapMegaOfferAndroidEventId: wvyqyd
+  _iapGiantOfferIosEventId: lt5zdw
+  _iapGiantOfferAndroidEventId: xgzb7s
+  _iapLegendaryOfferIosEventId: 5fboow
+  _iapLegendaryOfferAndroidEventId: gy77iz
+  _iapSkipAdsOfferIosEventId: sdy4qp
+  _iapSkipAdsOfferAndroidEventId: bkx8qd
+  _iapSkipAdsSpecialOfferIosEventId: ld71hq
+  _iapSkipAdsSpecialOfferAndroidEventId: bk03j5
+  _iapSkipAdsMasterOfferIosEventId: u2k7nj
+  _iapSkipAdsMasterOfferAndroidEventId: tb9g4a
+  _iapSkipAdsSuperOfferIosEventId: mpwvth
+  _iapSkipAdsSuperOfferAndroidEventId: qu1wvv
+  _iapSkipAdsMegaOfferIosEventId: idxr1a
+  _iapSkipAdsMegaOfferAndroidEventId: h47yxp
+  _iapSkipAdsGiantOfferIosEventId: ocx49l
+  _iapSkipAdsGiantOfferAndroidEventId: s7btks
+  _iapSkipAdsLegendaryOfferIosEventId: 37nudw
+  _iapSkipAdsLegendaryOfferAndroidEventId: lm8kbi
+  _iapCardsSpecialOfferIosEventId: cbrt3n
+  _iapCardsSpecialOfferAndroidEventId: v19sre
+  _iapCardsMasterOfferIosEventId: 7fflv0
+  _iapCardsMasterOfferAndroidEventId: cbihaa
+  _iapCardsSuperOfferIosEventId: facanw
+  _iapCardsSuperOfferAndroidEventId: w31wel
+  _iapCardsMegaOfferIosEventId: e077yc
+  _iapCardsMegaOfferAndroidEventId: poewul
+  _iapCardsGiantOfferIosEventId: 2zx584
+  _iapCardsGiantOfferAndroidEventId: fqo028
+  _iapCardsLegendaryOfferIosEventId: 4s5uo9
+  _iapCardsLegendaryOfferAndroidEventId: b6862p
+  _iapRemoveAdsIosEventId: wbhgqk
+  _iapRemoveAdsAndroidEventId: e2cs4y
+  _iapRemoveAdsDiscounted1IosEventId: jq4wdo
+  _iapRemoveAdsDiscounted1AndroidEventId: bw2vof
+  _iapRemoveAdsDiscounted2IosEventId: oqaewp
+  _iapRemoveAdsDiscounted2AndroidEventId: cttb90
+  _iapLiveOpsOffer1IosEventId: tqmk8d
+  _iapLiveOpsOffer1AndroidEventId: 19lvuw
+  _iapLiveOpsOffer2IosEventId: 4a30ge
+  _iapLiveOpsOffer2AndroidEventId: ykktbi
+  _iapLiveOpsOffer3IosEventId: gb5huk
+  _iapLiveOpsOffer3AndroidEventId: niy3m3
+  _iapBloomPassIosEventId: g4jwvi
+  _iapBloomPassAndroidEventId: jyae5d

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b1f72e52442f867ad5770e8bc9d5f37, type: 3}
+  m_Name: Butterfly
+  m_EditorClassIdentifier:
+  IsTimeBased: 0
+  MinTimeDuration: 5
+  MaxTimeDuration: 10
+  MaxBoardValue: 100
+  ButterflyObject: {fileID: 1956728978418939, guid: 779d2187feffb5947b1a0f183fca8774, type: 2}
+  TimeToRecheck: 5
+  MovementSpeed: 35
+  RotationSpeed: 360
+  RoamingAroundTime: 10
+  ExitingTime: 10
+  BlinkingTime: 5
+  SittingOnFlowerTime: 20
+  Coins: 5
+  AnimateCoinsCount: 5
+  MinDistanceToSlowMovementSpeed: 30
+  MinDistanceToReachToDestination: 3
+  ButterflyInitialEmissionValue: 0.56
+  ButterflyWarningStartEmissionValue: 0.1
+  ButterflyWarningEndEmissionValue: 2
+  WarningTime: 0.25
+  ButterflyDefaultScale: 1.2
+  ButterflyWarningScale: 1.6
+  WarningScaleDuration: 0.2
+  ButterflySpawningScale: 1.75
+  ButterflyColor: {r: 1, g: 0.81960785, b: 0, a: 1}
+  ButterflyUnlockLevel: 1
+  ButterflyUnlockWorld: 0

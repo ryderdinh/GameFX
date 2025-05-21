@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bd2760c953cc3f51835818067eab1a0, type: 3}
+  m_Name: TwoXComboMissionObject
+  m_EditorClassIdentifier:
+  _missionType: 35
+  _descriptionForSingle: Make {0} 2x combo
+  _descriptionForMultiple: Make {0} 2x combos
+  _missionDifficultyData:
+  - _missionDifficulty: 0
+    _amount: 4
+    _probability: 33
+  - _missionDifficulty: 1
+    _amount: 6
+    _probability: 33
+  - _missionDifficulty: 2
+    _amount: 10
+    _probability: 33
+  _probability: 50
+  _missionIcon: {fileID: 21300000, guid: fae1d4b21ce173c4cbeaf296aebf4716, type: 2}

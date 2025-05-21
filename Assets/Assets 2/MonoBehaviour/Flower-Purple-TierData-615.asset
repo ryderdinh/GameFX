@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50f8b944300b2dd7a42b607a97a7f1df, type: 3}
+  m_Name: Flower-Purple-TierData-615
+  m_EditorClassIdentifier:
+  Object: {fileID: 114895059758205205, guid: 0b460b60a5371d34e89991f8c895c2bc, type: 2}
+  CakeUIObject: {fileID: 114592683152131814, guid: 54e6b135e5053db489c1e5bb5b1f195e, type: 2}
+  TierScore: 55
+  MidMesh:
+    fileName: Mid-22
+    fileGuid: d13a3c9e6a50d56429e27bff053130e2
+    resourceFilePath: Buds/Mid-22
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Flower/Art/3D/_Flowers/_Common/Resources/Buds/Mid-22.fbx
+  FlowerTexture:
+    fileName: Flower-Shape-07-Style_02
+    fileGuid: d78a2be0a2c49448a897e1f9402e2556
+    resourceFilePath: Textures/Flower-Shape-07-Style_02
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Flower/Art/3D/_Flowers/_Common/Resources/Textures/Flower-Shape-07-Style_02.png
+  FlowerName: Lavender Lush
+  Cost: 1000
+  CardsRequiredToUnlock: 120

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 241b0c69c9031edc7083e1b51835cb19, type: 3}
+  m_Name: SkipAds Giant Offer
+  m_EditorClassIdentifier:
+  Product: {fileID: 11400000, guid: d20e87fbd651f0a4499de93ceb6dfc00, type: 2}
+  Price: 99.99
+  IsStarterPack: 0
+  Coins: 20000
+  RemoveAds: 0
+  SkipAds: 500
+  CardsItemData: {fileID: 11400000, guid: 0043668d38fe177488253ea8d73818df, type: 2}
+  BrushCutter: 20
+  Sprayer: 20
+  WheelsBarrow: 20
+  LiveOpsOfferItemData:
+    WorthCoins: 0
+    WorthSkipAds: 0
+    OfferWorthBGSprite:
+      fileName:
+      fileGuid:
+      resourceFilePath:
+      filePath:
+    OfferFreeBGSprite:
+      fileName:
+      fileGuid:
+      resourceFilePath:
+      filePath:
+    OfferBGColor: {r: 0, g: 0, b: 0, a: 0}
+    OfferID:
+  Time: 86400
+  SpecialOfferType: 6
+  OfferType: 4
+  OfferHeader: Giant Offer
+  OfferAnimatedIcon:
+    fileName: SkipAds - GiantOffer
+    fileGuid: 2ab54879d450244108904fafb6c67987
+    resourceFilePath: AnimatedIcons/SkipAds/SkipAds - GiantOffer
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/_SpecialOffer/Art/2D/Sprites/Resources/AnimatedIcons/SkipAds/SkipAds - GiantOffer.prefab
+  OfferCardBG:
+    fileName: offer-bg_0
+    fileGuid: d95d62e353af8409fab61807dc81da0f
+    resourceFilePath: CardBG/giant
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/Art/Sprites/Pack/Resources/CardBG/giant.png
+  OfferCardTimerNotch:
+    fileName: super-notch_0
+    fileGuid: 5ca38ec6657dc4f43834eb19b0726a33
+    resourceFilePath: CardTimerBG/gaint-notch
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/Art/Sprites/Pack/Resources/CardTimerBG/gaint-notch.png
+  OfferHeaderTextMaterial:
+    fileName: Barlow-Black outlineDarkPink
+    fileGuid: ccb98c3f3e66a4158b3f71ce9db0c5a6
+    resourceFilePath: Barlow-Black outlineDarkPink
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Text/Font/Resources/Barlow-Black outlineDarkPink.mat
+  OfferHeaderSubTitleColor: {r: 0, g: 0, b: 0, a: 0.5019608}
+  OfferHeaderTitle:
+    fileName: Giant
+    fileGuid: 54b3a0c4c778049cf88a7412543b0ec4
+    resourceFilePath: Giant
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/_SpecialOffer/Art/2D/Sprites/Resources/Giant.png
+  OfferViewBGColor: {r: 0.75686276, g: 0.2901961, b: 0.49803922, a: 1}
+  OfferSeparationLineColor: {r: 0.7607843, g: 0.28627452, b: 0.49803922, a: 1}
+  OfferHeaderTitleBGColor: {r: 0.5294118, g: 0.12941177, b: 0.29411766, a: 1}

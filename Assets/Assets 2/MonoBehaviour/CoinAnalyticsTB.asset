@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd3ec4aec17503039af1c6610a5c089, type: 3}
+  m_Name: CoinAnalyticsTB
+  m_EditorClassIdentifier:
+  _cashObject: {fileID: 11400000, guid: 3e838399dde5aa740aa5f0afbec54c75, type: 2}
+  _coinsJourneyData: {fileID: 11400000, guid: 5360eb21611a1d94a977a523897fe742, type: 2}
+  _variablesToPort:
+  - CoinsEarnedFromFlowerMergeTB
+  - CoinsEarnedFromButterflyTB
+  - CoinsEarnedFromIntersTB
+  - CoinsEarnedFromBoosterTB
+  - CoinsEarnedFromRvTB
+  - CoinsEarnedFromDailyGiftTB
+  - CoinsPurchasedTB
+  - CoinsEarnedFromSPPTB
+  - CoinsUsedForRefreshTraysTB
+  - CoinsUsedForReviveTB
+  - CoinsUsedForFlowerUpgradeTB
+  - CoinsUsedForPowerUpsTB

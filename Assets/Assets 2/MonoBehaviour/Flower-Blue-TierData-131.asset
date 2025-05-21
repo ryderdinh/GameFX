@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50f8b944300b2dd7a42b607a97a7f1df, type: 3}
+  m_Name: Flower-Blue-TierData-131
+  m_EditorClassIdentifier:
+  Object: {fileID: 114969205960587781, guid: 857ddf68b6ec6c940abb3b53b868a948, type: 2}
+  CakeUIObject: {fileID: 114315670792835794, guid: 4bf1fbb7ecca4fe4d93b3e609fcd99e0, type: 2}
+  TierScore: 81
+  MidMesh:
+    fileName: Mid-18
+    fileGuid: ebf73c59df82b974f87750194000c60d
+    resourceFilePath: Buds/Mid-18
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Flower/Art/3D/_Flowers/_Common/Resources/Buds/Mid-18.fbx
+  FlowerTexture:
+    fileName: Flower-Shape-07-Style_04
+    fileGuid: 35eb82fff56d04004886981bc5811700
+    resourceFilePath: Textures/Flower-Shape-07-Style_04
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Flower/Art/3D/_Flowers/_Common/Resources/Textures/Flower-Shape-07-Style_04.png
+  FlowerName: Sapphire Sigh
+  Cost: 1300
+  CardsRequiredToUnlock: 700

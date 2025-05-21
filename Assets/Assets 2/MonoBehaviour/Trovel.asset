@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 811f1f0c75246368a917dfc01f058143, type: 3}
+  m_Name: Trovel
+  m_EditorClassIdentifier:
+  Type: 12
+  MissionType: 23
+  Name: Trovel
+  Description: Remove A Pot
+  DetailedDescription: Tap a Pot to remove it from board
+  Affect: 1
+  Category: 0
+  BoosterLevel: 1
+  PassiveBoosterCategory: 0
+  PassiveBoosterType: 0
+  IconType: 0
+  Sprite: {fileID: 21300000, guid: 353e79f331ce6104f87b115b39b9c713, type: 2}
+  IconPrefab: {fileID: 0}
+  BgSprite: {fileID: 21300000, guid: 88c32a43c87208747a27005929851a04, type: 2}
+  SmallIconType: 0
+  PredefinedSmallIcon: {fileID: 21300000, guid: 353e79f331ce6104f87b115b39b9c713, type: 2}
+  BoosterDropObject:
+    fileName: Trovel-DropObject Variant
+    fileGuid: 35c7085817ec1403483fc0fa264fcbc2
+    resourceFilePath: Trovel-DropObject Variant
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/Trovel/Resources/Trovel-DropObject Variant.prefab
+  SmallIconPrefab: {fileID: 0}
+  UnlockingScore: 0
+  _addScore: 0
+  _scoreToAdd: 1
+  _scorePercentage: 0.5
+  _addCoins: 0
+  _coinsToAdd: 1
+  _rewardValueRange:
+    MinValue: 0
+    MaxValue: 0
+  _passiveBoostertimeDuration: 0
+  BoosterExecutionDelay: 0
+  _iconPositionDelta: {x: 0, y: 0, z: 0}
+  _descriptionPositionDelta: {x: 0, y: -16}
+  _descriptionRectSizeDelta: {x: -50, y: 0}
+  _namePositionDelta: {x: 0, y: 0}
+  _iconScaleFactor: 1
+  _nameIconScaleFactor: 1.25
+  _iconRotationOnView: {x: 0, y: 0, z: 0}
+  _boosterNameSprite:
+    fileName: Trowel-text
+    fileGuid: ebaab849ae13c4193b50e277c529a5e4
+    resourceFilePath: Trowel-text
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/Art/Resources/Trowel-text.png
+  _iconHoverPosition: {x: -5, y: 10}
+  _configs: {fileID: 11400000, guid: fc4787518f8bb634b932fdbd7f5df283, type: 2}

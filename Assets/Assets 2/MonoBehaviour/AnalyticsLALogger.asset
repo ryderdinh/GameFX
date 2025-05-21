@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 082520f1608e17d7307d2657147cf58e, type: 3}
+  m_Name: AnalyticsLALogger
+  m_EditorClassIdentifier:
+  AnalyticsTracker: {fileID: 11400000, guid: c51a7ec9c2004e94c895f0112dc92eb0, type: 2}
+  _userJourneySystem: {fileID: 11400000, guid: 07ff4c15f7c4f8b4b9d9378a1452a6a1, type: 2}
+  _nakamaServer: {fileID: 11400000, guid: d09a98caed255aa4a8de2b084b2fbda0, type: 2}
+  _remoteAppConfig: {fileID: 11400000, guid: 64bc85f34f6aa484bb1d0a5c4c9fc593, type: 2}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d703a18532c36e5e511b3f64a74ffa07, type: 3}
+  m_Name: TraySpawnerObject
+  m_EditorClassIdentifier:
+  _tray: {fileID: 114417535345668973, guid: f39f1f14f98dcb74eab5579ffa0f1cf2, type: 2}
+  _traysCurrentState: {fileID: 11400000, guid: ed1ee910ac433e441bc525a78d61af76, type: 2}
+  _dbTraysState: {fileID: 11400000, guid: d0c58374c6f53c44988817ace6bf05b1, type: 2}
+  _dishSpawnerObject: {fileID: 11400000, guid: 4b7c0ff8e3eeae842a4b4efd0294dbf6, type: 2}
+  _trayTypeCalculationObject: {fileID: 11400000, guid: c2979232e11259e48911e75f8500253d, type: 2}
+  _maxTraysToSpawn: 3
+  _isTutorialActive: {fileID: 11400000, guid: 0a56eda408fcaa043bb957a9f1367460, type: 2}
+  _levelSystem: {fileID: 11400000, guid: 7295b9c5f2015ca44a59d7c4e797758f, type: 2}
+  _dishSpawnerObjectFTUE:
+  - {fileID: 11400000, guid: 8c318746130666041b8c3e4a4d4bebdf, type: 2}
+  - {fileID: 11400000, guid: f6678e9e7b812fa45a7323b75270225b, type: 2}
+  - {fileID: 11400000, guid: e05b873e2d42d534cad49c38c11b599a, type: 2}
+  _trayTypeCalculationObjectFTUE:
+  - {fileID: 11400000, guid: 9488a55979a7256488b2c2915076499d, type: 2}
+  - {fileID: 11400000, guid: 70861c479729acd43a1a04dcba568c35, type: 2}
+  - {fileID: 11400000, guid: ac1eac97b5ade61498cddce975bd5caf, type: 2}
+  _dishSpawnerObjectForFavor: {fileID: 11400000, guid: 96af505b4ce8493439b7c6d6773ea23b, type: 2}
+  _favorSpawnsToGive: 3

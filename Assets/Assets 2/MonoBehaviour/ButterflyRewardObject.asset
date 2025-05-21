@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ef57dba92231ec8b78455e6224dbb1, type: 3}
+  m_Name: ButterflyRewardObject
+  m_EditorClassIdentifier:
+  _boostersController: {fileID: 11400000, guid: 9d549231fa859fe489bf79abfa683b53, type: 2}
+  _BoosterDropConfig:
+    SlotPositionDelta: {x: -5, y: 5, z: -2}
+    DropCurve: 1
+    Duration: 0.65
+    InitialScale: 0.75
+    JumpPower: 100
+    JumpScale: 2
+    FinalScale: 1
+  _DropObjectDisappearTime: 15
+  _SpecifiedBooster: 24
+  _butterflyFreeRewardCount: 1
+  _boosterProbabilityLevelsConfigs: {fileID: 11400000, guid: d5551707f08c7f24c8224f16437ab763, type: 2}
+  _userJourneySystem: {fileID: 11400000, guid: 07ff4c15f7c4f8b4b9d9378a1452a6a1, type: 2}
+  _freeSpinData: {fileID: 11400000, guid: a9e533a65e5e04945b5734558ab85fa1, type: 2}
+  _butterflySpinnerConfigs: {fileID: 11400000, guid: a4b821406d5039c489f6938d638c737b, type: 2}
+  _dbBoolBoosterDropObjectTutorialShown: {fileID: 11400000, guid: 4d07dc6604a0ffd45a48569ec7c9750e, type: 2}
+  _dropTutorialWait: 5
+  _skipAdsObject: {fileID: 11400000, guid: 087eac13e1a6b2749becd212e76d3e63, type: 2}

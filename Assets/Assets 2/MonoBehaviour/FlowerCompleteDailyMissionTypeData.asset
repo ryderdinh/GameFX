@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a2951f278e3966220e237a11749712b, type: 3}
+  m_Name: FlowerCompleteDailyMissionTypeData
+  m_EditorClassIdentifier:
+  _singleMissionType: 0
+  _probability: 50
+  _singleMissionObject:
+  - {fileID: 11400000, guid: 1df527cfde356e0479698f4d057ec649, type: 2}
+  - {fileID: 11400000, guid: deef7b73f1669f144ac76a3f976d646b, type: 2}
+  - {fileID: 11400000, guid: 928f43d3462264344974ac1c504e4933, type: 2}
+  - {fileID: 11400000, guid: d3043ece8203eae4e95b65563f9c6b8d, type: 2}
+  - {fileID: 11400000, guid: 72d1a8ffd8af471438c6e5cd320b108a, type: 2}
+  - {fileID: 11400000, guid: f6b29ae383f04af418e13d5baace4cf1, type: 2}
+  - {fileID: 11400000, guid: e88160688272c70439086ae155cc9188, type: 2}

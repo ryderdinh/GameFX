@@ -1,0 +1,689 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6181f8ea528c740d782f8f3a7d65eb3c, type: 3}
+  m_Name: SeasonalProgressPassSystem
+  m_EditorClassIdentifier:
+  _liveOpsSystem: {fileID: 11400000, guid: 76d2ace3b93124847ba35ce09c0c9ca2, type: 2}
+  TotalNumberOfMissions: 50
+  _eventPeriodInSecs: 3888000
+  _dbMatchesSeasonProgress: {fileID: 11400000, guid: 797dcee4f86b3694f9d81d6af50e6ba3, type: 2}
+  _dbPreviousMatchesSeasonProgress: {fileID: 11400000, guid: 807af97d1a269a24aa842498464561f2, type: 2}
+  _dbSPPTutorialShown: {fileID: 11400000, guid: 23275904d0a9749409638716565d489c, type: 2}
+  _dbIsPassPurchased: {fileID: 11400000, guid: a0457e75484d98a4eaee4d1d12e6e762, type: 2}
+  _rewardController: {fileID: 11400000, guid: 2c336bd848c9c5a4b9aca8954f0bd71c, type: 2}
+  _bloomPassOffer: {fileID: 11400000, guid: a1707c643d7305346a7dd1ece613ea5e, type: 2}
+  _normalSeasonProgress:
+    _dbCurrentUnclaimedMissionIndex: {fileID: 11400000, guid: 206a7456f209cdb4b90431127850e2d2, type: 2}
+    _dbCurrentRewardClaimState: {fileID: 11400000, guid: d3c2645aa9ad38a41b737d05a0724591, type: 2}
+  _premiumSeasonProgress:
+    _dbCurrentUnclaimedMissionIndex: {fileID: 11400000, guid: 1e80008046434644fa6641b4b34bb94a, type: 2}
+    _dbCurrentRewardClaimState: {fileID: 11400000, guid: 7e7ec3ed8437c42428549bc8777e8f47, type: 2}
+  _bloomPassNoAdsPerk: {fileID: 11400000, guid: 7054c2d79df588f4f8cd8027ee0a5a51, type: 2}
+  _analyticsSystem: {fileID: 11400000, guid: cb1c4086ecb5ede49a293574102dc5cc, type: 2}
+  _keysToDelete:
+  - DBIsSPPTutorialShown
+  - DBMatchesProgressSPP
+  - DBPassStartingDateSPP
+  - DBPreviousMatchesProgressSPP
+  - DBIsSPPRewardClaimed
+  - DBCurrentUnclaimedMissionIndexSPP
+  MatchesProgressMissionSPP:
+  - Target: 50
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 0
+      RewardAmount: 50
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 1
+      RewardAmount: 5
+      IsSpecialReward: 0
+      RewardSubIndex: 1
+  - Target: 100
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 7
+      RewardAmount: 10
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 2
+      RewardAmount: 3
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 200
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 2
+      RewardAmount: 1
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 5
+      RewardAmount: 25
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 300
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 1
+      RewardAmount: 1
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 0
+      RewardAmount: 250
+      IsSpecialReward: 0
+      RewardSubIndex: 2
+  - Target: 500
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 12
+      RewardAmount: 0
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 11
+      RewardAmount: 50
+      IsSpecialReward: 1
+      RewardSubIndex: 0
+  - Target: 700
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 3
+      RewardAmount: 1
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 4
+      RewardAmount: 2
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 900
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 0
+      RewardAmount: 75
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 8
+      RewardAmount: 20
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 1100
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 5
+      RewardAmount: 20
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 0
+      RewardAmount: 300
+      IsSpecialReward: 0
+      RewardSubIndex: 3
+  - Target: 1300
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 4
+      RewardAmount: 1
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 1
+      RewardAmount: 3
+      IsSpecialReward: 0
+      RewardSubIndex: 1
+  - Target: 1600
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 12
+      RewardAmount: 0
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 11
+      RewardAmount: 50
+      IsSpecialReward: 1
+      RewardSubIndex: 0
+  - Target: 1900
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 1
+      RewardAmount: 1
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 3
+      RewardAmount: 2
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 2200
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 0
+      RewardAmount: 100
+      IsSpecialReward: 0
+      RewardSubIndex: 1
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 6
+      RewardAmount: 30
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 2500
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 8
+      RewardAmount: 15
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 1
+      RewardAmount: 2
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 2800
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 2
+      RewardAmount: 2
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 0
+      RewardAmount: 200
+      IsSpecialReward: 0
+      RewardSubIndex: 2
+  - Target: 3200
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 12
+      RewardAmount: 0
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 11
+      RewardAmount: 100
+      IsSpecialReward: 1
+      RewardSubIndex: 1
+  - Target: 3600
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 9
+      RewardAmount: 30
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 2
+      RewardAmount: 5
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 4000
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 1
+      RewardAmount: 2
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 10
+      RewardAmount: 20
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 4400
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 3
+      RewardAmount: 2
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 0
+      RewardAmount: 300
+      IsSpecialReward: 0
+      RewardSubIndex: 3
+  - Target: 4800
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 0
+      RewardAmount: 100
+      IsSpecialReward: 0
+      RewardSubIndex: 1
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 1
+      RewardAmount: 5
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 5300
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 12
+      RewardAmount: 0
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 11
+      RewardAmount: 50
+      IsSpecialReward: 1
+      RewardSubIndex: 0
+  - Target: 5800
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 4
+      RewardAmount: 1
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 0
+      RewardAmount: 350
+      IsSpecialReward: 0
+      RewardSubIndex: 3
+  - Target: 6300
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 6
+      RewardAmount: 20
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 1
+      RewardAmount: 7
+      IsSpecialReward: 0
+      RewardSubIndex: 2
+  - Target: 6800
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 0
+      RewardAmount: 150
+      IsSpecialReward: 0
+      RewardSubIndex: 1
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 9
+      RewardAmount: 35
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 7300
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 2
+      RewardAmount: 3
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 3
+      RewardAmount: 3
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 7900
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 12
+      RewardAmount: 0
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 11
+      RewardAmount: 50
+      IsSpecialReward: 1
+      RewardSubIndex: 0
+  - Target: 8500
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 10
+      RewardAmount: 10
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 1
+      RewardAmount: 5
+      IsSpecialReward: 0
+      RewardSubIndex: 1
+  - Target: 9100
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 0
+      RewardAmount: 200
+      IsSpecialReward: 0
+      RewardSubIndex: 2
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 7
+      RewardAmount: 20
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 9700
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 3
+      RewardAmount: 2
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 0
+      RewardAmount: 400
+      IsSpecialReward: 0
+      RewardSubIndex: 3
+  - Target: 10300
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 1
+      RewardAmount: 2
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 4
+      RewardAmount: 3
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 11000
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 12
+      RewardAmount: 0
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 11
+      RewardAmount: 100
+      IsSpecialReward: 1
+      RewardSubIndex: 1
+  - Target: 11700
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 5
+      RewardAmount: 30
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 0
+      RewardAmount: 300
+      IsSpecialReward: 0
+      RewardSubIndex: 3
+  - Target: 12400
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 2
+      RewardAmount: 3
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 5
+      RewardAmount: 30
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 13100
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 4
+      RewardAmount: 2
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 2
+      RewardAmount: 2
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 13800
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 0
+      RewardAmount: 250
+      IsSpecialReward: 0
+      RewardSubIndex: 2
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 0
+      RewardAmount: 350
+      IsSpecialReward: 0
+      RewardSubIndex: 3
+  - Target: 14600
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 12
+      RewardAmount: 0
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 11
+      RewardAmount: 50
+      IsSpecialReward: 1
+      RewardSubIndex: 0
+  - Target: 15400
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 7
+      RewardAmount: 25
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 1
+      RewardAmount: 7
+      IsSpecialReward: 0
+      RewardSubIndex: 2
+  - Target: 16200
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 4
+      RewardAmount: 2
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 3
+      RewardAmount: 4
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 17000
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 6
+      RewardAmount: 20
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 0
+      RewardAmount: 250
+      IsSpecialReward: 0
+      RewardSubIndex: 2
+  - Target: 17800
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 0
+      RewardAmount: 300
+      IsSpecialReward: 0
+      RewardSubIndex: 3
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 6
+      RewardAmount: 35
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 18700
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 12
+      RewardAmount: 0
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 11
+      RewardAmount: 50
+      IsSpecialReward: 1
+      RewardSubIndex: 0
+  - Target: 19600
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 3
+      RewardAmount: 3
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 1
+      RewardAmount: 10
+      IsSpecialReward: 0
+      RewardSubIndex: 2
+  - Target: 20500
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 2
+      RewardAmount: 4
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 0
+      RewardAmount: 750
+      IsSpecialReward: 0
+      RewardSubIndex: 4
+  - Target: 21400
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 8
+      RewardAmount: 20
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 7
+      RewardAmount: 40
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 22300
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 0
+      RewardAmount: 400
+      IsSpecialReward: 0
+      RewardSubIndex: 3
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 4
+      RewardAmount: 5
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+  - Target: 23300
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 12
+      RewardAmount: 0
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 11
+      RewardAmount: 100
+      IsSpecialReward: 1
+      RewardSubIndex: 1
+  - Target: 24300
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 10
+      RewardAmount: 15
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 0
+      RewardAmount: 1000
+      IsSpecialReward: 0
+      RewardSubIndex: 4
+  - Target: 25300
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 4
+      RewardAmount: 3
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 1
+      RewardAmount: 15
+      IsSpecialReward: 0
+      RewardSubIndex: 2
+  - Target: 26300
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 1
+      RewardAmount: 5
+      IsSpecialReward: 0
+      RewardSubIndex: 1
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 0
+      RewardAmount: 2000
+      IsSpecialReward: 0
+      RewardSubIndex: 4
+  - Target: 27300
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 0
+      RewardAmount: 1000
+      IsSpecialReward: 0
+      RewardSubIndex: 4
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 1
+      RewardAmount: 20
+      IsSpecialReward: 0
+      RewardSubIndex: 2
+  - Target: 30000
+    SPPReward:
+      SPPRewardType: 0
+      Reward: 12
+      RewardAmount: 0
+      IsSpecialReward: 0
+      RewardSubIndex: 0
+    SPPPremiumReward:
+      SPPRewardType: 1
+      Reward: 11
+      RewardAmount: 250
+      IsSpecialReward: 1
+      RewardSubIndex: 2

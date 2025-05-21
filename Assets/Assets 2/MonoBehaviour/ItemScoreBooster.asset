@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb3f0502b476c6943c7a32cc795059a, type: 3}
+  m_Name: ItemScoreBooster
+  m_EditorClassIdentifier:
+  Type: 8
+  MissionType: 0
+  Name:
+  Description:
+  DetailedDescription:
+  Affect: 0
+  Category: 0
+  BoosterLevel: 0
+  PassiveBoosterCategory: 0
+  PassiveBoosterType: 0
+  IconType: 0
+  Sprite: {fileID: 21300000, guid: 65e8609dfe355d842ae4afec3aaf761a, type: 2}
+  IconPrefab: {fileID: 0}
+  BgSprite: {fileID: 21300000, guid: 88c32a43c87208747a27005929851a04, type: 2}
+  SmallIconType: 0
+  PredefinedSmallIcon: {fileID: 0}
+  BoosterDropObject:
+    fileName:
+    fileGuid:
+    resourceFilePath:
+    filePath:
+  SmallIconPrefab: {fileID: 0}
+  UnlockingScore: 0
+  _addScore: 0
+  _scoreToAdd: 5
+  _scorePercentage: 0
+  _addCoins: 0
+  _coinsToAdd: 0
+  _rewardValueRange:
+    MinValue: 0
+    MaxValue: 0
+  _passiveBoostertimeDuration: 0
+  BoosterExecutionDelay: 0
+  _iconPositionDelta: {x: 0, y: 0, z: 0}
+  _descriptionPositionDelta: {x: 0, y: 0}
+  _descriptionRectSizeDelta: {x: 0, y: 0}
+  _namePositionDelta: {x: 0, y: 0}
+  _iconScaleFactor: 0
+  _nameIconScaleFactor: 0
+  _iconRotationOnView: {x: 0, y: 0, z: 0}
+  _boosterNameSprite:
+    fileName: GameOver-text
+    fileGuid: fbca31778d0364a828d82e54fb80a234
+    resourceFilePath:
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/LevelFail/Art/2D/Sprites/GameOver-text.png
+  _iconHoverPosition: {x: 0, y: 0}

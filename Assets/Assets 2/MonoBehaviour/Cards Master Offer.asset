@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 241b0c69c9031edc7083e1b51835cb19, type: 3}
+  m_Name: Cards Master Offer
+  m_EditorClassIdentifier:
+  Product: {fileID: 11400000, guid: b25adf45c19774b4fa9316c148b36d13, type: 2}
+  Price: 14.99
+  IsStarterPack: 0
+  Coins: 2000
+  RemoveAds: 0
+  SkipAds: 0
+  CardsItemData: {fileID: 11400000, guid: c0a4285ff0062ed4fa525a2d2e2706a1, type: 2}
+  BrushCutter: 4
+  Sprayer: 4
+  WheelsBarrow: 4
+  LiveOpsOfferItemData:
+    WorthCoins: 0
+    WorthSkipAds: 0
+    OfferWorthBGSprite:
+      fileName:
+      fileGuid:
+      resourceFilePath:
+      filePath:
+    OfferFreeBGSprite:
+      fileName:
+      fileGuid:
+      resourceFilePath:
+      filePath:
+    OfferBGColor: {r: 0, g: 0, b: 0, a: 0}
+    OfferID:
+  Time: 86400
+  SpecialOfferType: 5
+  OfferType: 2
+  OfferHeader: 'Master offer '
+  OfferAnimatedIcon:
+    fileName: CardPack - Master
+    fileGuid: 888d936c30354484ca32364ad4d26238
+    resourceFilePath: AnimatedIcons/Cards/CardPack - Master
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/_SpecialOffer/Art/2D/Sprites/Resources/AnimatedIcons/Cards/CardPack - Master.prefab
+  OfferCardBG:
+    fileName: offer-bg_0
+    fileGuid: ee41641b5477346f69ef228e60a1f620
+    resourceFilePath: CardBG/master
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/Art/Sprites/Pack/Resources/CardBG/master.png
+  OfferCardTimerNotch:
+    fileName: super-notch_0
+    fileGuid: 19e361537ac5240008752217bd305d60
+    resourceFilePath: CardTimerBG/master-notch
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/Art/Sprites/Pack/Resources/CardTimerBG/master-notch.png
+  OfferHeaderTextMaterial:
+    fileName: Barlow-Black OutlineDarkBlue
+    fileGuid: 1b73371b70edb456f9caaba81f9a6bfc
+    resourceFilePath: Barlow-Black OutlineDarkBlue
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Text/Font/Resources/Barlow-Black OutlineDarkBlue.mat
+  OfferHeaderSubTitleColor: {r: 0, g: 0, b: 0, a: 0.5019608}
+  OfferHeaderTitle:
+    fileName: Master
+    fileGuid: ef700805665214bf08de2f4c0b506ead
+    resourceFilePath: Master
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/_SpecialOffer/Art/2D/Sprites/Resources/Master.png
+  OfferViewBGColor: {r: 0.34509805, g: 0.40392157, b: 0.8627451, a: 1}
+  OfferSeparationLineColor: {r: 0.34901962, g: 0.41568628, b: 0.88235295, a: 1}
+  OfferHeaderTitleBGColor: {r: 0.2509804, g: 0.29803923, b: 0.6431373, a: 1}

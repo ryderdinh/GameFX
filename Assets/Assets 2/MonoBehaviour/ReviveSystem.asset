@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dfbfca1ae71cb7e1e1121f2022a1805, type: 3}
+  m_Name: ReviveSystem
+  m_EditorClassIdentifier:
+  _revivesUsedDB: {fileID: 11400000, guid: 5492f84c5814de543956c5854772805b, type: 2}
+  _freeReviveAvailed: {fileID: 11400000, guid: 4e201c3cba9fc1a4da68c26d48a6342e, type: 2}
+  _remoteConfigs: {fileID: 11400000, guid: 64bc85f34f6aa484bb1d0a5c4c9fc593, type: 2}
+  _cost: ee020000dc050000c4090000
+  _reviveOnCoinsCountDB: {fileID: 11400000, guid: 1a4b08a3933e73443b6f2a5eb7428926, type: 2}
+  _cashObject: {fileID: 11400000, guid: 3e838399dde5aa740aa5f0afbec54c75, type: 2}

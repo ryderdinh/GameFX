@@ -1,0 +1,19 @@
+[VIP LEVEL INTERVAL],,,
+Interval
+100
+[END],,,
+[LEVEL DATA],,,
+Level Id
+1,PieceSort,0
+[END],,,
+[PIECESORT DATA],,,
+Level Id
+1
+[END],,,
+[EXPERIENCE DATA],,,
+Level ID,Exp Required
+1,40
+2,60
+3,80
+4,100
+[END],,,

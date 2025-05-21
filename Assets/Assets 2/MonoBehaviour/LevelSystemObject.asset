@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e887be49d5818a4e61a72ab5cf638b6, type: 3}
+  m_Name: LevelSystemObject
+  m_EditorClassIdentifier:
+  _dbFTUELevelNo: {fileID: 11400000, guid: a9161eddde21e834f97e651d2f0993bb, type: 2}
+  _dbLevelNo: {fileID: 11400000, guid: 1af90cbe81cc30540a981bf5d523650e, type: 2}
+  _dbCheckPointNo: {fileID: 11400000, guid: 267791236ba3eb74c9746ea7db7e3dec, type: 2}
+  _dbHandholdingLevel: {fileID: 11400000, guid: a9c2e7568e6ea2943b44d79cf5266a9a, type: 2}
+  _dbHighestLevelReached: {fileID: 11400000, guid: d25d57547396ceb4286b9e52f4e1716b, type: 2}
+  _dbLastHighestLevelReached: {fileID: 11400000, guid: 4eb0ad2560a6b394586d9aaa70268079, type: 2}
+  _dbHighestLevelReachedForMetaProgress: {fileID: 11400000, guid: a2e22b996dc156140a82a75185252eb7, type: 2}
+  _dbHighestLevelReachedInGame: {fileID: 11400000, guid: 175871983c1fcce4a91891144424e426, type: 2}
+  LevelDataConfigs:
+  - {fileID: 11400000, guid: 65d9160c0881e8a4fa769eadfa5688db, type: 2}
+  - {fileID: 11400000, guid: b8c3120ee34619543ac299fdc8f89c60, type: 2}
+  - {fileID: 11400000, guid: 8e21ed2f1392a5440bacfa0ec504d819, type: 2}
+  - {fileID: 11400000, guid: c13b4972b9df4f6459df51b05d049fdc, type: 2}
+  - {fileID: 11400000, guid: dfa9a2ba3cc8f6241845dee9384eb30d, type: 2}
+  - {fileID: 11400000, guid: 1c58c96162c69ff49a9a769253b5289a, type: 2}
+  - {fileID: 11400000, guid: b1d61bab64efa7a479685c06e32a9b34, type: 2}
+  - {fileID: 11400000, guid: 812c77e9eab17fb46a344e2226a03122, type: 2}
+  _maxFTUELevels: 030000000500000008000000
+  _matchSystem: {fileID: 11400000, guid: 945d4b474ac63cc4ab7c137b381f0267, type: 2}
+  _metaSystem: {fileID: 11400000, guid: 7fae42422b9f4544daf4e2934b9af412, type: 2}
+  _scoreSystem: {fileID: 11400000, guid: e43858b361243d84d911de71f095a151, type: 2}
+  _analyticsSystem: {fileID: 11400000, guid: cb1c4086ecb5ede49a293574102dc5cc, type: 2}
+  _userStateBackup: {fileID: 11400000, guid: 7289ff96c66b3564381289dbc17e5371, type: 2}

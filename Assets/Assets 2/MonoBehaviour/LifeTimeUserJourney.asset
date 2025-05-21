@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b07d7be6987db0722f9ab7c3b7c9184, type: 3}
+  m_Name: LifeTimeUserJourney
+  m_EditorClassIdentifier:
+  _journeyDataDB: {fileID: 11400000, guid: d69a14df589a4fc4ab1caeba659bf375, type: 2}
+  _highScore: {fileID: 11400000, guid: 5feed0d433615c74cb84d87a21c48863, type: 2}
+  _MetaInProgress: {fileID: 11400000, guid: 1f4ebb86f2350c245834b156cdc4efca, type: 2}
+  _variablesToPort:
+  - LifeTimeMatchesMade
+  - LifeTimePotsPlaced
+  - LifeTimeRefreshTraysUsed
+  - LifeTimeRevivesUsed
+  - LifeTimeRevivesOnCoinsUsed
+  - LifeTimeButterfliesShown
+  - LifeTimeButterfliesClicked
+  - LifeTimeButterfliesUsed
+  - LifeTimeButterfliesRespins
+  - LifeTimeLevelGiftsUsed
+  - LifeTimeLevelGiftsRespins
+  - LifeTimeRvsWatched
+  - LifeTimeIntersWatched
+  - LifeTimeSkipItsUsed
+  - PowerUpWaterCanUsed
+  - PowerUpShuffleUsed
+  - PowerUpBrushCutterUsed
+  - LifeTimeTurnsPlayed
+  - LifeTimeAdRevenue
+  _CoinAnalytics: {fileID: 11400000, guid: 57eb5bd3b1106f14ea34fb3cae655673, type: 2}
+  _LevelSystem: {fileID: 11400000, guid: 7295b9c5f2015ca44a59d7c4e797758f, type: 2}
+  _FlowerCompleteAnalytics:
+  - {fileID: 11400000, guid: e54af120f39370e4880e3f89bba5848d, type: 2}
+  - {fileID: 11400000, guid: 181a12a4484edeb4382a7fb39924a0d9, type: 2}
+  - {fileID: 11400000, guid: e94c2279e5b55cd449c9b5bac6d0e617, type: 2}
+  - {fileID: 11400000, guid: 59fbc36ba3d621141b46f4ad1416941c, type: 2}
+  - {fileID: 11400000, guid: 585182949a0571f46896308812141631, type: 2}
+  - {fileID: 11400000, guid: a9237a37280bc164488c4acce2ae6fe0, type: 2}

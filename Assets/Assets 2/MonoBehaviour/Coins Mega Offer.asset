@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 241b0c69c9031edc7083e1b51835cb19, type: 3}
+  m_Name: Coins Mega Offer
+  m_EditorClassIdentifier:
+  Product: {fileID: 11400000, guid: 0335ec8b3461af94b8a63152d5d59278, type: 2}
+  Price: 69.99
+  IsStarterPack: 0
+  Coins: 70000
+  RemoveAds: 0
+  SkipAds: 75
+  CardsItemData: {fileID: 11400000, guid: 0043668d38fe177488253ea8d73818df, type: 2}
+  BrushCutter: 15
+  Sprayer: 15
+  WheelsBarrow: 15
+  LiveOpsOfferItemData:
+    WorthCoins: 0
+    WorthSkipAds: 0
+    OfferWorthBGSprite:
+      fileName:
+      fileGuid:
+      resourceFilePath:
+      filePath:
+    OfferFreeBGSprite:
+      fileName:
+      fileGuid:
+      resourceFilePath:
+      filePath:
+    OfferBGColor: {r: 0, g: 0, b: 0, a: 0}
+    OfferID:
+  Time: 86400
+  SpecialOfferType: 3
+  OfferType: 3
+  OfferHeader: Mega Offer
+  OfferAnimatedIcon:
+    fileName: Animated Coin Vault
+    fileGuid: 7e1fc411e5f8f475e9e6c2cfa6fdad85
+    resourceFilePath: Animated Coin Vault
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/_SpecialOffer/Art/2D/Sprites/Resources/Animated Coin Vault.prefab
+  OfferCardBG:
+    fileName: offer-bg_0
+    fileGuid: 9ef71796d4d7b427db9af4c83924591c
+    resourceFilePath: CardBG/mega
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/Art/Sprites/Pack/Resources/CardBG/mega.png
+  OfferCardTimerNotch:
+    fileName: super-notch_0
+    fileGuid: c5909deeb53ac413a9194241825956dc
+    resourceFilePath: CardTimerBG/mega-notch
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/Art/Sprites/Pack/Resources/CardTimerBG/mega-notch.png
+  OfferHeaderTextMaterial:
+    fileName: Barlow-Black outlineLightBlue
+    fileGuid: 84ef35dbc331149e49bcfb30530f72d3
+    resourceFilePath: Barlow-Black outlineLightBlue
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Text/Font/Resources/Barlow-Black outlineLightBlue.mat
+  OfferHeaderSubTitleColor: {r: 0, g: 0, b: 0, a: 0.5019608}
+  OfferHeaderTitle:
+    fileName: Mega
+    fileGuid: 631b079389c0f4b2e90466b890804954
+    resourceFilePath: Mega
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Market/_SpecialOffer/Art/2D/Sprites/Resources/Mega.png
+  OfferViewBGColor: {r: 0.15686275, g: 0.5411765, b: 0.78039217, a: 1}
+  OfferSeparationLineColor: {r: 0.14279571, g: 0.5372549, b: 0.77254903, a: 1}
+  OfferHeaderTitleBGColor: {r: 0, g: 0, b: 0, a: 0}

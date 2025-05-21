@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17ced91bb53c85895f5d806fb2720d, type: 3}
+  m_Name: LargeFertilizerViewConfigs
+  m_EditorClassIdentifier:
+  BoosterProductionObj:
+    fileName: LargeFertilizer
+    fileGuid: d0cff65349da14ca7b325c9fea2a4c7d
+    resourceFilePath: LargeFertilizer
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/LargeFertilizer/Resources/LargeFertilizer.prefab
+  InitialPosition: {x: -40, y: 40, z: -10}
+  InitialRotation: {x: 210, y: -160, z: -10}
+  InitialScale: {x: 1, y: 1, z: 1}
+  TargetPositionX: 150
+  TargetRotation: {x: 172, y: -65, z: -19}
+  TargetScale: {x: 1, y: 1, z: 1}
+  WaitForRotation: 0.25
+  WaitForFertilizer: 0.75
+  RotateDuration: 0.25
+  MoveDuration: 0.2
+  MoveOutDuration: 1

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 597ddbdd332f1c632c62674b6b474599, type: 3}
+  m_Name: DBDailyMissions
+  m_EditorClassIdentifier:
+  Value: '[{"MissionType":2,"Id":0,"RewardIndex":3,"MissionDifficulty":5,"TotalAmount":25,"MissionProgressState":0,"Progress":7},{"MissionType":8,"Id":1,"RewardIndex":7,"MissionDifficulty":5,"TotalAmount":2,"MissionProgressState":0,"Progress":0},{"MissionType":52,"Id":2,"RewardIndex":4,"MissionDifficulty":5,"TotalAmount":3,"MissionProgressState":1,"Progress":3},{"MissionType":51,"Id":3,"RewardIndex":0,"MissionDifficulty":6,"TotalAmount":1,"MissionProgressState":1,"Progress":1},{"MissionType":39,"Id":3,"RewardIndex":5,"MissionDifficulty":0,"TotalAmount":4,"MissionProgressState":0,"Progress":2}]'
+  DefaultValue:
+  ResetToDefaultOnPlay: 0
+  ResetOnClear: 0
+  Key: DBDailyMissions

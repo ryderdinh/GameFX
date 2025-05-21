@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50f8b944300b2dd7a42b607a97a7f1df, type: 3}
+  m_Name: Flower-Orange-TierData-509
+  m_EditorClassIdentifier:
+  Object: {fileID: 114027685044861982, guid: 8824d3e40c83bd942b60c59adfaec3db, type: 2}
+  CakeUIObject: {fileID: 114361036639365530, guid: 53057ef2080fa65479a41524ce23c545, type: 2}
+  TierScore: 33
+  MidMesh:
+    fileName: Mid-08
+    fileGuid: 35b3690c9df9e4956b0c85f5203caee6
+    resourceFilePath: Buds/Mid-08
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Flower/Art/3D/_Flowers/_Common/Resources/Buds/Mid-08.fbx
+  FlowerTexture:
+    fileName: Flower-Shape-01-Style-02
+    fileGuid: 3eedd554eaf2947f4853fe49cb0a2abf
+    resourceFilePath: Textures/Flower-Shape-01-Style-02
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Flower/Art/3D/_Flowers/_Common/Resources/Textures/Flower-Shape-01-Style-02.png
+  FlowerName: Peach Petal
+  Cost: 400
+  CardsRequiredToUnlock: 50

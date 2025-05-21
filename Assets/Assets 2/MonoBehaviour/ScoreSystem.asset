@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13539f01a54920c9c818472bec131a77, type: 3}
+  m_Name: ScoreSystem
+  m_EditorClassIdentifier:
+  _highScore: {fileID: 11400000, guid: bfc74ae97c7b900469830b9cd572d888, type: 2}
+  _currentScore: {fileID: 11400000, guid: b7033b454a60ffc41884a89fb8de673b, type: 2}
+  _currentLevelScore: {fileID: 11400000, guid: d559ce77d3f81d34094eded75b9c9338, type: 2}
+  _finalScore: {fileID: 11400000, guid: ffc3c2f4746714240ac9dc344c9f780e, type: 2}
+  _lastScore: {fileID: 11400000, guid: 2ad7cbc45889ef54d87551e10e508986, type: 2}
+  _dbHighScore: {fileID: 11400000, guid: 5feed0d433615c74cb84d87a21c48863, type: 2}
+  _dbLastHighScore: {fileID: 11400000, guid: 2f5c572e15bd2de41b479c756f6cfdfc, type: 2}
+  _dbCurrentScore: {fileID: 11400000, guid: 161c67574ab24124aa605aa35199087c, type: 2}
+  _dbCurrentLevelScore: {fileID: 11400000, guid: e598af2edeb480b47bc72f46a64ad3d6, type: 2}
+  _scoresToActiveHardMode: a0860100a0860100a0860100a0860100a0860100a0860100a0860100a0860100
+  _metaWorldConfig: {fileID: 11400000, guid: 62524b85cf3a5324e806e4a046683c03, type: 2}
+  _turboModeSystem: {fileID: 11400000, guid: 3ba8796af0fcdf3418f276fe37c253cc, type: 2}

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6734097d26223659322aa85301efa0e, type: 3}
+  m_Name: AppConfigs
+  m_EditorClassIdentifier:
+  AppTargetFrameRate: 60
+  AppLoadingTime: 0
+  LoadingEndWait: 5
+  Products:
+  - {fileID: 11400000, guid: 81a23a237ab9cea45ba2e7edd5a6faaa, type: 2}
+  - {fileID: 11400000, guid: 74e75b62a78d1ad4ab37c73c7c8f9ab9, type: 2}
+  - {fileID: 11400000, guid: dbc89383e3f25ce48aaf09a0d97225fd, type: 2}
+  - {fileID: 11400000, guid: 0a8eb2dc7da82804aab18a81c2fccaab, type: 2}
+  - {fileID: 11400000, guid: a5c65c90266d2434ca4c84e7194a0b4e, type: 2}
+  - {fileID: 11400000, guid: 9c11422aaeb6ad5409421c5fa06b1bb3, type: 2}
+  - {fileID: 11400000, guid: 672ca72ad2319804b894c19f1d5a641f, type: 2}
+  - {fileID: 11400000, guid: e34a0be920278d24db015d051d8f45b2, type: 2}
+  - {fileID: 11400000, guid: 8936b1f6ed07d2744b0dcb554deb0818, type: 2}
+  - {fileID: 11400000, guid: 0fe73f2a6ca8490449fea8c5f3afd645, type: 2}
+  - {fileID: 11400000, guid: 0fe1906ea89a1f94882c11edb485b40f, type: 2}
+  - {fileID: 11400000, guid: adf737ae690797146b6e76b3bf690cc9, type: 2}
+  - {fileID: 11400000, guid: f0b126ddf60f9da459d0218cfdd33331, type: 2}
+  - {fileID: 11400000, guid: c97daac4d5b3e6c49b2379d56fe6b1e4, type: 2}
+  - {fileID: 11400000, guid: 0335ec8b3461af94b8a63152d5d59278, type: 2}
+  - {fileID: 11400000, guid: 64b98af03cb8a7f46bcf285a8fedb20e, type: 2}
+  - {fileID: 11400000, guid: 231e64a364e4f63468df4ff020bb157f, type: 2}
+  - {fileID: 11400000, guid: 135b666b64099e849b21bfcbbc9231b9, type: 2}
+  - {fileID: 11400000, guid: 24817e16bb0bd4d4c90eec20ba7d9eca, type: 2}
+  - {fileID: 11400000, guid: 96d9085c2c90d844a8d86b34ceb1ce2b, type: 2}
+  - {fileID: 11400000, guid: b25adf45c19774b4fa9316c148b36d13, type: 2}
+  - {fileID: 11400000, guid: 671b437cd1c55224da38187f6b864f42, type: 2}
+  - {fileID: 11400000, guid: 6a2c82af3f23c2f4f91bf0a68f6a2fc4, type: 2}
+  - {fileID: 11400000, guid: 20f92b699ed639f4d95fcb34e38014f0, type: 2}
+  - {fileID: 11400000, guid: d20e87fbd651f0a4499de93ceb6dfc00, type: 2}
+  - {fileID: 11400000, guid: 90b80618ef9f35843bf6d42b3b0d609f, type: 2}
+  - {fileID: 11400000, guid: d838580d5708b4447b62e0b67aa7b70b, type: 2}
+  - {fileID: 11400000, guid: 3d475f33827ccaf4dbd7290dc4cb9b01, type: 2}
+  - {fileID: 11400000, guid: e13a019d9a294504bb9e5e583c5f107e, type: 2}
+  - {fileID: 11400000, guid: d0090df17156dfb439eb69a37ea2248a, type: 2}
+  - {fileID: 11400000, guid: 43d25bae6c5c49f41998b1e43052540f, type: 2}
+  - {fileID: 11400000, guid: 967004ad046d29143905b916cc1470f3, type: 2}
+  - {fileID: 11400000, guid: 392306671e32ddb4898c4261d6405f06, type: 2}
+  - {fileID: 11400000, guid: 9082084412c76a64ea907863ce85ff37, type: 2}
+  - {fileID: 11400000, guid: db545cdf39ba5494aaf44ff6147c3b9b, type: 2}
+  - {fileID: 11400000, guid: 675ebbf72386e2c4a86a717ed3478cca, type: 2}
+  - {fileID: 11400000, guid: 3eba7d446085cc44db1b473ce1714bb5, type: 2}
+  StarterPackProduct: {fileID: 11400000, guid: a5c65c90266d2434ca4c84e7194a0b4e, type: 2}
+  RewardedAdUnitIdAndroid: 2e6798c8a96516be
+  RewardedAdUnitIdIos: e061032a4cb65e23
+  InterstitialAdUnitIdAndroid: 5d6c7a54948b375b
+  InterstitialAdUnitIdIos: 6505db349d61c39e
+  BannerAdUnitIdAndroid: 57b68059bb06ba2f
+  BannerAdUnitIdIos: 506e8c7edfe0ddae
+  AppUnitIdAndroidAmazon: d6259fd2-a580-4eef-bc5f-b5b6da31ad62
+  AppUnitIdIosAmazon: 634a110c-7b76-4b36-9553-b5a7c77c79b4
+  RewardedAdUnitIdAndroidAmazon: 79afdc61-f7f6-41ee-992f-d3f3d2253eef
+  RewardedAdUnitIdIosAmazon: 0e17a143-454e-4fa5-879e-17e0b54324f2
+  InterstitialAdUnitIdAndroidAmazon: 95321166-9f1c-4e67-b2c7-7a719d2def53
+  InterstitialAdUnitIdIosAmazon: c34a5307-fd5c-4617-be03-5d83262fa99f
+  BannerAdUnitIdAndroidAmazon: 6076f5ea-4b1f-4fb1-a1dc-ea4c2f1f7093
+  BannerAdUnitIdIosAmazon: 9482a8c1-8c52-4b0b-b5bf-5fb1b9a626ed
+  UserProgress: {fileID: 11400000, guid: e13e386d136e9d34d8ce7e4feaa48e1a, type: 2}
+  SkipItOfferProduct: {fileID: 11400000, guid: 135b666b64099e849b21bfcbbc9231b9, type: 2}

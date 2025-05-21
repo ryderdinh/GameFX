@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf610ade29ff509fd1f5f309d538c903, type: 3}
+  m_Name: DishConfigs
+  m_EditorClassIdentifier:
+  GapInTwoDishesOnSelection: 2.2
+  DishSize: 8
+  DishPositionZ: 5.5
+  DishDeltaFromTouchPoint: 15
+  AppreciationSoundProbability: 0.8
+  CakeScaleDownDelayMultiplier: 0.15
+  BudScaleUpMultipler: 1.2
+  BudScaleDownMultipler: 0.75
+  BudScaleUpAnimationTime: 0.2
+  BudScaleDownAnimationTime: 0.2
+  PotScaleUpMultipler: 1.25
+  PotScaleUpAnimationTime: 0.25
+  PotScaleDownAnimationTime: 0.25
+  PotSequenceIntervalMultiplier: 0.1
+  PotScaleDownOnCompleteAnimationTime: 0.35
+  FlowerContainerScaleUpAnimationTime: 0.4
+  FlowerContainerScaleUpMultipler: 1.2
+  FlowerContainerRotationValueX: 0
+  FlowerContainerRotationValueZ: 150
+  FlowerContainerMoveUpValueZ: 5
+  FlowerContainerIntervalAfterScaleUp: 0
+  FlowerContainerRotationAnimationTime: 0.8
+  FlowerPetalsRotationAnimationTime: 0.55
+  FlowerCompleteParticleLifeTime: 4
+  FlowerCompleteParticle: {fileID: 198523613405823425, guid: afd8f7807f8240047a9484cd6f98c5e6, type: 2}
+  FlowerCompleteMaterial: {fileID: 2100000, guid: 4f47aec6400cdc9499dd526683f6407d, type: 2}
+  FlowerCompletePetalsMaterial: {fileID: 2100000, guid: a7a04343564598c4a9ee1817f17a5f53, type: 2}
+  FlowerDefaultPetalsMaterial: {fileID: 2100000, guid: 7e97df8d0657fc74d8447adb9b25a319, type: 2}
+  FlowerCompleteShader: {fileID: 4800000, guid: b6b151b95ab16e04d9ab0c055a2fb2e4, type: 3}
+  FlowerCompleteParticleYPosition: 8
+  FlowerForceCompleteDelayInPetals: 0.1
+  FlowerForceCompletePetalTime: 0.5
+  CakeScaleStartDelayMin: 0.25
+  CakeScaleStartDelayMax: 0.75
+  PotSpawnScaleUpMultiplier: 1.4
+  CakeScaleUpDelayMultiplier: 0.15
+  PotSpawnScaleUpAnimationTime: 0.4
+  BudSpawnScaleDelay: 0.15
+  BudSpawnScaleUpAnimationTime: 0.25
+  PotSpawnRotationAnimationTime: 2
+  PotSpawnRotationDelay: 0.2
+  PotSpawnRotationAngle: 360
+  PotSpawnAngleRotationRangeMin: 60
+  PotSpawnAngleRotationRangeMax: 180
+  PotScaleToDefaultDelay: 0.75
+  CakeSlicesSpawnDelay: 0.15
+  PotEmptyDelay: 0.4
+  CakeWobbleScaleAnimationTime: 0.6
+  CakeWobbleRandomness: 40
+  CakeWobbleVibrato: 6
+  CakeScaleRandomness: 0.2
+  LevelFailCakeWobbleScaleAnimationTime: 2.5
+  LevelFailCakeWobbleRandomness: 15
+  LevelFailCakeWobbleVibrato: 4
+  PotScaleDownOnVanishAnimationTime: 1
+  DualDishMaterial: {fileID: 2100000, guid: 121799e3e680c6c4aa5f0ae7ea2d7bb3, type: 2}
+  DualDishInitialColor: {r: 1, g: 1, b: 1, a: 1}
+  DualDishWarningStartColor: {r: 1, g: 1, b: 1, a: 1}
+  DualDishWarningEndColor: {r: 1, g: 0.6, b: 0.6, a: 1}
+  DualDishWarningGlowTime: 0.6

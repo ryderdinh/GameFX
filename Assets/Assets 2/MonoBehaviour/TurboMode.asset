@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c70150f8c12ae3cffd3f357617f3bbe7, type: 3}
+  m_Name: TurboMode
+  m_EditorClassIdentifier:
+  _turboModeTotalMoves: 10
+  _turboScoreMultiplier: 2
+  _turboModeUnlockStage: 1
+  _turboModeUnlockWorld: 2
+  _cTADelay: 10
+  _waitBeforeTutorial: 60
+  _movesBeforeTutorial: 5
+  _dbCanShowTurboTutorial: {fileID: 11400000, guid: 1552209c4e44e2742b7a79c08fefd39a, type: 2}
+  _dbTurboModeUnlocked: {fileID: 11400000, guid: 813f06e66d4cecb4e8170add3200400a, type: 2}
+  _levelSystem: {fileID: 11400000, guid: 7295b9c5f2015ca44a59d7c4e797758f, type: 2}
+  _worldConfig: {fileID: 11400000, guid: 62524b85cf3a5324e806e4a046683c03, type: 2}
+  _turboModeDishMesh: {fileID: 4300000, guid: 8d53bd806e1147647909a51e1a1199f1, type: 2}
+  _turboModeDualDishMesh: {fileID: 4300000, guid: 01f3b390bdf51d243bc34140d7518427, type: 2}
+  _powerUpsSystem: {fileID: 11400000, guid: f8703951126f5994cbd1753ea32b5c57, type: 2}
+  _scoreSystem: {fileID: 11400000, guid: e43858b361243d84d911de71f095a151, type: 2}

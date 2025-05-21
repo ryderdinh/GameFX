@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 337620c8f61dd0941ea006352db08fba, type: 3}
+  m_Name: InGameInterstitialAdObject
+  m_EditorClassIdentifier:
+  _remoteAppConfigs: {fileID: 11400000, guid: 64bc85f34f6aa484bb1d0a5c4c9fc593, type: 2}
+  _powerUpsSystem: {fileID: 11400000, guid: f8703951126f5994cbd1753ea32b5c57, type: 2}
+  _turboModeSystem: {fileID: 11400000, guid: 3ba8796af0fcdf3418f276fe37c253cc, type: 2}
+  _scoreSystem: {fileID: 11400000, guid: e43858b361243d84d911de71f095a151, type: 2}
+  _levelSystem: {fileID: 11400000, guid: 7295b9c5f2015ca44a59d7c4e797758f, type: 2}
+  _cashObject: {fileID: 11400000, guid: 3e838399dde5aa740aa5f0afbec54c75, type: 2}
+  _coinsRewardToGive: 5
+  _rewardPosition: {x: 30, y: 0, z: 50}
+  _showOfferCounter: 010000000300000005000000
+  _delayToShowOffer: 1
+  _userJourneySystem: {fileID: 11400000, guid: 07ff4c15f7c4f8b4b9d9378a1452a6a1, type: 2}
+  _intersIndex: {fileID: 11400000, guid: f70ca4cc66bb14245a17311283e03d48, type: 2}
+  _offersController: {fileID: 11400000, guid: 455a4052a9521964fb81713ef5f6a617, type: 2}

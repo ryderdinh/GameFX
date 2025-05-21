@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f288f3e37dde8db81e291bf99359e9, type: 3}
+  m_Name: PaintBrush
+  m_EditorClassIdentifier:
+  Type: 13
+  MissionType: 22
+  Name: Paint Brush
+  Description: Paint A Flower <color={0}>{1}</color>
+  DetailedDescription: Tap a flower to paint <color={0}>{1}</color>
+  Affect: 0
+  Category: 0
+  BoosterLevel: 1
+  PassiveBoosterCategory: 0
+  PassiveBoosterType: 0
+  IconType: 0
+  Sprite: {fileID: 21300000, guid: c01fe6284c6152445a162baf1c201cca, type: 2}
+  IconPrefab: {fileID: 0}
+  BgSprite: {fileID: 21300000, guid: 88c32a43c87208747a27005929851a04, type: 2}
+  SmallIconType: 3
+  PredefinedSmallIcon: {fileID: 21300000, guid: 034cb6b8fe5dc6d40b9cd58b04593e6f, type: 2}
+  BoosterDropObject:
+    fileName: PaintBrush-DropObject Variant
+    fileGuid: 7bb332c99393049598a95e31a1c38461
+    resourceFilePath: PaintBrush-DropObject Variant
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/PaintBrush/Resources/PaintBrush-DropObject Variant.prefab
+  SmallIconPrefab: {fileID: 0}
+  UnlockingScore: 0
+  _addScore: 0
+  _scoreToAdd: 0
+  _scorePercentage: 0
+  _addCoins: 0
+  _coinsToAdd: 0
+  _rewardValueRange:
+    MinValue: 0
+    MaxValue: 0
+  _passiveBoostertimeDuration: 0
+  BoosterExecutionDelay: 0
+  _iconPositionDelta: {x: -15, y: 0, z: 0}
+  _descriptionPositionDelta: {x: 0, y: -12}
+  _descriptionRectSizeDelta: {x: -100, y: 0}
+  _namePositionDelta: {x: 0, y: 0}
+  _iconScaleFactor: 1
+  _nameIconScaleFactor: 0
+  _iconRotationOnView: {x: 0, y: 0, z: 0}
+  _boosterNameSprite:
+    fileName: PaintBrush-text
+    fileGuid: 80a86adc70dfb4b21bda7deaf57f6b94
+    resourceFilePath: PaintBrush-text
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/Art/Resources/PaintBrush-text.png
+  _iconHoverPosition: {x: 0, y: 10}
+  itemId: 0
+  _configs: {fileID: 11400000, guid: 9bc6507627ce25341a68811dddaa85b5, type: 2}

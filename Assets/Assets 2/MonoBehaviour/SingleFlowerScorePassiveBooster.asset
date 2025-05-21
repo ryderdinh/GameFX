@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7ea67271fb39f45afb97745fa5d94f, type: 3}
+  m_Name: SingleFlowerScorePassiveBooster
+  m_EditorClassIdentifier:
+  Type: 21
+  MissionType: 0
+  Name: Plus x points for y minutes for all flowers
+  Description: All matches for {0} secs give {1}x points
+  DetailedDescription:
+  Affect: 1
+  Category: 1
+  BoosterLevel: 0
+  PassiveBoosterCategory: 2
+  PassiveBoosterType: 1
+  IconType: 0
+  Sprite: {fileID: 0}
+  IconPrefab: {fileID: 0}
+  BgSprite: {fileID: 0}
+  SmallIconType: 1
+  PredefinedSmallIcon: {fileID: 0}
+  BoosterDropObject:
+    fileName:
+    fileGuid:
+    resourceFilePath:
+    filePath:
+  SmallIconPrefab: {fileID: 0}
+  UnlockingScore: 0
+  _addScore: 1
+  _scoreToAdd: 2
+  _scorePercentage: 0
+  _addCoins: 0
+  _coinsToAdd: 0
+  _rewardValueRange:
+    MinValue: 0
+    MaxValue: 0
+  _passiveBoostertimeDuration: 0
+  BoosterExecutionDelay: 0
+  _iconPositionDelta: {x: 0, y: 0, z: 0}
+  _descriptionPositionDelta: {x: 0, y: 0}
+  _descriptionRectSizeDelta: {x: 0, y: 0}
+  _namePositionDelta: {x: 0, y: 0}
+  _iconScaleFactor: 0
+  _nameIconScaleFactor: 0
+  _iconRotationOnView: {x: 0, y: 0, z: 0}
+  _boosterNameSprite:
+    fileName:
+    fileGuid:
+    resourceFilePath:
+    filePath:
+  _iconHoverPosition: {x: 0, y: 0}

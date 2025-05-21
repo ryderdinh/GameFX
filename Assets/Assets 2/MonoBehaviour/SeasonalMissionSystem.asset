@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0715c3669e5294943a5648dfde6f8fd9, type: 3}
+  m_Name: SeasonalMissionSystem
+  m_EditorClassIdentifier:
+  _DbMissionStates: {fileID: 11400000, guid: 84cd1c0b63cf2d94da59c31a285fda75, type: 2}
+  _MissionHandlers: []
+  _MissionDifficultyObjects:
+  - {fileID: 11400000, guid: 0da3ff27ffcdf6045ae2a8b325139027, type: 2}
+  _preDefinedMissions:
+  - MissionType: 26
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 3
+      _probability: 0
+    RewardIndex: 4
+  - MissionType: 1
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 2000
+      _probability: 0
+    RewardIndex: 2
+  - MissionType: 29
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 10
+      _probability: 0
+    RewardIndex: 6
+  - MissionType: 24
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 50
+      _probability: 0
+    RewardIndex: 10
+  - MissionType: 7
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 10000
+      _probability: 0
+    RewardIndex: 12
+  - MissionType: 43
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 10
+      _probability: 0
+    RewardIndex: 0
+  - MissionType: 8
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 60
+      _probability: 0
+    RewardIndex: 11
+  - MissionType: 37
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 15
+      _probability: 0
+    RewardIndex: 5
+  - MissionType: 3
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 3000
+      _probability: 0
+    RewardIndex: 15
+  - MissionType: 40
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 40
+      _probability: 0
+    RewardIndex: 8
+  - MissionType: 26
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 5
+      _probability: 0
+    RewardIndex: 2
+  - MissionType: 44
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 1000
+      _probability: 0
+    RewardIndex: 13
+  - MissionType: 33
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 5
+      _probability: 0
+    RewardIndex: 4
+  - MissionType: 52
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 50
+      _probability: 0
+    RewardIndex: 0
+  - MissionType: 38
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 50
+      _probability: 0
+    RewardIndex: 8
+  - MissionType: 10
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 50
+      _probability: 0
+    RewardIndex: 11
+  - MissionType: 30
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 5
+      _probability: 0
+    RewardIndex: 9
+  - MissionType: 6
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 1000
+      _probability: 0
+    RewardIndex: 4
+  - MissionType: 42
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 4000
+      _probability: 0
+    RewardIndex: 15
+  - MissionType: 54
+    IsFixedDDifficulty: 1
+    MissionDifficultyData:
+      _missionDifficulty: 4
+      _amount: 19
+      _probability: 0
+    RewardIndex: 3
+  _seasonalMissionStages:
+  - {fileID: 11400000, guid: 054545fd1963096429d05278776eead5, type: 2}
+  - {fileID: 11400000, guid: 31c6600e25c97d74f9b36ae7541628fc, type: 2}
+  - {fileID: 11400000, guid: 42e433338d0241043bb600dc5df7a477, type: 2}
+  - {fileID: 11400000, guid: 344bc63dd50dd3043bb226e906516868, type: 2}
+  _dbMissionIndex: {fileID: 11400000, guid: 45e8d094cb80e1c418a5ace973c05c7f, type: 2}
+  _numberOfStages: 4
+  _missionsPerStage: 5

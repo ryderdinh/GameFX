@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207bd0b5384c7093ea12dad7eacb2baf, type: 3}
+  m_Name: _Mission4MissionHandler
+  m_EditorClassIdentifier:
+  _singleMissionHandlerType: 5
+  _singleMissionTypeData:
+  - {fileID: 11400000, guid: 79ce13d1495cad84cbfdbcd676040014, type: 2}
+  - {fileID: 11400000, guid: b91f5df1e46b1f74997472210fe30b70, type: 2}
+  - {fileID: 11400000, guid: 8f51590b79b0ae7459351c874312e72f, type: 2}
+  - {fileID: 11400000, guid: a9aaf5cad1aecb1448d0eb843a4cb776, type: 2}
+  - {fileID: 11400000, guid: ee98b6647550ddc4b8562005a1d47d1d, type: 2}
+  - {fileID: 11400000, guid: 5e437608039c44a469cedfdc624e9e2c, type: 2}

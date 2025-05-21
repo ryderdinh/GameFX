@@ -1,0 +1,84 @@
+{
+	"LionMaxManager": {
+		"sdkKey": "hlKffQFn1sKXRefAUUKG4o-i-OOURETonfImCKvE29oyDwftIiyhVZMlNNxwUFl8NgUmynX33XOEq5m09yb34Z",
+		"rewardedAdUnitIdAndroid": "2e6798c8a96516be",
+		"rewardedAdUnitIdIos": "e061032a4cb65e23",
+		"interstitialAdUnitIdAndroid": "5d6c7a54948b375b",
+		"interstitialAdUnitIdIos": "6505db349d61c39e",
+		"bannerAdUnitIdAndroid": "57b68059bb06ba2f",
+		"bannerAdUnitIdIos": "506e8c7edfe0ddae",
+		"appOpenAdUnitIdAndroid": "",
+		"appOpenAdUnitIdIos": "",
+		"crossPromoAdUnitIdAndroid": "",
+		"crossPromoAdUnitIdIos": ""
+	},
+	"LionMaxAnalytics": {
+
+	},
+	"LionMaxGdpr": {
+
+	},
+	"LionStudios.Suite.Analytics.LionAnalytics": {
+		"heartbeatInterval": 60,
+		"enableGameAnalyticsEvents": false
+	},
+	"LionStudios.Suite.GDPR.LionGDPR": {
+		"appName": "Bloom Sort",
+		"showFixItBannerOnDecline": true,
+		"fixItBannerHeight": 0.85000002384185791,
+		"fontScale": 1,
+		"titleFontColor": {
+			"r": 1,
+			"g": 1,
+			"b": 1,
+			"a": 1
+		},
+		"baseFontColor": {
+			"r": 0,
+			"g": 0,
+			"b": 0,
+			"a": 1
+		},
+		"secondaryColor": {
+			"r": 1,
+			"g": 0,
+			"b": 0,
+			"a": 1
+		},
+		"showBorders": true,
+		"backgroundColor": {
+			"r": 1,
+			"g": 1,
+			"b": 1,
+			"a": 1
+		},
+		"_privacyLinks": [
+			{
+				"privacyLink": ""
+			},
+			{
+				"privacyLink": ""
+			},
+			{
+				"privacyLink": ""
+			},
+			{
+				"privacyLink": ""
+			},
+			{
+				"privacyLink": ""
+			}
+		]
+	},
+	"LionStudios.Suite.Core.LionCore": {
+		"_UseMultiDexSupport": true,
+		"_UseProGuard": true,
+		"_OverrideGradlePluginVersion": false,
+		"_GradlePluginOverride": ""
+	},
+	"LionStudios.Suite.Debugging.LionDebug": {
+		"debuggerEnabled": false,
+		"showDebuggerAtStartup": false,
+		"debugLogLevel": 0
+	}
+}

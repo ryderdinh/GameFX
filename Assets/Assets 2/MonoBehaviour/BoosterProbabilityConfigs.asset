@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 107965f0b4aa45536a057fe8c75067b8, type: 3}
+  m_Name: BoosterProbabilityConfigs
+  m_EditorClassIdentifier:
+  FlowerUpgradeProbabilityConfigs: {fileID: 11400000, guid: 2089a195f52d0a0489871fbb704e5e9f, type: 2}
+  FlowerCardsProbabilityConfigs: {fileID: 11400000, guid: 0797c64c340ac924a94e88f301b4fcc0, type: 2}
+  CoinsProbabilityConfigs: {fileID: 11400000, guid: b5b11c292ea3bb140b187f53fd24e856, type: 2}
+  BoosterTypePassiveProbabilitiesCoinHeavy: {fileID: 11400000, guid: a568a2b3515877b41b26edf280f4d5c3, type: 2}
+  CashObject: {fileID: 11400000, guid: 3e838399dde5aa740aa5f0afbec54c75, type: 2}
+  FTUEPredefinedBoosterType: 000000000500000007000000120000000a000000030000000d000000110000000b000000100000000c000000
+  FTUEBoosterProbabilityGroup: 010000000200000001000000010000000200000001000000020000000100000002000000010000000100000001000000040000000100000001000000020000000100000001000000
+  BoosterTypeActiveProbabilities: {fileID: 11400000, guid: 6c5e10c34fb6fd3459001cffcbefad0a, type: 2}
+  BoosterTypePassiveProbabilities: {fileID: 11400000, guid: a568a2b3515877b41b26edf280f4d5c3, type: 2}
+  RespinBoosterTypeActiveProbabilities: {fileID: 11400000, guid: 3558d7b91c08bc441a0cc75daec851b7, type: 2}
+  RespinBoosterTypePassiveProbabilities: {fileID: 11400000, guid: a439059d3670b77499fd1f5e87983e2f, type: 2}
+  AnyBoosterTypeProbabilities: {fileID: 11400000, guid: 1e303c5a4c28e8d42b47610c68a518d2, type: 2}
+  RespinAnyBoosterTypeProbabilities: {fileID: 11400000, guid: 7939bc6375351c74eb08c0a47425092c, type: 2}
+  PredefinedPassiveBoosterTypes: 1b000000180000001800000018000000
+  PredefinedFlowerUpgradeBoosterData:
+  - FlowerType: 0
+    CardsCount: 5
+  - FlowerType: 1
+    CardsCount: 10
+  - FlowerType: 2
+    CardsCount: 5

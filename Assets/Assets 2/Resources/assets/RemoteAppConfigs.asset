@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a41dc4b61a934f54a7526b8d71dd995, type: 3}
+  m_Name: RemoteAppConfigs
+  m_EditorClassIdentifier:
+  MinBuildVersionAndroid: 38
+  MinBuildVersionIOS: 38
+  MinLevelToShowAd: 1
+  CanShowInterstitialAds: 1
+  CanShowInterstitialOnHomeButton: 1
+  CanShowInterstitialOnPlayButton: 1
+  CanShowInterstitialOnLevelFail: 1
+  CanShowInterstitialOnLevelComplete: 0
+  MinScoreToShowInterstitial: 0
+  InterstitialUnlockScore: 850
+  InterstitialAdDelay: 60
+  CanShowBannerAd: 1
+  MinScoreToShowBanner: 0
+  BannerUnlockScore: 850
+  CanShowInGameInterstitialAds: 1
+  MinScoreToShowInGameInterstitialAds: 0
+  InGameInterstitialUnlockScore: 850
+  InGameInterstitialAdsDelay: 78000000
+  InGameInterstitialAdsPotsToPlace: 00000000
+  InGameInterstitialAdsLoadingTime: 1.5
+  FirebaseRemoteData: {fileID: 11400000, guid: a3c177305cbdb9547b83b1fc90686651, type: 2}
+  SkipAndroidIAPVerification: 0
+  SkipIOSIAPVerification: 0
+  CanShowNewButterflyFlow: 1
+  BucketName:
+  ExperimentName:
+  CanPrePopulateBoard: 1
+  CanActivateCooldownForOffers: 0
+  IAPOfferCooldownTime: 0
+  MaxRevivesThroughAdOnFail: 1

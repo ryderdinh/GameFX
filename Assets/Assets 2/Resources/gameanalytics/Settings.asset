@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1960576706, guid: 32a057c9396a532c21dc5acda7f61ce2, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier:
+  TotalMessagesSubmitted: 0
+  TotalMessagesFailed: 0
+  DesignMessagesSubmitted: 0
+  DesignMessagesFailed: 0
+  QualityMessagesSubmitted: 0
+  QualityMessagesFailed: 0
+  ErrorMessagesSubmitted: 0
+  ErrorMessagesFailed: 0
+  BusinessMessagesSubmitted: 0
+  BusinessMessagesFailed: 0
+  UserMessagesSubmitted: 0
+  UserMessagesFailed: 0
+  CustomArea:
+  gameKey:
+  - a08a9a25525d67e63637b86efb1c056c
+  - 403f73adbdea2f67ec7a7bcb4c5fbcc0
+  secretKey:
+  - 5936b5db7fd5aedefc59c961ccd6dbbab6c2f914
+  - 303894ba8715e687dbca8f980a4ba4e006f923fa
+  Build:
+  - 2.0.6
+  - 2.0.6
+  SelectedPlatformOrganization:
+  - Casual Division
+  - Casual Division
+  SelectedPlatformStudio:
+  - Casual Division
+  - Casual Division
+  SelectedPlatformGame:
+  - Flower Sort Android
+  - Flower Sort iOS
+  SelectedPlatformGameID: afb50300aeb50300
+  SelectedOrganization: 0400000004000000
+  SelectedStudio: 0100000001000000
+  SelectedGame: 0100000003000000
+  NewVersion: 7.3.24
+  Changes: "7.3.24\n- fixed fps script for when pausing game\n\n7.3.23\n- fixed bug with custom fields (locale related bug)\n\n7.3.22\n- added external dependency manager for .unitypackage release as well to solve issues with appset id on android\n\n7.3.21\n- fixed bug in internal error reporting"
+  SignUpOpen: 0
+  StudioName:
+  GameName: Bloom
+  OrganizationName:
+  OrganizationIdentifier:
+  EmailGA: shahrukh.rafique@mindstormstudios.com
+  IntroScreen: 0
+  InfoLogEditor: 1
+  InfoLogBuild: 1
+  VerboseLogBuild: 0
+  UseManualSessionHandling: 0
+  SendExampleGameDataToMyGame: 0
+  InternetConnectivity: 0
+  CustomDimensions01: []
+  CustomDimensions02: []
+  CustomDimensions03: []
+  ResourceItemTypes: []
+  ResourceCurrencies: []
+  LastCreatedGamePlatform: 0
+  Platforms: 0b00000008000000
+  CurrentInspectorState: 1
+  ClosedHints:
+  DisplayHints: 0
+  DisplayHintsScrollState: {x: 0, y: 0}
+  Logo: {fileID: 2800000, guid: 94e48ab4635867e46908b359222a0e1e, type: 3}
+  UpdateIcon: {fileID: 2800000, guid: 2145e9a86d045da40b6dd540f18d3ed9, type: 3}
+  InfoIcon: {fileID: 2800000, guid: e207f4dce22c5494da50cc9146afaa79, type: 3}
+  DeleteIcon: {fileID: 2800000, guid: 9aee12be894329c4c9ee17810ddc660b, type: 3}
+  GameIcon: {fileID: 2800000, guid: 6ad6d4e59de09494887c1913b52df338, type: 3}
+  HomeIcon: {fileID: 2800000, guid: f33d37b5513ade544bbe63c369fa7b4b, type: 3}
+  InstrumentIcon: {fileID: 2800000, guid: a2f548db9efac204d9cd1ce1f7fe4cf0, type: 3}
+  QuestionIcon: {fileID: 2800000, guid: 03bb9950156e5924aa8e53287658107e, type: 3}
+  UserIcon: {fileID: 2800000, guid: 26bd6c3746a33fc41a0555a85815095e, type: 3}
+  AmazonIcon: {fileID: 0}
+  GooglePlayIcon: {fileID: 0}
+  iosIcon: {fileID: 0}
+  macIcon: {fileID: 0}
+  windowsPhoneIcon: {fileID: 0}
+  UsePlayerSettingsBuildNumber: 0
+  SubmitErrors: 1
+  NativeErrorReporting: 0
+  MaxErrorCount: 10
+  SubmitFpsAverage: 0
+  SubmitFpsCritical: 0
+  IncludeGooglePlay: 1
+  FpsCriticalThreshold: 20
+  FpsCirticalSubmitInterval: 1
+  PlatformFoldOut: 0101
+  CustomDimensions01FoldOut: 0
+  CustomDimensions02FoldOut: 0
+  CustomDimensions03FoldOut: 0
+  ResourceItemTypesFoldOut: 0
+  ResourceCurrenciesFoldOut: 0

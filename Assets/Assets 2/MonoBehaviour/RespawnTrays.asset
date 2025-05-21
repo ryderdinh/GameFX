@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 199980d0959be8b85812e2e032c07996, type: 3}
+  m_Name: RespawnTrays
+  m_EditorClassIdentifier:
+  Type: 1
+  MissionType: 0
+  Name: Rake
+  Description: Respwan Tray
+  DetailedDescription:
+  Affect: 1
+  Category: 0
+  BoosterLevel: 2
+  PassiveBoosterCategory: 0
+  PassiveBoosterType: 0
+  IconType: 0
+  Sprite: {fileID: 0}
+  IconPrefab: {fileID: 0}
+  BgSprite: {fileID: 21300000, guid: bc4b3c9f7058efd438573ab533ad4f65, type: 2}
+  SmallIconType: 0
+  PredefinedSmallIcon: {fileID: 0}
+  BoosterDropObject:
+    fileName:
+    fileGuid:
+    resourceFilePath:
+    filePath:
+  SmallIconPrefab: {fileID: 0}
+  UnlockingScore: 0
+  _addScore: 0
+  _scoreToAdd: 0
+  _scorePercentage: 1
+  _addCoins: 1
+  _coinsToAdd: 1
+  _rewardValueRange:
+    MinValue: 0
+    MaxValue: 0
+  _passiveBoostertimeDuration: 0
+  BoosterExecutionDelay: 0.75
+  _iconPositionDelta: {x: 0, y: 0, z: 0}
+  _descriptionPositionDelta: {x: 0, y: 0}
+  _descriptionRectSizeDelta: {x: 0, y: 0}
+  _namePositionDelta: {x: 0, y: 0}
+  _iconScaleFactor: 1
+  _nameIconScaleFactor: 0
+  _iconRotationOnView: {x: 0, y: 0, z: 0}
+  _boosterNameSprite:
+    fileName: GameOver-text
+    fileGuid: fbca31778d0364a828d82e54fb80a234
+    resourceFilePath:
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/LevelFail/Art/2D/Sprites/GameOver-text.png
+  _iconHoverPosition: {x: 0, y: 0}
+  _configs: {fileID: 11400000, guid: b411c3899d64cea428977037c924c3ed, type: 2}

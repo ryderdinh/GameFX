@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 597ddbdd332f1c632c62674b6b474599, type: 3}
+  m_Name: DBGridState
+  m_EditorClassIdentifier:
+  Value: '{"GridState":{"list":[{"list":[-1,-1,-1,-1,-1,-1],"Count":6},{"list":[-1,-1,-1,-1,-1,-1],"Count":6},{"list":[2,-1,2,5,-1,-1],"Count":6},{"list":[-1,-1,-1,-1,-1,-1],"Count":6},{"list":[-1,-1,-1,-1,-1,-1],"Count":6},{"list":[0,0,0,0,-1,-1],"Count":6},{"list":[-1,-1,-1,-1,-1,-1],"Count":6},{"list":[-1,-1,-1,-1,-1,-1],"Count":6},{"list":[-1,1,0,-1,-1,-1],"Count":6},{"list":[4,-1,-1,-1,-1,-1],"Count":6},{"list":[1,-1,-1,-1,-1,-1],"Count":6},{"list":[-1,-1,-1,-1,-1,-1],"Count":6},{"list":[-1,-1,-1,-1,-1,-1],"Count":6},{"list":[1,-1,-1,-1,-1,-1],"Count":6},{"list":[-1,-1,-1,-1,-1,-1],"Count":6},{"list":[3,-1,-1,-1,-1,-1],"Count":6},{"list":[5,5,5,5,-1,-1],"Count":6},{"list":[-1,-1,-1,-1,-1,-1],"Count":6},{"list":[-1,-1,-1,-1,-1,-1],"Count":6},{"list":[-1,-1,-1,-1,-1,-1],"Count":6},{"list":[-1,-1,-1,-1,-1,-1],"Count":6},{"list":[-1,-1,-1,-1,-1,-1],"Count":6},{"list":[-1,-1,-1,-1,-1,-1],"Count":6},{"list":[-1,-1,-1,-1,-1,-1],"Count":6}],"Count":24},"SlotsLockedState":{"list":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],"Count":24}}'
+  DefaultValue: '{"GridState":{"list":[{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 1","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 2","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 3","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 4","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 5","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 6","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 7","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 8","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 9","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 10","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 11","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 12","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 13","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 14","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 15","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 16","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 17","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 18","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 19","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 20","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 21","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 22","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 23","hideFlags":0},{"list":[-1,-1,-1,-1,-1,-1],"Count":6,"name":"Slot 24","hideFlags":0}],"Count":24,"name":"GridState","hideFlags":0},"SlotsLockedState":{"list":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],"Count":24,"name":"SlotsLockedState","hideFlags":0},"name":"SlotsStateObject","hideFlags":0}'
+  ResetToDefaultOnPlay: 0
+  ResetOnClear: 1
+  Key: DBGridState

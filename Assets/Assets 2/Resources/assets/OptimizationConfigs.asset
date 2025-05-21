@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1a74f733d7851d6ad606ff9313d1e78, type: 3}
+  m_Name: OptimizationConfigs
+  m_EditorClassIdentifier:
+  URPPerformanceSettings:
+  - Platform: 0
+    PerformaceType: 1
+    PerformanceSettingsData: {fileID: 11400000, guid: 861224e71efb50e46841814b689c856b, type: 2}
+  - Platform: 0
+    PerformaceType: 2
+    PerformanceSettingsData: {fileID: 11400000, guid: 69eec50c389ce4648a9c11ccc6d8a6cb, type: 2}
+  - Platform: 0
+    PerformaceType: 3
+    PerformanceSettingsData: {fileID: 11400000, guid: 93297546e75767248967282c3595911e, type: 2}
+  - Platform: 0
+    PerformaceType: 4
+    PerformanceSettingsData: {fileID: 11400000, guid: 4a83a66d321a588498f8711307c22035, type: 2}
+  - Platform: 1
+    PerformaceType: 1
+    PerformanceSettingsData: {fileID: 11400000, guid: 7ac96ed8d0ddd054a83ab323abd9464f, type: 2}
+  - Platform: 1
+    PerformaceType: 2
+    PerformanceSettingsData: {fileID: 11400000, guid: 850a5f99192577b418630e111bae7c8e, type: 2}
+  - Platform: 1
+    PerformaceType: 3
+    PerformanceSettingsData: {fileID: 11400000, guid: 37b7078b20a48d847ac978fc78a97403, type: 2}
+  - Platform: 1
+    PerformaceType: 4
+    PerformanceSettingsData: {fileID: 11400000, guid: dc9c21f2f45572c4685581d60c7a2ec3, type: 2}

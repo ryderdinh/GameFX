@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c46ff47d1b1c5730b0250d1b63a0a1ed, type: 3}
+  m_Name: BoosterSelectionCalculationObject
+  m_EditorClassIdentifier:
+  _slotsStateObject: {fileID: 11400000, guid: 6ca9c7c2b68b83e44bfede18ee207a72, type: 2}
+  _dbTraysState: {fileID: 11400000, guid: d0c58374c6f53c44988817ace6bf05b1, type: 2}
+  _dishSpawnerObject: {fileID: 11400000, guid: 4b7c0ff8e3eeae842a4b4efd0294dbf6, type: 2}
+  _gridDataObject: {fileID: 11400000, guid: fde16635f0f3c5d4da9e8105257dfe55, type: 2}
+  _dishUpgradableObject: {fileID: 11400000, guid: a9e2145921434aa48b434f52c5410e95, type: 2}
+  _allItemsObject: {fileID: 11400000, guid: 1f8735b2bde91064297562f2d387a094, type: 2}
+  _gridConfig: {fileID: 11400000, guid: ad2fe80ac69002d419735f299052bcdc, type: 2}

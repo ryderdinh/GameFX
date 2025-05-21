@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da885da72db46f6f4b2565e7c3406095, type: 3}
+  m_Name: BoosterProbabilityLevelsConfigs
+  m_EditorClassIdentifier:
+  BoosterProbabilityConfigs:
+  - {fileID: 11400000, guid: ef6036169e90c714b84bf724272b1982, type: 2}
+  GridDataObject: {fileID: 11400000, guid: fde16635f0f3c5d4da9e8105257dfe55, type: 2}
+  SmartBoosterSelectionObject: {fileID: 11400000, guid: 210cceb6bb4ef1349902fefb53550958, type: 2}
+  FTUEProbabilityGroupLevel: {fileID: 11400000, guid: 30932f83ff07db94bb792baaef58b6af, type: 2}
+  PredefinedPassiveBoosterLevel: {fileID: 11400000, guid: a4a8d910bc5281945a7adab2b8963a31, type: 2}
+  PredefinedFlowerUpgradeBoosterIndex: {fileID: 11400000, guid: 5a724a3545229374ebcdeec3e780b601, type: 2}

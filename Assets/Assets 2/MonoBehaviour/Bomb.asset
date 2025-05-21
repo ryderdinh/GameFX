@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f542780e5db64f836d571729de2c6c1, type: 3}
+  m_Name: Bomb
+  m_EditorClassIdentifier:
+  Type: 7
+  MissionType: 13
+  Name: Cutter
+  Description: Clear upto 9 flowers
+  DetailedDescription: Tap a flower to clear its surrondings
+  Affect: 1
+  Category: 0
+  BoosterLevel: 3
+  PassiveBoosterCategory: 0
+  PassiveBoosterType: 0
+  IconType: 0
+  Sprite: {fileID: 21300000, guid: c0eb70b7b816e1549820553d4c52b886, type: 2}
+  IconPrefab: {fileID: 0}
+  BgSprite: {fileID: 21300000, guid: cd2c54938ee358646aa7ac6dfba74e42, type: 2}
+  SmallIconType: 0
+  PredefinedSmallIcon: {fileID: 0}
+  BoosterDropObject:
+    fileName: Bomb - DropObject Variant
+    fileGuid: 9fa57723d107c453a82de8d9039c1030
+    resourceFilePath: Bomb - DropObject Variant
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/Bomb/Resources/Bomb - DropObject Variant.prefab
+  SmallIconPrefab: {fileID: 0}
+  UnlockingScore: 0
+  _addScore: 0
+  _scoreToAdd: 0
+  _scorePercentage: 0.5
+  _addCoins: 0
+  _coinsToAdd: 1
+  _rewardValueRange:
+    MinValue: 0
+    MaxValue: 0
+  _passiveBoostertimeDuration: 0
+  BoosterExecutionDelay: 0
+  _iconPositionDelta: {x: 0, y: 23, z: 0}
+  _descriptionPositionDelta: {x: 30, y: 12}
+  _descriptionRectSizeDelta: {x: 0, y: 0}
+  _namePositionDelta: {x: 30, y: 24}
+  _iconScaleFactor: 1
+  _nameIconScaleFactor: 0
+  _iconRotationOnView: {x: 0, y: 0, z: 0}
+  _boosterNameSprite:
+    fileName: BrushCutter-text
+    fileGuid: 48c0286e42e214182bd7ca4b98e57fd5
+    resourceFilePath: BrushCutter-text
+    filePath: Assets/_Sort/_Features/Games/PieceSort/_Features/Boosters/Art/Resources/BrushCutter-text.png
+  _iconHoverPosition: {x: 0, y: 10}
+  _configs: {fileID: 11400000, guid: e8caf6f34e145784ea10624ec77a3aca, type: 2}
